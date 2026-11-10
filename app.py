@@ -23,8 +23,8 @@ def reset():
 st.set_page_config(page_title="Water Quality Decision Support Tool", page_icon="💧")
 st.title("Water Quality Decision Support Tool")
 st.write("Enter the values from your water test report. Fields marked * are required.")
-st.caption("mg/L means milligrams per liter. Hardness is in grains per gallon (gpg); if your report shows "
-           "mg/L as CaCO₃, divide by 17.1. pH has no unit.")
+st.caption("Hardness is in grains per gallon (gpg). Iron, TDS, and manganese are in milligrams per liter (mg/L). "
+           "pH has no unit.")
 st.info("This prototype checks your entries. Water classifications, treatment suggestions, "
         "and the print report will be connected in the next build stage.")
 with st.form("water_test", clear_on_submit=False):

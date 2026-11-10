@@ -64,6 +64,6 @@ Edit the CSV, restart the app, and the change takes effect (NFR-6).
 
 Boundaries are inclusive on the upper side: a value equal to green_max is green, equal to yellow_max is yellow.
 
-Hardness is entered in grains per gallon (gpg), the unit on most residential test reports; 1 gpg = 17.1 mg/L as CaCO3.
+Hardness is entered in grains per gallon (gpg), the unit on most residential test reports.
 Its color bands follow the USGS classification (soft to 3.5, moderately hard to 7, hard above 7). The explanation text
 notes that treatment providers often discuss softening from about 2 gpg, but the tool's colors and rules use USGS.
