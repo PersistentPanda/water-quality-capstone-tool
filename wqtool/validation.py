@@ -59,7 +59,8 @@ def validate(entry: Mapping[str, object]) -> ValidationResult:
         elif key == "ph" and not 0 <= number <= 14:
             messages.append("Enter pH between 0 and 14.")
         elif key != "ph" and number < 0:
-            messages.append(f"Enter a {label} value of zero or greater.")
+            article = "an" if label[0].lower() in "aeiou" else "a"
+            messages.append(f"Enter {article} {label} value of zero or greater.")
         else:
             value = float(number)
             if value == float("inf") or (number != 0 and value == 0):
