@@ -1,7 +1,6 @@
-# Recommendation rules v1 — review draft
+# Recommendation rules v1
 
-Owner: Hector. Scope: the 10-row CSV for FR-5, not the recommender implementation.
-Daniel should review the treatment language and approve the condition format before integration.
+Owner: Hector, with treatment wording reviewed by Daniel (water treatment lab). Scope: the 12-row CSV for FR-5, not the recommender implementation.
 No manufacturer, dosage, equipment size, or health-safety conclusion is generated.
 Household size and water source remain available to the later recommender but these draft rules do not use them to invent equipment-sizing thresholds.
 
@@ -11,7 +10,10 @@ The five columns follow Section 2.4 of the design document. `parameter_id` match
 Daniel's `data/parameters.csv` exactly (`ph` and `tds` are lower case).
 For each row, `value` means that parameter's submitted numeric reading.
 The other names resolve to numeric fields in that parameter's parameters.csv row.
-Allowed operators in this draft: `>`, `<`, `<=`, joined with `AND`.
+Allowed operators in this draft: `>`, `<`, `<=`, joined with `AND`, for numeric rows.
+Two non-numeric conditions are also supported: `water_source == Private well` (string equality on the
+submitted water source) and `all_green` (true when every entered measurement is at or below its
+`green_max` and, for pH, at or above `low_yellow_below`; a blank optional manganese is ignored).
 The future loader must validate this restricted grammar; do not use Python eval.
 A referenced blank or nonnumeric boundary is a configuration error and stops assessment.
 An absent optional manganese reading skips its rules entirely; it must never become zero.
@@ -25,6 +27,16 @@ values exactly equal to the respective secondary upper limits. R08/R10 include
 those upper limits but exclude values equal to green_max. Team display colors
 and published comparison limits remain separate.
 
+## Review notes (Nov 10, Daniel)
+
+Condition format approved. Treatment wording for R03, R05, R06, R07, and R09 was revised to name the
+standard treatment category in plain words (iron filter, acid neutralizer, point-of-use reverse osmosis,
+combined iron/manganese filtration) while still directing the user to further testing before any purchase.
+These categories are the corrective technologies listed on the EPA secondary standards page; no sizing,
+brand, dosage, or health claim is made. R11 (private well annual lab test) and R12 (all-green, no treatment
+indicated) were added so a well owner always receives the testing reminder and a user with clean results
+receives a clear answer rather than the "cannot provide a suggestion" fallback.
+
 ## Review sources
 
 EPA secondary standards and treatment overview:
@@ -36,6 +48,6 @@ https://www.usgs.gov/water-science-school/science/hardness-water
 The monitoring suggestions and condition structure are proposed team rules, not EPA-issued recommendations.
 Secondary guideline comparisons do not determine drinking-water safety. Keep the exact FR-8 laboratory warning on all results and reports, independently of whether any rule matches.
 
-## Suggested pull request description
+## Pull request description
 
-Adds ten draft recommendation rules using parameter IDs and symbolic boundaries from parameters.csv. Includes the proposed supported condition grammar, boundary behavior, and review sources. Treatment wording and the condition contract need Daniel's review before the recommender is connected.
+Adds twelve recommendation rules using parameter IDs and symbolic boundaries from parameters.csv. Includes the proposed supported condition grammar, boundary behavior, and review sources. Treatment wording reviewed by Daniel; condition contract approved. Ready for the recommender integration.
