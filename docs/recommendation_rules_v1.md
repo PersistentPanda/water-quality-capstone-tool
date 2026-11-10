@@ -20,8 +20,8 @@ An absent optional manganese reading skips its rules entirely; it must never bec
 Evaluate all matching rows in file order and retain rule_id and parameter_id for traceability.
 These conditions are a proposed interface, since the README does not yet define recommendation condition syntax.
 
-R01 includes hardness 150 but excludes 50, matching the FR-5 acceptance example.
-R02 includes 120 and excludes 60. R03 includes iron above 0.3, while R04 includes
+Hardness is entered in grains per gallon (gpg). R01 includes 8.8 gpg and excludes 2.9 gpg, which are the
+FR-5 acceptance values (150 and 50 mg/L) converted at 17.1 mg/L per gpg. R02 includes 7 and excludes 3.5. R03 includes iron above 0.3, while R04 includes
 0.3 and excludes 0.24. pH 6.5 and 8.5 do not trigger R05/R06. R07/R09 exclude
 values exactly equal to the respective secondary upper limits. R08/R10 include
 those upper limits but exclude values equal to green_max. Team display colors

@@ -14,20 +14,26 @@ describes water as safe. Every result carries the lab-testing warning (FR-8).
 ## Layout
 
 ```
-app.py                      Streamlit page (to be built: FR-2, FR-7, FR-8)
-wqtool/                     Validator, Classifier, Recommender, rule loader (to be built: FR-1, FR-3 to FR-6)
+app.py                      Streamlit page: input form and validation so far (FR-1, FR-2); results and print to come
+wqtool/validation.py        Validator (FR-1). Rule loader, Classifier, and Recommender to come (FR-3 to FR-6)
 data/parameters.csv         One row per measurement: reference values, color boundaries, explanation text (Daniel)
-data/recommendations.csv    One row per treatment rule (Hector, to be added)
+data/recommendations.csv    Twelve treatment rules; conditions reference parameters.csv columns (see docs/recommendation_rules_v1.md)
 data/public_water_data.csv  Cleaned EPA/USGS data for the Power BI dashboard (Cecilia, James, to be added)
 tests/                      Test cases written against the requirements document (James)
 docs/                       Requirements document and design document
 ```
 
-## Run it (once app.py exists)
+## Run it
 
 ```
 pip install -r requirements.txt
 streamlit run app.py
+```
+
+## Run the tests
+
+```
+python -m pytest tests/
 ```
 
 ## Branching (design document, Section 2.9)
