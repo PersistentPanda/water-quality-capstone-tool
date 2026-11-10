@@ -32,7 +32,3 @@ The FR-8 warning is already displayed, but FR-3 through FR-7 are not implemented
 
 Verification: 32 automated checks passed, including Streamlit AppTest interaction
 checks. Desktop/mobile visual review and cross-browser checks remain for the team.
-
-## Suggested pull request description
-
-Adds the Streamlit input form and standalone validation for FR-1 and FR-2. Required fields, numeric values, nonnegative concentrations, pH 0–14, positive whole-number household size, and water source are checked; blank manganese remains Not provided. Includes 32 passing checks and a submitted-value preview ready for the later classifier integration.
