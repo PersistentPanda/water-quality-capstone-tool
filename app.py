@@ -6,7 +6,7 @@ WARNING = ("This tool does not test for lead, arsenic, nitrates, bacteria, or PF
            "and cannot confirm that water is safe to drink. Use a certified laboratory "
            "to test for these contaminants.")
 FIELDS = {
-    "hardness": "Hardness (mg/L as calcium carbonate) *",
+    "hardness": "Hardness (gpg, grains per gallon) *",
     "iron": "Iron (mg/L) *",
     "ph": "pH (0–14) *",
     "tds": "Total dissolved solids — TDS (mg/L) *",
@@ -23,8 +23,8 @@ def reset():
 st.set_page_config(page_title="Water Quality Decision Support Tool", page_icon="💧")
 st.title("Water Quality Decision Support Tool")
 st.write("Enter the values from your water test report. Fields marked * are required.")
-st.caption("mg/L means milligrams per liter. Enter hardness as calcium carbonate (CaCO₃). "
-           "If your report uses different units, convert them before entering values. pH has no unit.")
+st.caption("Hardness is in grains per gallon (gpg). Iron, TDS, and manganese are in milligrams per liter (mg/L). "
+           "pH has no unit.")
 st.info("This prototype checks your entries. Water classifications, treatment suggestions, "
         "and the print report will be connected in the next build stage.")
 with st.form("water_test", clear_on_submit=False):
