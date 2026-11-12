@@ -16,6 +16,10 @@ Options:
                           use CSV files already downloaded from the portal
                           instead of downloading (Result and Station downloads)
 
+Each finished download is kept in data/raw/ (not committed). If a download is
+dropped, run the same command again: it retries only what is missing. Delete
+data/raw/ to force a completely fresh download.
+
 Output columns (design document, Appendix F: AREA and PUBLIC_SAMPLE):
     sample_id, area_id, area_name, state, parameter_id, value, unit,
     sample_date, data_source, below_detection, site_id
@@ -33,8 +37,10 @@ import csv
 import io
 import statistics
 import sys
+import time
 import urllib.parse
 import urllib.request
+import zipfile
 from collections import defaultdict
 from pathlib import Path
 
@@ -108,18 +114,45 @@ def read_csv_text(text, required, label):
     return rows
 
 
-def download(endpoint, params):
+CACHE_DIR = Path(__file__).resolve().parents[1] / "data" / "raw"
+ATTEMPTS = 4
+
+
+def _unpack(payload):
+    """The portal sends a zip holding one CSV when zip=yes. Return the CSV text."""
+    if payload[:2] == b"PK":
+        with zipfile.ZipFile(io.BytesIO(payload)) as archive:
+            payload = archive.read(archive.namelist()[0])
+    return payload.decode("utf-8-sig", errors="replace")
+
+
+def download(endpoint, params, label):
+    """Download one portal file, with retries. Finished downloads are kept in data/raw/
+    so a rerun after a dropped connection picks up where it left off.
+    Returns the CSV text, or None if every attempt failed."""
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    safe = "".join(ch if ch.isalnum() else "_" for ch in label)
+    cache_file = CACHE_DIR / f"{endpoint.lower()}_{safe}.csv"
+    if cache_file.exists() and cache_file.stat().st_size > 0:
+        print(f"  {endpoint}: {label} (already downloaded)", flush=True)
+        return cache_file.read_text(encoding="utf-8")
     query = "&".join(f"{k}={urllib.parse.quote(str(v), safe='')}" for k, v in params)
     url = f"{BASE}/{endpoint}/search?{query}"
-    print(f"  downloading {endpoint}: {dict(params).get('characteristicName', 'stations')} ...", flush=True)
     request = urllib.request.Request(url, headers={"User-Agent": "water-quality-capstone-tool"})
-    try:
-        with urllib.request.urlopen(request, timeout=600) as response:
-            return response.read().decode("utf-8-sig", errors="replace")
-    except OSError as error:
-        sys.exit(f"Could not download from the Water Quality Portal: {error}\n"
-                 f"Check your internet connection, or download the files in a browser and use "
-                 f"--results and --stations. The address that failed was:\n{url}")
+    for attempt in range(1, ATTEMPTS + 1):
+        print(f"  {endpoint}: {label} (attempt {attempt} of {ATTEMPTS}) ...", flush=True)
+        try:
+            with urllib.request.urlopen(request, timeout=900) as response:
+                text = _unpack(response.read())
+            cache_file.write_text(text, encoding="utf-8")
+            return text
+        except (OSError, zipfile.BadZipFile) as error:
+            print(f"    did not finish: {error}", flush=True)
+            if attempt < ATTEMPTS:
+                time.sleep(15 * attempt)
+    print(f"    giving up on {label} for now. Run the command again later to retry just this part.\n"
+          f"    Address: {url}", flush=True)
+    return None
 
 
 def build(result_rows, station_rows, state_fips):
@@ -206,11 +239,25 @@ def main():
         station_text = Path(args.stations).read_text(encoding="utf-8-sig", errors="replace")
     else:
         common = [("statecode", f"US:{args.state}"), ("siteType", args.site_type),
-                  ("startDateLo", args.start), ("mimeType", "csv"), ("zip", "no"), ("sorted", "no")]
-        print("Downloading from the Water Quality Portal. This can take a few minutes.")
+                  ("startDateLo", args.start), ("mimeType", "csv"), ("zip", "yes"), ("sorted", "no")]
+        tag = f"{args.state}_{args.site_type}_{args.start}"
+        print("Downloading from the Water Quality Portal. This can take several minutes.")
         station_text = download("Station", [("statecode", f"US:{args.state}"), ("siteType", args.site_type),
-                                            ("mimeType", "csv"), ("zip", "no"), ("sorted", "no")])
-        result_text = [download("Result", common + [("characteristicName", name)]) for name in CHARACTERISTICS]
+                                            ("mimeType", "csv"), ("zip", "yes"), ("sorted", "no")],
+                                f"stations_{args.state}_{args.site_type}")
+        if station_text is None:
+            sys.exit("The station list could not be downloaded, so samples cannot be matched to counties. "
+                     "Run the command again in a few minutes.")
+        result_text, failed = [], []
+        for name in CHARACTERISTICS:
+            text = download("Result", common + [("characteristicName", name)], f"{name}_{tag}")
+            if text is None:
+                failed.append(name)
+            else:
+                result_text.append(text)
+        if failed:
+            print(f"\nNOT DOWNLOADED: {', '.join(failed)}. The output file below is incomplete. "
+                  f"Run the same command again to fetch only the missing part.")
 
     station_rows = read_csv_text(station_text, STATION_COLUMNS, "Station")
     result_rows = []
