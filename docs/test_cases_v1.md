@@ -25,7 +25,8 @@ Conventions:
 | T-03 | FR-1 | Standard entry with iron left blank | Blocked. Message: "Please enter the iron result before continuing." | A | Partly (`test_required` checks it is blocked; the message text is not asserted yet) |
 | T-04 | FR-1 | Standard entry with iron -0.01 | Blocked. Message: "Enter an iron value of zero or greater." | A | Partly (`test_negative_concentrations` checks it is blocked; message text not asserted) |
 | T-05 | FR-1 | Standard entry with TDS "abc" | Blocked. Message: "Enter a number for TDS, such as 300." | A | Partly (`test_unusable_numeric` checks non-numeric iron is blocked; message text not asserted) |
-| T-06 | FR-1 | Household size 0, -1, 2.5, "people" | Each blocked. Message: "Enter the number of people as a whole number of at least 1." | A | Partly (`test_bad_household` checks each is blocked; message text not asserted) |
+| T-06 | FR-1 | Household size 0, -1, 2.5 | Each blocked. Message: "Enter the number of people as a whole number of at least 1." | A | Partly (`test_bad_household` checks each is blocked; message text not asserted) |
+| T-06b | FR-1 | Household size "people" (not a number) | Blocked. Message: "Enter the number of people as a whole number of at least 1." Checked separately from the numeric cases. | A | Partly (`test_bad_household` checks it is blocked; message text not asserted) |
 | T-07 | FR-1 | Standard entry with manganese blank | Accepted. Manganese shows "Not provided", never 0. | A | Done (`test_optional_blank`) |
 | T-08 | FR-1 | No water source selected | Blocked. Message: "Select either Private well or Public supply." | A | Partly (`test_multiple_errors_and_no_mutation` counts the message; text not asserted) |
 | T-09 | FR-1 | Iron blank, pH 15, no water source | Three messages shown together. Nothing is assessed. | A | Done (`test_multiple_errors_and_no_mutation`) |
@@ -48,6 +49,7 @@ Conventions:
 | T-26 | FR-7 | Standard entry, then select "Print summary" once | Print preview is one page. Values, statuses, explanations, suggestions, sources, and the warning match the results screen. | M | Open |
 | T-27 | FR-8 | An all-green entry and an entry with at least one red | Both results screens and both printed summaries show the full laboratory warning, word for word. | A and M | Open |
 | T-28 | FR-9 | Dashboard, select area A, then area B | Only the selected area's records appear. Source, units, and sample dates are shown. Hardness is in gpg. | M | Open |
+| T-28b | FR-9 | Dashboard, select Garrett County | Medians match the values computed from `data/public_water_data.csv`: hardness 4.1 gpg (113 samples), iron 0.16 mg/L (97), pH 7.8 (125), TDS 152.5 mg/L (110). Blank (not detected) values are left out of the median. The sample count is shown beside each median. | M | Open |
 | T-29 | FR-9 | An area with one measurement missing | Dashboard shows "No data" for it, not zero. | M | Open |
 
 ## Recommendation rule boundaries (FR-5)
@@ -70,6 +72,8 @@ All other measurements are held at green values unless stated.
 | T-40 | R09, R10 with manganese blank | never | Blank manganese triggers no manganese rule and is not treated as 0. | A | Open |
 | T-41 | R11 private well | Water source Private well | Water source Public supply | A | Open |
 | T-42 | R12 all green | Hardness 2.9, iron 0.1, pH 7.5, TDS 300, manganese blank | Same entry with iron 0.27 (one yellow) | A | Open |
+| T-42b | R12 and pH | never when pH is yellow or red | Same all-green entry with pH 6.8 (yellow, low side), pH 8.3 (yellow, high side), pH 6.0 (red, low), or pH 9.0 (red, high). R12 must not trigger in any of the four. | A | Open |
+| T-42c | R11 with R12 | All-green entry with water source Private well shows both R11 and R12 | Same entry with Public supply shows R12 only | A | Open |
 
 ## Rule loader checks (design document 2.6)
 
@@ -83,7 +87,7 @@ recommendation rules could not be loaded. Please try again later."
 | T-45 | Two rows share the same `parameter_id` or `rule_id` | A | Open |
 | T-46 | A rule names a `parameter_id` that is not in `parameters.csv` | A | Open |
 | T-47 | A rule references a boundary that is blank for that parameter | A | Open |
-| T-48 | A threshold is not a number | A | Open |
+| T-48 | A threshold is not a usable number: text, blank where required, NaN, or infinity | A | Open |
 | T-49 | A condition uses an unsupported operator or free-form code | A | Open |
 
 ## Non-functional requirements
@@ -98,6 +102,10 @@ recommendation rules could not be loaded. Please try again later."
 | T-55 | NFR-6 Maintainability | Change iron `yellow_max` in `parameters.csv` from 0.30 to 0.50, restart, enter iron 0.40. Change it back. | Shows yellow instead of red with no code edit, then red again. | A and M | Open |
 
 ## Open questions found while writing these cases
+
+Hector reviewed these on Nov 12 and supports adding a yellow-pH monitoring rule and keeping the
+"very hard" category with a documented, tested boundary. Both change the rule files, so they will
+be made in a separate pull request. Until then, questions 1 and 2 stay open.
 
 1. **Yellow pH has no rule.** pH between 6.5 and 6.9, or between 8.1 and 8.5, is yellow, but no
    rule covers it. An entry that is all green except a yellow pH (for example pH 6.8 on a public
