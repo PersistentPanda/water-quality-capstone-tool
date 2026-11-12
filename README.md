@@ -18,7 +18,8 @@ app.py                      Streamlit page: input form and validation so far (FR
 wqtool/validation.py        Validator (FR-1). Rule loader, Classifier, and Recommender to come (FR-3 to FR-6)
 data/parameters.csv         One row per measurement: reference values, color boundaries, explanation text (Daniel)
 data/recommendations.csv    Twelve treatment rules; conditions reference parameters.csv columns (see docs/recommendation_rules_v1.md)
-data/public_water_data.csv  Cleaned EPA/USGS data for the Power BI dashboard (Cecilia, James, to be added)
+data/public_water_data.csv  Cleaned EPA/USGS data for the Power BI dashboard (created by tools/build_public_data.py)
+tools/build_public_data.py  Downloads and cleans Water Quality Portal data into the file above
 tests/                      Test cases written against the requirements document (James)
 docs/                       Requirements document and design document
 ```
@@ -29,6 +30,15 @@ docs/                       Requirements document and design document
 pip install -r requirements.txt
 streamlit run app.py
 ```
+
+## Build the dashboard data
+
+```
+python tools/build_public_data.py
+```
+
+Downloads Maryland well-water results from the Water Quality Portal, converts hardness to gpg and iron and
+manganese to mg/L, and writes `data/public_water_data.csv` with one row per sample. Load that file in Power BI.
 
 ## Run the tests
 
