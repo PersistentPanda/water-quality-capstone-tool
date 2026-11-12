@@ -40,6 +40,10 @@ python tools/build_public_data.py
 Downloads Maryland well-water results from the Water Quality Portal, converts hardness to gpg and iron and
 manganese to mg/L, and writes `data/public_water_data.csv` with one row per sample. Load that file in Power BI.
 
+About the data in `data/public_water_data.csv` (built Nov 11, 2026): 1,417 results from 184 USGS wells in 23 Maryland
+counties, sampled 2015 to 2023. These are USGS study and monitoring wells, not household tap samples, and some
+counties have very few samples. Show the sample count next to every median on the dashboard.
+
 ## Run the tests
 
 ```
