@@ -1,0 +1,1418 @@
+sample_id,area_id,area_name,state,parameter_id,value,unit,sample_date,data_source,below_detection,site_id
+nwismd.01.01501134|hardness,24001,Allegany,MD,hardness,14.5,gpg,2015-07-13,Water Quality Portal (NWIS),no,USGS-392909079013501
+nwismd.01.01501178|hardness,24001,Allegany,MD,hardness,75.44,gpg,2015-08-03,Water Quality Portal (NWIS),no,USGS-394241078523101
+nwismd.01.01501188|hardness,24001,Allegany,MD,hardness,13.27,gpg,2015-08-12,Water Quality Portal (NWIS),no,USGS-393838078572301
+nwismd.01.01501134|iron,24001,Allegany,MD,iron,,mg/L,2015-07-13,Water Quality Portal (NWIS),yes,USGS-392909079013501
+nwismd.01.01501178|iron,24001,Allegany,MD,iron,4.06,mg/L,2015-08-03,Water Quality Portal (NWIS),no,USGS-394241078523101
+nwismd.01.01501188|iron,24001,Allegany,MD,iron,0.277,mg/L,2015-08-12,Water Quality Portal (NWIS),no,USGS-393838078572301
+nwismd.01.01501134|manganese,24001,Allegany,MD,manganese,0.0029,mg/L,2015-07-13,Water Quality Portal (NWIS),no,USGS-392909079013501
+nwismd.01.01501178|manganese,24001,Allegany,MD,manganese,1.82,mg/L,2015-08-03,Water Quality Portal (NWIS),no,USGS-394241078523101
+nwismd.01.01501188|manganese,24001,Allegany,MD,manganese,0.0634,mg/L,2015-08-12,Water Quality Portal (NWIS),no,USGS-393838078572301
+nwismd.01.01501134|ph,24001,Allegany,MD,ph,6.9,pH,2015-07-13,Water Quality Portal (NWIS),no,USGS-392909079013501
+nwismd.01.01501178|ph,24001,Allegany,MD,ph,6.8,pH,2015-08-03,Water Quality Portal (NWIS),no,USGS-394241078523101
+nwismd.01.01501188|ph,24001,Allegany,MD,ph,7.4,pH,2015-08-12,Water Quality Portal (NWIS),no,USGS-393838078572301
+nwismd.01.01501134|tds,24001,Allegany,MD,tds,261.0,mg/L,2015-07-13,Water Quality Portal (NWIS),no,USGS-392909079013501
+nwismd.01.01501178|tds,24001,Allegany,MD,tds,1530.0,mg/L,2015-08-03,Water Quality Portal (NWIS),no,USGS-394241078523101
+nwismd.01.01501188|tds,24001,Allegany,MD,tds,244.0,mg/L,2015-08-12,Water Quality Portal (NWIS),no,USGS-393838078572301
+nwismd.01.01700080|hardness,24003,Anne Arundel,MD,hardness,0.88,gpg,2016-11-15,Water Quality Portal (NWIS),no,USGS-385916076402502
+nwismd.01.01700092|hardness,24003,Anne Arundel,MD,hardness,0.28,gpg,2016-11-21,Water Quality Portal (NWIS),no,USGS-390657076462601
+nwismd.01.01700090|hardness,24003,Anne Arundel,MD,hardness,6.32,gpg,2016-11-22,Water Quality Portal (NWIS),no,USGS-385543076403801
+nwismd.01.01700091|hardness,24003,Anne Arundel,MD,hardness,3.03,gpg,2016-11-22,Water Quality Portal (NWIS),no,USGS-390657076462602
+nwismd.01.01700097|hardness,24003,Anne Arundel,MD,hardness,3.11,gpg,2016-11-30,Water Quality Portal (NWIS),no,USGS-385444076402101
+nwismd.01.01700179|hardness,24003,Anne Arundel,MD,hardness,9.71,gpg,2016-12-28,Water Quality Portal (NWIS),no,USGS-384833076415602
+nwismd.01.01701555|hardness,24003,Anne Arundel,MD,hardness,14.04,gpg,2017-08-29,Water Quality Portal (NWIS),no,USGS-385327076312301
+nwismd.01.02200684|hardness,24003,Anne Arundel,MD,hardness,5.96,gpg,2022-09-06,Water Quality Portal (NWIS),no,USGS-385125076404801
+nwismd.01.01700080|iron,24003,Anne Arundel,MD,iron,9.34,mg/L,2016-11-15,Water Quality Portal (NWIS),no,USGS-385916076402502
+nwismd.01.01700092|iron,24003,Anne Arundel,MD,iron,1.58,mg/L,2016-11-21,Water Quality Portal (NWIS),no,USGS-390657076462601
+nwismd.01.01700090|iron,24003,Anne Arundel,MD,iron,6.58,mg/L,2016-11-22,Water Quality Portal (NWIS),no,USGS-385543076403801
+nwismd.01.01700091|iron,24003,Anne Arundel,MD,iron,0.015,mg/L,2016-11-22,Water Quality Portal (NWIS),no,USGS-390657076462602
+nwismd.01.01700097|iron,24003,Anne Arundel,MD,iron,10.7,mg/L,2016-11-30,Water Quality Portal (NWIS),no,USGS-385444076402101
+nwismd.01.01700179|iron,24003,Anne Arundel,MD,iron,0.363,mg/L,2016-12-28,Water Quality Portal (NWIS),no,USGS-384833076415602
+nwismd.01.01701555|iron,24003,Anne Arundel,MD,iron,6.98,mg/L,2017-08-29,Water Quality Portal (NWIS),no,USGS-385327076312301
+nwismd.01.02200684|iron,24003,Anne Arundel,MD,iron,6.5,mg/L,2022-09-06,Water Quality Portal (NWIS),no,USGS-385125076404801
+nwismd.01.01700080|manganese,24003,Anne Arundel,MD,manganese,0.0894,mg/L,2016-11-15,Water Quality Portal (NWIS),no,USGS-385916076402502
+nwismd.01.01700092|manganese,24003,Anne Arundel,MD,manganese,0.0522,mg/L,2016-11-21,Water Quality Portal (NWIS),no,USGS-390657076462601
+nwismd.01.01700090|manganese,24003,Anne Arundel,MD,manganese,0.118,mg/L,2016-11-22,Water Quality Portal (NWIS),no,USGS-385543076403801
+nwismd.01.01700091|manganese,24003,Anne Arundel,MD,manganese,0.138,mg/L,2016-11-22,Water Quality Portal (NWIS),no,USGS-390657076462602
+nwismd.01.01700097|manganese,24003,Anne Arundel,MD,manganese,0.163,mg/L,2016-11-30,Water Quality Portal (NWIS),no,USGS-385444076402101
+nwismd.01.01700179|manganese,24003,Anne Arundel,MD,manganese,0.0241,mg/L,2016-12-28,Water Quality Portal (NWIS),no,USGS-384833076415602
+nwismd.01.01701555|manganese,24003,Anne Arundel,MD,manganese,0.105,mg/L,2017-08-29,Water Quality Portal (NWIS),no,USGS-385327076312301
+nwismd.01.02200684|manganese,24003,Anne Arundel,MD,manganese,0.132,mg/L,2022-09-06,Water Quality Portal (NWIS),no,USGS-385125076404801
+nwismd.01.01700080|ph,24003,Anne Arundel,MD,ph,6.2,pH,2016-11-15,Water Quality Portal (NWIS),no,USGS-385916076402502
+nwismd.01.01700092|ph,24003,Anne Arundel,MD,ph,4.7,pH,2016-11-21,Water Quality Portal (NWIS),no,USGS-390657076462601
+nwismd.01.01700090|ph,24003,Anne Arundel,MD,ph,6.8,pH,2016-11-22,Water Quality Portal (NWIS),no,USGS-385543076403801
+nwismd.01.01700091|ph,24003,Anne Arundel,MD,ph,4.2,pH,2016-11-22,Water Quality Portal (NWIS),no,USGS-390657076462602
+nwismd.01.01700097|ph,24003,Anne Arundel,MD,ph,6.2,pH,2016-11-30,Water Quality Portal (NWIS),no,USGS-385444076402101
+nwismd.01.01700179|ph,24003,Anne Arundel,MD,ph,7.8,pH,2016-12-28,Water Quality Portal (NWIS),no,USGS-384833076415602
+nwismd.01.01701555|ph,24003,Anne Arundel,MD,ph,6.7,pH,2017-08-29,Water Quality Portal (NWIS),no,USGS-385327076312301
+nwismd.01.02200684|ph,24003,Anne Arundel,MD,ph,6.5,pH,2022-09-06,Water Quality Portal (NWIS),no,USGS-385125076404801
+nwismd.01.01700080|tds,24003,Anne Arundel,MD,tds,52.0,mg/L,2016-11-15,Water Quality Portal (NWIS),no,USGS-385916076402502
+nwismd.01.01700092|tds,24003,Anne Arundel,MD,tds,,mg/L,2016-11-21,Water Quality Portal (NWIS),yes,USGS-390657076462601
+nwismd.01.01700090|tds,24003,Anne Arundel,MD,tds,172.0,mg/L,2016-11-22,Water Quality Portal (NWIS),no,USGS-385543076403801
+nwismd.01.01700091|tds,24003,Anne Arundel,MD,tds,281.0,mg/L,2016-11-22,Water Quality Portal (NWIS),no,USGS-390657076462602
+nwismd.01.01700097|tds,24003,Anne Arundel,MD,tds,130.0,mg/L,2016-11-30,Water Quality Portal (NWIS),no,USGS-385444076402101
+nwismd.01.01700179|tds,24003,Anne Arundel,MD,tds,204.0,mg/L,2016-12-28,Water Quality Portal (NWIS),no,USGS-384833076415602
+nwismd.01.01701555|tds,24003,Anne Arundel,MD,tds,394.0,mg/L,2017-08-29,Water Quality Portal (NWIS),no,USGS-385327076312301
+nwismd.01.02200684|tds,24003,Anne Arundel,MD,tds,144.0,mg/L,2022-09-06,Water Quality Portal (NWIS),no,USGS-385125076404801
+nwismd.01.01900941|hardness,24005,Baltimore,MD,hardness,4.01,gpg,2019-01-15,Water Quality Portal (NWIS),no,USGS-392837076333401
+nwismd.01.01900939|hardness,24005,Baltimore,MD,hardness,12.69,gpg,2019-01-16,Water Quality Portal (NWIS),no,USGS-393633076443801
+nwismd.01.01900933|hardness,24005,Baltimore,MD,hardness,7.49,gpg,2019-02-06,Water Quality Portal (NWIS),no,USGS-392206076503201
+nwismd.01.01900947|hardness,24005,Baltimore,MD,hardness,3.84,gpg,2019-02-25,Water Quality Portal (NWIS),no,USGS-393019076391401
+nwismd.01.01900927|hardness,24005,Baltimore,MD,hardness,8.54,gpg,2019-03-06,Water Quality Portal (NWIS),no,USGS-393739076391801
+nwismd.01.01900941|iron,24005,Baltimore,MD,iron,,mg/L,2019-01-15,Water Quality Portal (NWIS),yes,USGS-392837076333401
+nwismd.01.01900939|iron,24005,Baltimore,MD,iron,0.0103,mg/L,2019-01-16,Water Quality Portal (NWIS),no,USGS-393633076443801
+nwismd.01.01900933|iron,24005,Baltimore,MD,iron,0.0413,mg/L,2019-02-06,Water Quality Portal (NWIS),no,USGS-392206076503201
+nwismd.01.01900947|iron,24005,Baltimore,MD,iron,,mg/L,2019-02-25,Water Quality Portal (NWIS),yes,USGS-393019076391401
+nwismd.01.01900927|iron,24005,Baltimore,MD,iron,,mg/L,2019-03-06,Water Quality Portal (NWIS),yes,USGS-393739076391801
+nwismd.01.01900941|manganese,24005,Baltimore,MD,manganese,0.0233,mg/L,2019-01-15,Water Quality Portal (NWIS),no,USGS-392837076333401
+nwismd.01.01900939|manganese,24005,Baltimore,MD,manganese,0.0198,mg/L,2019-01-16,Water Quality Portal (NWIS),no,USGS-393633076443801
+nwismd.01.01900933|manganese,24005,Baltimore,MD,manganese,0.103,mg/L,2019-02-06,Water Quality Portal (NWIS),no,USGS-392206076503201
+nwismd.01.01900947|manganese,24005,Baltimore,MD,manganese,0.0005,mg/L,2019-02-25,Water Quality Portal (NWIS),no,USGS-393019076391401
+nwismd.01.01900927|manganese,24005,Baltimore,MD,manganese,0.0057,mg/L,2019-03-06,Water Quality Portal (NWIS),no,USGS-393739076391801
+nwismd.01.01900941|ph,24005,Baltimore,MD,ph,5.9,pH,2019-01-15,Water Quality Portal (NWIS),no,USGS-392837076333401
+nwismd.01.01900939|ph,24005,Baltimore,MD,ph,5.8,pH,2019-01-16,Water Quality Portal (NWIS),no,USGS-393633076443801
+nwismd.01.01900933|ph,24005,Baltimore,MD,ph,4.2,pH,2019-02-06,Water Quality Portal (NWIS),no,USGS-392206076503201
+nwismd.01.01900947|ph,24005,Baltimore,MD,ph,6.3,pH,2019-02-25,Water Quality Portal (NWIS),no,USGS-393019076391401
+nwismd.01.01900927|ph,24005,Baltimore,MD,ph,4.1,pH,2019-03-06,Water Quality Portal (NWIS),no,USGS-393739076391801
+nwismd.01.02000645|ph,24005,Baltimore,MD,ph,5.5,pH,2020-01-07,Water Quality Portal (NWIS),no,USGS-392834076410101
+nwismd.01.02000709|ph,24005,Baltimore,MD,ph,5.2,pH,2020-01-08,Water Quality Portal (NWIS),no,USGS-393755076403201
+nwismd.01.02000710|ph,24005,Baltimore,MD,ph,5.9,pH,2020-01-08,Water Quality Portal (NWIS),no,USGS-392842076342501
+nwismd.01.02000647|ph,24005,Baltimore,MD,ph,5.5,pH,2020-01-13,Water Quality Portal (NWIS),no,USGS-393459076373401
+nwismd.01.02000708|ph,24005,Baltimore,MD,ph,5.4,pH,2020-01-13,Water Quality Portal (NWIS),no,USGS-393457076373401
+nwismd.01.01900933|tds,24005,Baltimore,MD,tds,284.0,mg/L,2019-02-06,Water Quality Portal (NWIS),no,USGS-392206076503201
+nwismd.01.01900947|tds,24005,Baltimore,MD,tds,130.0,mg/L,2019-02-25,Water Quality Portal (NWIS),no,USGS-393019076391401
+nwismd.01.01900927|tds,24005,Baltimore,MD,tds,214.0,mg/L,2019-03-06,Water Quality Portal (NWIS),no,USGS-393739076391801
+nwismd.01.01700178|hardness,24009,Calvert,MD,hardness,8.07,gpg,2016-12-12,Water Quality Portal (NWIS),no,USGS-384333076394701
+nwismd.01.01700177|hardness,24009,Calvert,MD,hardness,10.47,gpg,2016-12-13,Water Quality Portal (NWIS),no,USGS-384333076394702
+nwismd.01.01700178|iron,24009,Calvert,MD,iron,0.35,mg/L,2016-12-12,Water Quality Portal (NWIS),no,USGS-384333076394701
+nwismd.01.01700177|iron,24009,Calvert,MD,iron,0.979,mg/L,2016-12-13,Water Quality Portal (NWIS),no,USGS-384333076394702
+nwismd.01.01700178|manganese,24009,Calvert,MD,manganese,0.0074,mg/L,2016-12-12,Water Quality Portal (NWIS),no,USGS-384333076394701
+nwismd.01.01700177|manganese,24009,Calvert,MD,manganese,0.0834,mg/L,2016-12-13,Water Quality Portal (NWIS),no,USGS-384333076394702
+nwismd.01.01700178|ph,24009,Calvert,MD,ph,7.7,pH,2016-12-12,Water Quality Portal (NWIS),no,USGS-384333076394701
+nwismd.01.01700177|ph,24009,Calvert,MD,ph,7.5,pH,2016-12-13,Water Quality Portal (NWIS),no,USGS-384333076394702
+nwismd.01.01700178|tds,24009,Calvert,MD,tds,173.0,mg/L,2016-12-12,Water Quality Portal (NWIS),no,USGS-384333076394701
+nwismd.01.01700177|tds,24009,Calvert,MD,tds,276.0,mg/L,2016-12-13,Water Quality Portal (NWIS),no,USGS-384333076394702
+nwismd.01.02200685|hardness,24011,Caroline,MD,hardness,0.8,gpg,2022-08-22,Water Quality Portal (NWIS),no,USGS-384455075581301
+nwismd.01.02200594|hardness,24011,Caroline,MD,hardness,1.34,gpg,2022-08-30,Water Quality Portal (NWIS),no,USGS-385235075493401
+nwismd.01.02300512|hardness,24011,Caroline,MD,hardness,2.66,gpg,2023-08-08,Water Quality Portal (NWIS),no,USGS-385009075444402
+nwismd.01.02300518|hardness,24011,Caroline,MD,hardness,3.16,gpg,2023-08-31,Water Quality Portal (NWIS),no,USGS-384631075524901
+nwismd.01.02200685|iron,24011,Caroline,MD,iron,,mg/L,2022-08-22,Water Quality Portal (NWIS),yes,USGS-384455075581301
+nwismd.01.02200594|iron,24011,Caroline,MD,iron,0.0339,mg/L,2022-08-30,Water Quality Portal (NWIS),no,USGS-385235075493401
+nwismd.01.02300512|iron,24011,Caroline,MD,iron,0.0065,mg/L,2023-08-08,Water Quality Portal (NWIS),no,USGS-385009075444402
+nwismd.01.02300518|iron,24011,Caroline,MD,iron,,mg/L,2023-08-31,Water Quality Portal (NWIS),yes,USGS-384631075524901
+nwismd.01.02200685|manganese,24011,Caroline,MD,manganese,,mg/L,2022-08-22,Water Quality Portal (NWIS),yes,USGS-384455075581301
+nwismd.01.02200594|manganese,24011,Caroline,MD,manganese,,mg/L,2022-08-30,Water Quality Portal (NWIS),yes,USGS-385235075493401
+nwismd.01.02300512|manganese,24011,Caroline,MD,manganese,0.0226,mg/L,2023-08-08,Water Quality Portal (NWIS),no,USGS-385009075444402
+nwismd.01.02300518|manganese,24011,Caroline,MD,manganese,0.0371,mg/L,2023-08-31,Water Quality Portal (NWIS),no,USGS-384631075524901
+nwismd.01.02200685|ph,24011,Caroline,MD,ph,8.6,pH,2022-08-22,Water Quality Portal (NWIS),no,USGS-384455075581301
+nwismd.01.02200594|ph,24011,Caroline,MD,ph,8.2,pH,2022-08-30,Water Quality Portal (NWIS),no,USGS-385235075493401
+nwismd.01.02300512|ph,24011,Caroline,MD,ph,4.8,pH,2023-08-08,Water Quality Portal (NWIS),no,USGS-385009075444402
+nwismd.01.02300518|ph,24011,Caroline,MD,ph,4.1,pH,2023-08-31,Water Quality Portal (NWIS),no,USGS-384631075524901
+nwismd.01.02200685|tds,24011,Caroline,MD,tds,423.0,mg/L,2022-08-22,Water Quality Portal (NWIS),no,USGS-384455075581301
+nwismd.01.02200594|tds,24011,Caroline,MD,tds,540.0,mg/L,2022-08-30,Water Quality Portal (NWIS),no,USGS-385235075493401
+nwismd.01.02300512|tds,24011,Caroline,MD,tds,542.0,mg/L,2023-08-08,Water Quality Portal (NWIS),no,USGS-385009075444402
+nwismd.01.02300518|tds,24011,Caroline,MD,tds,110.0,mg/L,2023-08-31,Water Quality Portal (NWIS),no,USGS-384631075524901
+nwismd.01.01900940|hardness,24013,Carroll,MD,hardness,1.57,gpg,2019-01-16,Water Quality Portal (NWIS),no,USGS-394106076493501
+nwismd.01.01900880|hardness,24013,Carroll,MD,hardness,4.39,gpg,2019-01-28,Water Quality Portal (NWIS),no,USGS-393741076570901
+nwismd.01.01900938|hardness,24013,Carroll,MD,hardness,35.73,gpg,2019-01-28,Water Quality Portal (NWIS),no,USGS-393444077021201
+nwismd.01.01900925|hardness,24013,Carroll,MD,hardness,2.82,gpg,2019-03-27,Water Quality Portal (NWIS),no,USGS-392345077082701
+nwismd.01.01901601|hardness,24013,Carroll,MD,hardness,27.19,gpg,2019-07-29,Water Quality Portal (NWIS),no,USGS-393444077021201
+nwismd.01.01900940|iron,24013,Carroll,MD,iron,,mg/L,2019-01-16,Water Quality Portal (NWIS),yes,USGS-394106076493501
+nwismd.01.01900880|iron,24013,Carroll,MD,iron,0.0141,mg/L,2019-01-28,Water Quality Portal (NWIS),no,USGS-393741076570901
+nwismd.01.01900938|iron,24013,Carroll,MD,iron,,mg/L,2019-01-28,Water Quality Portal (NWIS),yes,USGS-393444077021201
+nwismd.01.01900925|iron,24013,Carroll,MD,iron,,mg/L,2019-03-27,Water Quality Portal (NWIS),yes,USGS-392345077082701
+nwismd.01.01901373|iron,24013,Carroll,MD,iron,,mg/L,2019-04-30,Water Quality Portal (NWIS),yes,USGS-393444077021201
+nwismd.01.01901601|iron,24013,Carroll,MD,iron,,mg/L,2019-07-29,Water Quality Portal (NWIS),yes,USGS-393444077021201
+nwismd.01.01900940|manganese,24013,Carroll,MD,manganese,0.0032,mg/L,2019-01-16,Water Quality Portal (NWIS),no,USGS-394106076493501
+nwismd.01.01900880|manganese,24013,Carroll,MD,manganese,0.0361,mg/L,2019-01-28,Water Quality Portal (NWIS),no,USGS-393741076570901
+nwismd.01.01900938|manganese,24013,Carroll,MD,manganese,,mg/L,2019-01-28,Water Quality Portal (NWIS),yes,USGS-393444077021201
+nwismd.01.01900925|manganese,24013,Carroll,MD,manganese,0.0185,mg/L,2019-03-27,Water Quality Portal (NWIS),no,USGS-392345077082701
+nwismd.01.01901373|manganese,24013,Carroll,MD,manganese,,mg/L,2019-04-30,Water Quality Portal (NWIS),yes,USGS-393444077021201
+nwismd.01.01901601|manganese,24013,Carroll,MD,manganese,0.0002,mg/L,2019-07-29,Water Quality Portal (NWIS),no,USGS-393444077021201
+nwismd.01.01900940|ph,24013,Carroll,MD,ph,6.1,pH,2019-01-16,Water Quality Portal (NWIS),no,USGS-394106076493501
+nwismd.01.01900880|ph,24013,Carroll,MD,ph,6.6,pH,2019-01-28,Water Quality Portal (NWIS),no,USGS-393741076570901
+nwismd.01.01900938|ph,24013,Carroll,MD,ph,7.2,pH,2019-01-28,Water Quality Portal (NWIS),no,USGS-393444077021201
+nwismd.01.01900925|ph,24013,Carroll,MD,ph,5.7,pH,2019-03-27,Water Quality Portal (NWIS),no,USGS-392345077082701
+nwismd.01.01901373|ph,24013,Carroll,MD,ph,7.1,pH,2019-04-30,Water Quality Portal (NWIS),no,USGS-393444077021201
+nwismd.01.01901601|ph,24013,Carroll,MD,ph,7.4,pH,2019-07-29,Water Quality Portal (NWIS),no,USGS-393444077021201
+nwismd.01.02000183|ph,24013,Carroll,MD,ph,6.6,pH,2019-11-06,Water Quality Portal (NWIS),no,USGS-393444077021201
+nwismd.01.02000706|ph,24013,Carroll,MD,ph,6.5,pH,2020-01-28,Water Quality Portal (NWIS),no,USGS-393246077053201
+nwismd.01.02000646|ph,24013,Carroll,MD,ph,6.5,pH,2020-02-10,Water Quality Portal (NWIS),no,USGS-393444077021201
+nwismd.01.01900880|tds,24013,Carroll,MD,tds,208.0,mg/L,2019-01-28,Water Quality Portal (NWIS),no,USGS-393741076570901
+nwismd.01.01900938|tds,24013,Carroll,MD,tds,968.0,mg/L,2019-01-28,Water Quality Portal (NWIS),no,USGS-393444077021201
+nwismd.01.01900925|tds,24013,Carroll,MD,tds,78.0,mg/L,2019-03-27,Water Quality Portal (NWIS),no,USGS-392345077082701
+nwismd.01.01901373|tds,24013,Carroll,MD,tds,986.0,mg/L,2019-04-30,Water Quality Portal (NWIS),no,USGS-393444077021201
+nwismd.01.01901601|tds,24013,Carroll,MD,tds,923.0,mg/L,2019-07-29,Water Quality Portal (NWIS),no,USGS-393444077021201
+nwismd.01.01900946|hardness,24015,Cecil,MD,hardness,14.04,gpg,2019-01-07,Water Quality Portal (NWIS),no,USGS-394157076104601
+nwismd.01.01900944|hardness,24015,Cecil,MD,hardness,2.78,gpg,2019-01-08,Water Quality Portal (NWIS),no,USGS-394127075583101
+nwismd.01.01900945|hardness,24015,Cecil,MD,hardness,28.71,gpg,2019-01-08,Water Quality Portal (NWIS),no,USGS-393602076034501
+nwismd.01.01901600|hardness,24015,Cecil,MD,hardness,31.75,gpg,2019-07-30,Water Quality Portal (NWIS),no,USGS-393602076034501
+nwismd.01.02100657|hardness,24015,Cecil,MD,hardness,5.33,gpg,2021-07-07,Water Quality Portal (NWIS),no,USGS-392825075505401
+nwismd.01.02200591|hardness,24015,Cecil,MD,hardness,4.4,gpg,2022-08-23,Water Quality Portal (NWIS),no,USGS-392405075521701
+nwismd.01.01900946|iron,24015,Cecil,MD,iron,0.0134,mg/L,2019-01-07,Water Quality Portal (NWIS),no,USGS-394157076104601
+nwismd.01.01900944|iron,24015,Cecil,MD,iron,,mg/L,2019-01-08,Water Quality Portal (NWIS),yes,USGS-394127075583101
+nwismd.01.01900945|iron,24015,Cecil,MD,iron,0.0234,mg/L,2019-01-08,Water Quality Portal (NWIS),no,USGS-393602076034501
+nwismd.01.01901371|iron,24015,Cecil,MD,iron,0.096,mg/L,2019-05-01,Water Quality Portal (NWIS),no,USGS-393602076034501
+nwismd.01.01901600|iron,24015,Cecil,MD,iron,0.0814,mg/L,2019-07-30,Water Quality Portal (NWIS),no,USGS-393602076034501
+nwismd.01.02100657|iron,24015,Cecil,MD,iron,6.76,mg/L,2021-07-07,Water Quality Portal (NWIS),no,USGS-392825075505401
+nwismd.01.02200591|iron,24015,Cecil,MD,iron,0.803,mg/L,2022-08-23,Water Quality Portal (NWIS),no,USGS-392405075521701
+nwismd.01.01900946|manganese,24015,Cecil,MD,manganese,,mg/L,2019-01-07,Water Quality Portal (NWIS),yes,USGS-394157076104601
+nwismd.01.01900944|manganese,24015,Cecil,MD,manganese,0.0068,mg/L,2019-01-08,Water Quality Portal (NWIS),no,USGS-394127075583101
+nwismd.01.01900945|manganese,24015,Cecil,MD,manganese,0.0057,mg/L,2019-01-08,Water Quality Portal (NWIS),no,USGS-393602076034501
+nwismd.01.01901371|manganese,24015,Cecil,MD,manganese,0.0053,mg/L,2019-05-01,Water Quality Portal (NWIS),no,USGS-393602076034501
+nwismd.01.01901600|manganese,24015,Cecil,MD,manganese,0.0062,mg/L,2019-07-30,Water Quality Portal (NWIS),no,USGS-393602076034501
+nwismd.01.02100657|manganese,24015,Cecil,MD,manganese,0.0838,mg/L,2021-07-07,Water Quality Portal (NWIS),no,USGS-392825075505401
+nwismd.01.02200591|manganese,24015,Cecil,MD,manganese,0.0095,mg/L,2022-08-23,Water Quality Portal (NWIS),no,USGS-392405075521701
+nwismd.01.01900946|ph,24015,Cecil,MD,ph,7.6,pH,2019-01-07,Water Quality Portal (NWIS),no,USGS-394157076104601
+nwismd.01.01900944|ph,24015,Cecil,MD,ph,4.6,pH,2019-01-08,Water Quality Portal (NWIS),no,USGS-394127075583101
+nwismd.01.01900945|ph,24015,Cecil,MD,ph,6.0,pH,2019-01-08,Water Quality Portal (NWIS),no,USGS-393602076034501
+nwismd.01.01901371|ph,24015,Cecil,MD,ph,7.0,pH,2019-05-01,Water Quality Portal (NWIS),no,USGS-393602076034501
+nwismd.01.01901600|ph,24015,Cecil,MD,ph,8.4,pH,2019-07-30,Water Quality Portal (NWIS),no,USGS-393602076034501
+nwismd.01.02000184|ph,24015,Cecil,MD,ph,5.7,pH,2019-11-04,Water Quality Portal (NWIS),no,USGS-393602076034501
+nwismd.01.02000648|ph,24015,Cecil,MD,ph,5.7,pH,2020-02-11,Water Quality Portal (NWIS),no,USGS-393602076034501
+nwismd.01.02000702|ph,24015,Cecil,MD,ph,5.9,pH,2020-02-19,Water Quality Portal (NWIS),no,USGS-394314075472401
+nwismd.01.02100657|ph,24015,Cecil,MD,ph,6.6,pH,2021-07-07,Water Quality Portal (NWIS),no,USGS-392825075505401
+nwismd.01.02200591|ph,24015,Cecil,MD,ph,7.5,pH,2022-08-23,Water Quality Portal (NWIS),no,USGS-392405075521701
+nwismd.01.01901371|tds,24015,Cecil,MD,tds,1080.0,mg/L,2019-05-01,Water Quality Portal (NWIS),no,USGS-393602076034501
+nwismd.01.01901600|tds,24015,Cecil,MD,tds,1320.0,mg/L,2019-07-30,Water Quality Portal (NWIS),no,USGS-393602076034501
+nwismd.01.02100657|tds,24015,Cecil,MD,tds,106.0,mg/L,2021-07-07,Water Quality Portal (NWIS),no,USGS-392825075505401
+nwismd.01.02200591|tds,24015,Cecil,MD,tds,185.0,mg/L,2022-08-23,Water Quality Portal (NWIS),no,USGS-392405075521701
+nwismd.01.01700044|hardness,24017,Charles,MD,hardness,9.06,gpg,2016-10-27,Water Quality Portal (NWIS),no,USGS-383717076500501
+nwismd.01.02200687|hardness,24017,Charles,MD,hardness,3.4,gpg,2022-09-07,Water Quality Portal (NWIS),no,USGS-383503076573701
+nwismd.01.01700044|iron,24017,Charles,MD,iron,0.564,mg/L,2016-10-27,Water Quality Portal (NWIS),no,USGS-383717076500501
+nwismd.01.02200687|iron,24017,Charles,MD,iron,0.267,mg/L,2022-09-07,Water Quality Portal (NWIS),no,USGS-383503076573701
+nwismd.01.01700044|manganese,24017,Charles,MD,manganese,0.0106,mg/L,2016-10-27,Water Quality Portal (NWIS),no,USGS-383717076500501
+nwismd.01.02200687|manganese,24017,Charles,MD,manganese,0.0477,mg/L,2022-09-07,Water Quality Portal (NWIS),no,USGS-383503076573701
+nwismd.01.01700044|ph,24017,Charles,MD,ph,7.7,pH,2016-10-27,Water Quality Portal (NWIS),no,USGS-383717076500501
+nwismd.01.01901130|ph,24017,Charles,MD,ph,8.3,pH,2019-04-30,Water Quality Portal (NWIS),no,USGS-383846076512001
+nwismd.01.01901350|ph,24017,Charles,MD,ph,8.4,pH,2019-05-29,Water Quality Portal (NWIS),no,USGS-383846076512001
+nwismd.01.02200687|ph,24017,Charles,MD,ph,7.8,pH,2022-09-07,Water Quality Portal (NWIS),no,USGS-383503076573701
+nwismd.01.01700044|tds,24017,Charles,MD,tds,189.0,mg/L,2016-10-27,Water Quality Portal (NWIS),no,USGS-383717076500501
+nwismd.01.02200687|tds,24017,Charles,MD,tds,174.0,mg/L,2022-09-07,Water Quality Portal (NWIS),no,USGS-383503076573701
+nwismd.01.01600293|hardness,24019,Dorchester,MD,hardness,74.27,gpg,2015-12-15,Water Quality Portal (NWIS),no,USGS-381925076043001
+nwismd.01.01600294|hardness,24019,Dorchester,MD,hardness,71.35,gpg,2015-12-15,Water Quality Portal (NWIS),no,USGS-381922076043002
+nwismd.01.01600295|hardness,24019,Dorchester,MD,hardness,101.17,gpg,2015-12-15,Water Quality Portal (NWIS),no,USGS-381922076043001
+nwismd.01.01600296|hardness,24019,Dorchester,MD,hardness,96.49,gpg,2015-12-15,Water Quality Portal (NWIS),no,USGS-381929076043002
+nwismd.01.01600297|hardness,24019,Dorchester,MD,hardness,48.89,gpg,2015-12-15,Water Quality Portal (NWIS),no,USGS-381929076043001
+nwismd.01.01600288|hardness,24019,Dorchester,MD,hardness,54.85,gpg,2015-12-16,Water Quality Portal (NWIS),no,USGS-381926076043401
+nwismd.01.01600289|hardness,24019,Dorchester,MD,hardness,70.18,gpg,2015-12-16,Water Quality Portal (NWIS),no,USGS-381924076043901
+nwismd.01.01600290|hardness,24019,Dorchester,MD,hardness,105.85,gpg,2015-12-16,Water Quality Portal (NWIS),no,USGS-381924076043801
+nwismd.01.01600291|hardness,24019,Dorchester,MD,hardness,104.68,gpg,2015-12-16,Water Quality Portal (NWIS),no,USGS-381923076043501
+nwismd.01.02200644|hardness,24019,Dorchester,MD,hardness,0.09,gpg,2022-08-25,Water Quality Portal (NWIS),no,USGS-383345076033701
+nwismd.01.02300444|hardness,24019,Dorchester,MD,hardness,1.66,gpg,2023-07-17,Water Quality Portal (NWIS),no,USGS-383328076153602
+nwismd.01.02300507|hardness,24019,Dorchester,MD,hardness,0.93,gpg,2023-08-21,Water Quality Portal (NWIS),no,USGS-383225075565002
+nwismd.01.01600293|iron,24019,Dorchester,MD,iron,0.162,mg/L,2015-12-15,Water Quality Portal (NWIS),no,USGS-381925076043001
+nwismd.01.01600294|iron,24019,Dorchester,MD,iron,0.214,mg/L,2015-12-15,Water Quality Portal (NWIS),no,USGS-381922076043002
+nwismd.01.01600295|iron,24019,Dorchester,MD,iron,9.08,mg/L,2015-12-15,Water Quality Portal (NWIS),no,USGS-381922076043001
+nwismd.01.01600296|iron,24019,Dorchester,MD,iron,,mg/L,2015-12-15,Water Quality Portal (NWIS),yes,USGS-381929076043002
+nwismd.01.01600297|iron,24019,Dorchester,MD,iron,84.3,mg/L,2015-12-15,Water Quality Portal (NWIS),no,USGS-381929076043001
+nwismd.01.01600288|iron,24019,Dorchester,MD,iron,5.34,mg/L,2015-12-16,Water Quality Portal (NWIS),no,USGS-381926076043401
+nwismd.01.01600289|iron,24019,Dorchester,MD,iron,59.7,mg/L,2015-12-16,Water Quality Portal (NWIS),no,USGS-381924076043901
+nwismd.01.01600290|iron,24019,Dorchester,MD,iron,0.0985,mg/L,2015-12-16,Water Quality Portal (NWIS),no,USGS-381924076043801
+nwismd.01.01600291|iron,24019,Dorchester,MD,iron,,mg/L,2015-12-16,Water Quality Portal (NWIS),yes,USGS-381923076043501
+nwismd.01.02200644|iron,24019,Dorchester,MD,iron,0.0942,mg/L,2022-08-25,Water Quality Portal (NWIS),no,USGS-383345076033701
+nwismd.01.02300444|iron,24019,Dorchester,MD,iron,9.82,mg/L,2023-07-17,Water Quality Portal (NWIS),no,USGS-383328076153602
+nwismd.01.02300507|iron,24019,Dorchester,MD,iron,0.0206,mg/L,2023-08-21,Water Quality Portal (NWIS),no,USGS-383225075565002
+nwismd.01.01600293|manganese,24019,Dorchester,MD,manganese,0.048,mg/L,2015-12-15,Water Quality Portal (NWIS),no,USGS-381925076043001
+nwismd.01.01600294|manganese,24019,Dorchester,MD,manganese,0.0286,mg/L,2015-12-15,Water Quality Portal (NWIS),no,USGS-381922076043002
+nwismd.01.01600295|manganese,24019,Dorchester,MD,manganese,1.41,mg/L,2015-12-15,Water Quality Portal (NWIS),no,USGS-381922076043001
+nwismd.01.01600296|manganese,24019,Dorchester,MD,manganese,0.0788,mg/L,2015-12-15,Water Quality Portal (NWIS),no,USGS-381929076043002
+nwismd.01.01600297|manganese,24019,Dorchester,MD,manganese,2.21,mg/L,2015-12-15,Water Quality Portal (NWIS),no,USGS-381929076043001
+nwismd.01.01600288|manganese,24019,Dorchester,MD,manganese,0.0625,mg/L,2015-12-16,Water Quality Portal (NWIS),no,USGS-381926076043401
+nwismd.01.01600289|manganese,24019,Dorchester,MD,manganese,1.1,mg/L,2015-12-16,Water Quality Portal (NWIS),no,USGS-381924076043901
+nwismd.01.01600290|manganese,24019,Dorchester,MD,manganese,0.0313,mg/L,2015-12-16,Water Quality Portal (NWIS),no,USGS-381924076043801
+nwismd.01.01600291|manganese,24019,Dorchester,MD,manganese,0.0419,mg/L,2015-12-16,Water Quality Portal (NWIS),no,USGS-381923076043501
+nwismd.01.02200644|manganese,24019,Dorchester,MD,manganese,0.0127,mg/L,2022-08-25,Water Quality Portal (NWIS),no,USGS-383345076033701
+nwismd.01.02300444|manganese,24019,Dorchester,MD,manganese,0.0952,mg/L,2023-07-17,Water Quality Portal (NWIS),no,USGS-383328076153602
+nwismd.01.02300507|manganese,24019,Dorchester,MD,manganese,0.009,mg/L,2023-08-21,Water Quality Portal (NWIS),no,USGS-383225075565002
+nwismd.01.01600293|ph,24019,Dorchester,MD,ph,6.4,pH,2015-12-15,Water Quality Portal (NWIS),no,USGS-381925076043001
+nwismd.01.01600294|ph,24019,Dorchester,MD,ph,6.1,pH,2015-12-15,Water Quality Portal (NWIS),no,USGS-381922076043002
+nwismd.01.01600295|ph,24019,Dorchester,MD,ph,3.0,pH,2015-12-15,Water Quality Portal (NWIS),no,USGS-381922076043001
+nwismd.01.01600296|ph,24019,Dorchester,MD,ph,6.6,pH,2015-12-15,Water Quality Portal (NWIS),no,USGS-381929076043002
+nwismd.01.01600297|ph,24019,Dorchester,MD,ph,3.6,pH,2015-12-15,Water Quality Portal (NWIS),no,USGS-381929076043001
+nwismd.01.01600288|ph,24019,Dorchester,MD,ph,6.5,pH,2015-12-16,Water Quality Portal (NWIS),no,USGS-381926076043401
+nwismd.01.01600289|ph,24019,Dorchester,MD,ph,3.1,pH,2015-12-16,Water Quality Portal (NWIS),no,USGS-381924076043901
+nwismd.01.01600290|ph,24019,Dorchester,MD,ph,6.7,pH,2015-12-16,Water Quality Portal (NWIS),no,USGS-381924076043801
+nwismd.01.01600291|ph,24019,Dorchester,MD,ph,6.9,pH,2015-12-16,Water Quality Portal (NWIS),no,USGS-381923076043501
+nwismd.01.02200644|ph,24019,Dorchester,MD,ph,8.0,pH,2022-08-25,Water Quality Portal (NWIS),no,USGS-383345076033701
+nwismd.01.02300444|ph,24019,Dorchester,MD,ph,5.8,pH,2023-07-17,Water Quality Portal (NWIS),no,USGS-383328076153602
+nwismd.01.02300507|ph,24019,Dorchester,MD,ph,4.9,pH,2023-08-21,Water Quality Portal (NWIS),no,USGS-383225075565002
+nwismd.01.01600293|tds,24019,Dorchester,MD,tds,6960.0,mg/L,2015-12-15,Water Quality Portal (NWIS),no,USGS-381925076043001
+nwismd.01.01600294|tds,24019,Dorchester,MD,tds,6670.0,mg/L,2015-12-15,Water Quality Portal (NWIS),no,USGS-381922076043002
+nwismd.01.01600295|tds,24019,Dorchester,MD,tds,,mg/L,2015-12-15,Water Quality Portal (NWIS),yes,USGS-381922076043001
+nwismd.01.01600296|tds,24019,Dorchester,MD,tds,8070.0,mg/L,2015-12-15,Water Quality Portal (NWIS),no,USGS-381929076043002
+nwismd.01.01600297|tds,24019,Dorchester,MD,tds,,mg/L,2015-12-15,Water Quality Portal (NWIS),yes,USGS-381929076043001
+nwismd.01.01600288|tds,24019,Dorchester,MD,tds,5410.0,mg/L,2015-12-16,Water Quality Portal (NWIS),no,USGS-381926076043401
+nwismd.01.01600289|tds,24019,Dorchester,MD,tds,,mg/L,2015-12-16,Water Quality Portal (NWIS),yes,USGS-381924076043901
+nwismd.01.01600290|tds,24019,Dorchester,MD,tds,9830.0,mg/L,2015-12-16,Water Quality Portal (NWIS),no,USGS-381924076043801
+nwismd.01.01600291|tds,24019,Dorchester,MD,tds,9360.0,mg/L,2015-12-16,Water Quality Portal (NWIS),no,USGS-381923076043501
+nwismd.01.02200644|tds,24019,Dorchester,MD,tds,159.0,mg/L,2022-08-25,Water Quality Portal (NWIS),no,USGS-383345076033701
+nwismd.01.02300444|tds,24019,Dorchester,MD,tds,402.0,mg/L,2023-07-17,Water Quality Portal (NWIS),no,USGS-383328076153602
+nwismd.01.02300507|tds,24019,Dorchester,MD,tds,66.0,mg/L,2023-08-21,Water Quality Portal (NWIS),no,USGS-383225075565002
+nwismd.01.01701610|hardness,24021,Frederick,MD,hardness,5.96,gpg,2017-09-25,Water Quality Portal (NWIS),no,USGS-393804077270501
+nwismd.01.01701609|hardness,24021,Frederick,MD,hardness,6.26,gpg,2017-09-26,Water Quality Portal (NWIS),no,USGS-393853077284901
+nwismd.01.01701611|hardness,24021,Frederick,MD,hardness,2.64,gpg,2017-09-26,Water Quality Portal (NWIS),no,USGS-393909077284801
+nwismd.01.01701612|hardness,24021,Frederick,MD,hardness,1.75,gpg,2017-09-26,Water Quality Portal (NWIS),no,USGS-393908077293201
+nwismd.01.01701613|hardness,24021,Frederick,MD,hardness,3.76,gpg,2017-09-26,Water Quality Portal (NWIS),no,USGS-393819077270401
+nwismd.01.01701614|hardness,24021,Frederick,MD,hardness,1.05,gpg,2017-09-26,Water Quality Portal (NWIS),no,USGS-393734077262601
+nwismd.01.01900937|hardness,24021,Frederick,MD,hardness,8.54,gpg,2019-01-30,Water Quality Portal (NWIS),no,USGS-393922077183201
+nwismd.01.01900929|hardness,24021,Frederick,MD,hardness,18.95,gpg,2019-02-26,Water Quality Portal (NWIS),no,USGS-391806077284001
+nwismd.01.01701610|iron,24021,Frederick,MD,iron,,mg/L,2017-09-25,Water Quality Portal (NWIS),yes,USGS-393804077270501
+nwismd.01.01701609|iron,24021,Frederick,MD,iron,0.63,mg/L,2017-09-26,Water Quality Portal (NWIS),no,USGS-393853077284901
+nwismd.01.01701611|iron,24021,Frederick,MD,iron,,mg/L,2017-09-26,Water Quality Portal (NWIS),yes,USGS-393909077284801
+nwismd.01.01701612|iron,24021,Frederick,MD,iron,,mg/L,2017-09-26,Water Quality Portal (NWIS),yes,USGS-393908077293201
+nwismd.01.01701613|iron,24021,Frederick,MD,iron,,mg/L,2017-09-26,Water Quality Portal (NWIS),yes,USGS-393819077270401
+nwismd.01.01701614|iron,24021,Frederick,MD,iron,,mg/L,2017-09-26,Water Quality Portal (NWIS),yes,USGS-393734077262601
+nwismd.01.01900937|iron,24021,Frederick,MD,iron,,mg/L,2019-01-30,Water Quality Portal (NWIS),yes,USGS-393922077183201
+nwismd.01.01900929|iron,24021,Frederick,MD,iron,,mg/L,2019-02-26,Water Quality Portal (NWIS),yes,USGS-391806077284001
+nwismd.01.01701610|manganese,24021,Frederick,MD,manganese,0.0002,mg/L,2017-09-25,Water Quality Portal (NWIS),no,USGS-393804077270501
+nwismd.01.01701609|manganese,24021,Frederick,MD,manganese,0.056,mg/L,2017-09-26,Water Quality Portal (NWIS),no,USGS-393853077284901
+nwismd.01.01701611|manganese,24021,Frederick,MD,manganese,,mg/L,2017-09-26,Water Quality Portal (NWIS),yes,USGS-393909077284801
+nwismd.01.01701612|manganese,24021,Frederick,MD,manganese,0.0007,mg/L,2017-09-26,Water Quality Portal (NWIS),no,USGS-393908077293201
+nwismd.01.01701613|manganese,24021,Frederick,MD,manganese,0.0009,mg/L,2017-09-26,Water Quality Portal (NWIS),no,USGS-393819077270401
+nwismd.01.01701614|manganese,24021,Frederick,MD,manganese,0.0009,mg/L,2017-09-26,Water Quality Portal (NWIS),no,USGS-393734077262601
+nwismd.01.01900937|manganese,24021,Frederick,MD,manganese,,mg/L,2019-01-30,Water Quality Portal (NWIS),yes,USGS-393922077183201
+nwismd.01.01900929|manganese,24021,Frederick,MD,manganese,,mg/L,2019-02-26,Water Quality Portal (NWIS),yes,USGS-391806077284001
+nwismd.01.01701610|ph,24021,Frederick,MD,ph,6.5,pH,2017-09-25,Water Quality Portal (NWIS),no,USGS-393804077270501
+nwismd.01.01701609|ph,24021,Frederick,MD,ph,5.9,pH,2017-09-26,Water Quality Portal (NWIS),no,USGS-393853077284901
+nwismd.01.01701611|ph,24021,Frederick,MD,ph,6.1,pH,2017-09-26,Water Quality Portal (NWIS),no,USGS-393909077284801
+nwismd.01.01701612|ph,24021,Frederick,MD,ph,6.0,pH,2017-09-26,Water Quality Portal (NWIS),no,USGS-393908077293201
+nwismd.01.01701613|ph,24021,Frederick,MD,ph,7.4,pH,2017-09-26,Water Quality Portal (NWIS),no,USGS-393819077270401
+nwismd.01.01701614|ph,24021,Frederick,MD,ph,5.8,pH,2017-09-26,Water Quality Portal (NWIS),no,USGS-393734077262601
+nwismd.01.01900937|ph,24021,Frederick,MD,ph,8.5,pH,2019-01-30,Water Quality Portal (NWIS),no,USGS-393922077183201
+nwismd.01.01900929|ph,24021,Frederick,MD,ph,7.5,pH,2019-02-26,Water Quality Portal (NWIS),no,USGS-391806077284001
+nwismd.01.02000705|ph,24021,Frederick,MD,ph,7.0,pH,2020-01-28,Water Quality Portal (NWIS),no,USGS-393025077121401
+nwismd.01.02000700|ph,24021,Frederick,MD,ph,5.2,pH,2020-02-25,Water Quality Portal (NWIS),no,USGS-393541077244901
+nwismd.01.01701610|tds,24021,Frederick,MD,tds,139.0,mg/L,2017-09-25,Water Quality Portal (NWIS),no,USGS-393804077270501
+nwismd.01.01701609|tds,24021,Frederick,MD,tds,213.0,mg/L,2017-09-26,Water Quality Portal (NWIS),no,USGS-393853077284901
+nwismd.01.01701611|tds,24021,Frederick,MD,tds,72.0,mg/L,2017-09-26,Water Quality Portal (NWIS),no,USGS-393909077284801
+nwismd.01.01701612|tds,24021,Frederick,MD,tds,64.0,mg/L,2017-09-26,Water Quality Portal (NWIS),no,USGS-393908077293201
+nwismd.01.01701613|tds,24021,Frederick,MD,tds,98.0,mg/L,2017-09-26,Water Quality Portal (NWIS),no,USGS-393819077270401
+nwismd.01.01701614|tds,24021,Frederick,MD,tds,48.0,mg/L,2017-09-26,Water Quality Portal (NWIS),no,USGS-393734077262601
+nwismd.01.01900937|tds,24021,Frederick,MD,tds,193.0,mg/L,2019-01-30,Water Quality Portal (NWIS),no,USGS-393922077183201
+nwismd.01.01900929|tds,24021,Frederick,MD,tds,417.0,mg/L,2019-02-26,Water Quality Portal (NWIS),no,USGS-391806077284001
+nwismd.01.01500742|hardness,24023,Garrett,MD,hardness,11.7,gpg,2015-05-26,Water Quality Portal (NWIS),no,USGS-394242079263101
+nwismd.01.01500743|hardness,24023,Garrett,MD,hardness,4.84,gpg,2015-05-27,Water Quality Portal (NWIS),no,USGS-392703079182601
+nwismd.01.01500771|hardness,24023,Garrett,MD,hardness,3.75,gpg,2015-06-01,Water Quality Portal (NWIS),no,USGS-393340079282001
+nwismd.01.01500772|hardness,24023,Garrett,MD,hardness,1.25,gpg,2015-06-02,Water Quality Portal (NWIS),no,USGS-392358079174601
+nwismd.01.01500980|hardness,24023,Garrett,MD,hardness,6.32,gpg,2015-06-23,Water Quality Portal (NWIS),no,USGS-393041079122901
+nwismd.01.01500981|hardness,24023,Garrett,MD,hardness,3.01,gpg,2015-06-24,Water Quality Portal (NWIS),no,USGS-393327079225301
+nwismd.01.01501138|hardness,24023,Garrett,MD,hardness,0.14,gpg,2015-07-07,Water Quality Portal (NWIS),no,USGS-393601079182801
+nwismd.01.01501137|hardness,24023,Garrett,MD,hardness,7.72,gpg,2015-07-08,Water Quality Portal (NWIS),no,USGS-392637079083001
+nwismd.01.01501136|hardness,24023,Garrett,MD,hardness,1.19,gpg,2015-07-14,Water Quality Portal (NWIS),no,USGS-394320079040501
+nwismd.01.01501135|hardness,24023,Garrett,MD,hardness,2.2,gpg,2015-07-20,Water Quality Portal (NWIS),no,USGS-393825079111601
+nwismd.01.01501163|hardness,24023,Garrett,MD,hardness,2.42,gpg,2015-07-21,Water Quality Portal (NWIS),no,USGS-393000079252001
+nwismd.01.01501164|hardness,24023,Garrett,MD,hardness,4.55,gpg,2015-07-22,Water Quality Portal (NWIS),no,USGS-393419079234601
+nwismd.01.01501162|hardness,24023,Garrett,MD,hardness,2.81,gpg,2015-07-27,Water Quality Portal (NWIS),no,USGS-393937079041001
+nwismd.01.01501176|hardness,24023,Garrett,MD,hardness,2.63,gpg,2015-07-28,Water Quality Portal (NWIS),no,USGS-392729079243901
+nwismd.01.01501177|hardness,24023,Garrett,MD,hardness,0.31,gpg,2015-07-29,Water Quality Portal (NWIS),no,USGS-392333079115501
+nwismd.01.01501179|hardness,24023,Garrett,MD,hardness,3.29,gpg,2015-08-04,Water Quality Portal (NWIS),no,USGS-392044079271001
+nwismd.01.01501187|hardness,24023,Garrett,MD,hardness,21.75,gpg,2015-08-11,Water Quality Portal (NWIS),no,USGS-392027079195801
+nwismd.01.01501210|hardness,24023,Garrett,MD,hardness,5.36,gpg,2015-08-17,Water Quality Portal (NWIS),no,USGS-392301079251601
+nwismd.01.01501211|hardness,24023,Garrett,MD,hardness,0.49,gpg,2015-08-18,Water Quality Portal (NWIS),no,USGS-393902079282601
+nwismd.01.01501241|hardness,24023,Garrett,MD,hardness,5.1,gpg,2015-08-24,Water Quality Portal (NWIS),no,USGS-392853079215801
+nwismd.01.01501312|hardness,24023,Garrett,MD,hardness,6.02,gpg,2015-08-31,Water Quality Portal (NWIS),no,USGS-393108079230101
+nwismd.01.01501313|hardness,24023,Garrett,MD,hardness,0.65,gpg,2015-09-01,Water Quality Portal (NWIS),no,USGS-393259079190201
+nwismd.01.01600065|hardness,24023,Garrett,MD,hardness,0.19,gpg,2015-10-07,Water Quality Portal (NWIS),no,USGS-391715079223103
+nwismd.01.01600066|hardness,24023,Garrett,MD,hardness,0.76,gpg,2015-10-07,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01600067|hardness,24023,Garrett,MD,hardness,2.82,gpg,2015-10-07,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.01600068|hardness,24023,Garrett,MD,hardness,3.98,gpg,2015-10-07,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01600069|hardness,24023,Garrett,MD,hardness,7.84,gpg,2015-10-07,Water Quality Portal (NWIS),no,USGS-391530079244401
+nwismd.01.01600070|hardness,24023,Garrett,MD,hardness,2.6,gpg,2015-10-07,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.01600071|hardness,24023,Garrett,MD,hardness,4.33,gpg,2015-10-07,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01600072|hardness,24023,Garrett,MD,hardness,19.82,gpg,2015-10-07,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01600073|hardness,24023,Garrett,MD,hardness,91.81,gpg,2015-10-07,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01600074|hardness,24023,Garrett,MD,hardness,3.09,gpg,2015-10-07,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01600075|hardness,24023,Garrett,MD,hardness,2.22,gpg,2015-10-07,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01600057|hardness,24023,Garrett,MD,hardness,52.22,gpg,2015-11-02,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.01600877|hardness,24023,Garrett,MD,hardness,1.45,gpg,2016-06-14,Water Quality Portal (NWIS),no,USGS-393934079042801
+nwismd.01.01601150|hardness,24023,Garrett,MD,hardness,2.19,gpg,2016-09-28,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01601158|hardness,24023,Garrett,MD,hardness,47.37,gpg,2016-09-28,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01601159|hardness,24023,Garrett,MD,hardness,4.71,gpg,2016-09-28,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01601160|hardness,24023,Garrett,MD,hardness,2.74,gpg,2016-09-28,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.01601161|hardness,24023,Garrett,MD,hardness,9.01,gpg,2016-09-28,Water Quality Portal (NWIS),no,USGS-391530079244401
+nwismd.01.01601162|hardness,24023,Garrett,MD,hardness,3.73,gpg,2016-09-28,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01601163|hardness,24023,Garrett,MD,hardness,3.23,gpg,2016-09-28,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01601164|hardness,24023,Garrett,MD,hardness,1.46,gpg,2016-09-28,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.01601165|hardness,24023,Garrett,MD,hardness,0.8,gpg,2016-09-28,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01601166|hardness,24023,Garrett,MD,hardness,0.19,gpg,2016-09-28,Water Quality Portal (NWIS),no,USGS-391715079223103
+nwismd.01.01601167|hardness,24023,Garrett,MD,hardness,42.98,gpg,2016-09-28,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01701616|hardness,24023,Garrett,MD,hardness,18.77,gpg,2017-09-28,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01701617|hardness,24023,Garrett,MD,hardness,2.78,gpg,2017-09-28,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.01701618|hardness,24023,Garrett,MD,hardness,39.24,gpg,2017-09-28,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01701619|hardness,24023,Garrett,MD,hardness,4.98,gpg,2017-09-28,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01701650|hardness,24023,Garrett,MD,hardness,14.62,gpg,2017-09-28,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01701656|hardness,24023,Garrett,MD,hardness,4.1,gpg,2017-09-28,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01701657|hardness,24023,Garrett,MD,hardness,0.18,gpg,2017-09-28,Water Quality Portal (NWIS),no,USGS-391715079223103
+nwismd.01.01701658|hardness,24023,Garrett,MD,hardness,3.61,gpg,2017-09-28,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01701659|hardness,24023,Garrett,MD,hardness,0.78,gpg,2017-09-28,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01701660|hardness,24023,Garrett,MD,hardness,1.15,gpg,2017-09-28,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.01800047|hardness,24023,Garrett,MD,hardness,44.39,gpg,2017-10-23,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.01800201|hardness,24023,Garrett,MD,hardness,11.52,gpg,2017-11-06,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01900080|hardness,24023,Garrett,MD,hardness,0.74,gpg,2018-10-02,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01900081|hardness,24023,Garrett,MD,hardness,19.24,gpg,2018-10-02,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.01900082|hardness,24023,Garrett,MD,hardness,2.27,gpg,2018-10-02,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01900083|hardness,24023,Garrett,MD,hardness,4.22,gpg,2018-10-02,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01900084|hardness,24023,Garrett,MD,hardness,19.24,gpg,2018-10-02,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01900085|hardness,24023,Garrett,MD,hardness,2.4,gpg,2018-10-02,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.01900086|hardness,24023,Garrett,MD,hardness,54.68,gpg,2018-10-02,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01900087|hardness,24023,Garrett,MD,hardness,4.02,gpg,2018-10-02,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01900088|hardness,24023,Garrett,MD,hardness,11.29,gpg,2018-10-02,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01900079|hardness,24023,Garrett,MD,hardness,53.39,gpg,2018-10-22,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02000071|hardness,24023,Garrett,MD,hardness,2.04,gpg,2019-10-01,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02000072|hardness,24023,Garrett,MD,hardness,6.32,gpg,2019-10-01,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02000073|hardness,24023,Garrett,MD,hardness,10.53,gpg,2019-10-01,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02000074|hardness,24023,Garrett,MD,hardness,41.29,gpg,2019-10-01,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02000075|hardness,24023,Garrett,MD,hardness,5.05,gpg,2019-10-01,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02000076|hardness,24023,Garrett,MD,hardness,2.78,gpg,2019-10-01,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02000077|hardness,24023,Garrett,MD,hardness,2.45,gpg,2019-10-01,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02000078|hardness,24023,Garrett,MD,hardness,0.76,gpg,2019-10-01,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02000079|hardness,24023,Garrett,MD,hardness,0.89,gpg,2019-10-01,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02000070|hardness,24023,Garrett,MD,hardness,45.79,gpg,2019-10-23,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02100059|hardness,24023,Garrett,MD,hardness,28.3,gpg,2020-10-01,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02100060|hardness,24023,Garrett,MD,hardness,6.14,gpg,2020-10-01,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02100061|hardness,24023,Garrett,MD,hardness,63.74,gpg,2020-10-01,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02100062|hardness,24023,Garrett,MD,hardness,11.75,gpg,2020-10-01,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02100063|hardness,24023,Garrett,MD,hardness,4.44,gpg,2020-10-01,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02100064|hardness,24023,Garrett,MD,hardness,2.8,gpg,2020-10-01,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02100065|hardness,24023,Garrett,MD,hardness,2.51,gpg,2020-10-01,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02100066|hardness,24023,Garrett,MD,hardness,0.62,gpg,2020-10-01,Water Quality Portal (NWIS),no,USGS-391715079223104
+nwismd.01.02100067|hardness,24023,Garrett,MD,hardness,0.79,gpg,2020-10-01,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02100068|hardness,24023,Garrett,MD,hardness,20.94,gpg,2020-10-01,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02100058|hardness,24023,Garrett,MD,hardness,41.58,gpg,2020-10-28,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02200049|hardness,24023,Garrett,MD,hardness,94.74,gpg,2021-10-04,Water Quality Portal (NWIS),no,USGS-391855079215401
+nwismd.01.02200050|hardness,24023,Garrett,MD,hardness,0.64,gpg,2021-10-04,Water Quality Portal (NWIS),no,USGS-391715079223104
+nwismd.01.02200051|hardness,24023,Garrett,MD,hardness,0.83,gpg,2021-10-04,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02200052|hardness,24023,Garrett,MD,hardness,3.4,gpg,2021-10-04,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02200053|hardness,24023,Garrett,MD,hardness,20.29,gpg,2021-10-04,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02200054|hardness,24023,Garrett,MD,hardness,20.82,gpg,2021-10-04,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02200055|hardness,24023,Garrett,MD,hardness,5.91,gpg,2021-10-04,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02200056|hardness,24023,Garrett,MD,hardness,3.12,gpg,2021-10-04,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02200058|hardness,24023,Garrett,MD,hardness,4.51,gpg,2021-10-04,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02200059|hardness,24023,Garrett,MD,hardness,15.67,gpg,2021-10-04,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02200060|hardness,24023,Garrett,MD,hardness,2.53,gpg,2021-10-04,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02200057|hardness,24023,Garrett,MD,hardness,45.5,gpg,2021-10-27,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02300049|hardness,24023,Garrett,MD,hardness,2.36,gpg,2022-10-03,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02300051|hardness,24023,Garrett,MD,hardness,28.83,gpg,2022-10-03,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02300052|hardness,24023,Garrett,MD,hardness,3.75,gpg,2022-10-03,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02300053|hardness,24023,Garrett,MD,hardness,24.8,gpg,2022-10-03,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02300055|hardness,24023,Garrett,MD,hardness,3.16,gpg,2022-10-03,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02300056|hardness,24023,Garrett,MD,hardness,5.79,gpg,2022-10-03,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02300057|hardness,24023,Garrett,MD,hardness,26.02,gpg,2022-10-03,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02300058|hardness,24023,Garrett,MD,hardness,6.73,gpg,2022-10-03,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02300059|hardness,24023,Garrett,MD,hardness,0.72,gpg,2022-10-03,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02300060|hardness,24023,Garrett,MD,hardness,0.63,gpg,2022-10-03,Water Quality Portal (NWIS),no,USGS-391715079223104
+nwismd.01.02300148|hardness,24023,Garrett,MD,hardness,90.06,gpg,2022-10-03,Water Quality Portal (NWIS),no,USGS-391855079215401
+nwismd.01.02300054|hardness,24023,Garrett,MD,hardness,51.64,gpg,2022-10-26,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.01500742|iron,24023,Garrett,MD,iron,,mg/L,2015-05-26,Water Quality Portal (NWIS),yes,USGS-394242079263101
+nwismd.01.01500743|iron,24023,Garrett,MD,iron,0.0045,mg/L,2015-05-27,Water Quality Portal (NWIS),no,USGS-392703079182601
+nwismd.01.01500771|iron,24023,Garrett,MD,iron,,mg/L,2015-06-01,Water Quality Portal (NWIS),yes,USGS-393340079282001
+nwismd.01.01500772|iron,24023,Garrett,MD,iron,0.178,mg/L,2015-06-02,Water Quality Portal (NWIS),no,USGS-392358079174601
+nwismd.01.01500980|iron,24023,Garrett,MD,iron,0.0386,mg/L,2015-06-23,Water Quality Portal (NWIS),no,USGS-393041079122901
+nwismd.01.01500981|iron,24023,Garrett,MD,iron,0.0594,mg/L,2015-06-24,Water Quality Portal (NWIS),no,USGS-393327079225301
+nwismd.01.01501138|iron,24023,Garrett,MD,iron,0.0208,mg/L,2015-07-07,Water Quality Portal (NWIS),no,USGS-393601079182801
+nwismd.01.01501137|iron,24023,Garrett,MD,iron,0.0099,mg/L,2015-07-08,Water Quality Portal (NWIS),no,USGS-392637079083001
+nwismd.01.01501136|iron,24023,Garrett,MD,iron,11.6,mg/L,2015-07-14,Water Quality Portal (NWIS),no,USGS-394320079040501
+nwismd.01.01501135|iron,24023,Garrett,MD,iron,0.0576,mg/L,2015-07-20,Water Quality Portal (NWIS),no,USGS-393825079111601
+nwismd.01.01501163|iron,24023,Garrett,MD,iron,3.52,mg/L,2015-07-21,Water Quality Portal (NWIS),no,USGS-393000079252001
+nwismd.01.01501164|iron,24023,Garrett,MD,iron,0.691,mg/L,2015-07-22,Water Quality Portal (NWIS),no,USGS-393419079234601
+nwismd.01.01501162|iron,24023,Garrett,MD,iron,,mg/L,2015-07-27,Water Quality Portal (NWIS),yes,USGS-393937079041001
+nwismd.01.01501176|iron,24023,Garrett,MD,iron,5.8,mg/L,2015-07-28,Water Quality Portal (NWIS),no,USGS-392729079243901
+nwismd.01.01501177|iron,24023,Garrett,MD,iron,0.0077,mg/L,2015-07-29,Water Quality Portal (NWIS),no,USGS-392333079115501
+nwismd.01.01501179|iron,24023,Garrett,MD,iron,0.12,mg/L,2015-08-04,Water Quality Portal (NWIS),no,USGS-392044079271001
+nwismd.01.01501187|iron,24023,Garrett,MD,iron,0.0089,mg/L,2015-08-11,Water Quality Portal (NWIS),no,USGS-392027079195801
+nwismd.01.01501210|iron,24023,Garrett,MD,iron,0.0251,mg/L,2015-08-17,Water Quality Portal (NWIS),no,USGS-392301079251601
+nwismd.01.01501211|iron,24023,Garrett,MD,iron,0.468,mg/L,2015-08-18,Water Quality Portal (NWIS),no,USGS-393902079282601
+nwismd.01.01501241|iron,24023,Garrett,MD,iron,,mg/L,2015-08-24,Water Quality Portal (NWIS),yes,USGS-392853079215801
+nwismd.01.01501312|iron,24023,Garrett,MD,iron,,mg/L,2015-08-31,Water Quality Portal (NWIS),yes,USGS-393108079230101
+nwismd.01.01501313|iron,24023,Garrett,MD,iron,2.36,mg/L,2015-09-01,Water Quality Portal (NWIS),no,USGS-393259079190201
+nwismd.01.01600065|iron,24023,Garrett,MD,iron,0.009,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391715079223103
+nwismd.01.01600066|iron,24023,Garrett,MD,iron,0.0286,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01600067|iron,24023,Garrett,MD,iron,,mg/L,2015-10-07,Water Quality Portal (NWIS),yes,USGS-391715079223101
+nwismd.01.01600068|iron,24023,Garrett,MD,iron,0.246,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01600069|iron,24023,Garrett,MD,iron,0.15,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391530079244401
+nwismd.01.01600070|iron,24023,Garrett,MD,iron,0.0197,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.01600071|iron,24023,Garrett,MD,iron,3.34,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01600072|iron,24023,Garrett,MD,iron,5.52,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01600073|iron,24023,Garrett,MD,iron,17.0,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01600074|iron,24023,Garrett,MD,iron,0.162,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01600075|iron,24023,Garrett,MD,iron,0.0992,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01600057|iron,24023,Garrett,MD,iron,47.8,mg/L,2015-11-02,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.01600877|iron,24023,Garrett,MD,iron,,mg/L,2016-06-14,Water Quality Portal (NWIS),yes,USGS-393934079042801
+nwismd.01.01601150|iron,24023,Garrett,MD,iron,0.0894,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01601158|iron,24023,Garrett,MD,iron,20.9,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01601159|iron,24023,Garrett,MD,iron,2.67,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01601160|iron,24023,Garrett,MD,iron,0.0143,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.01601161|iron,24023,Garrett,MD,iron,0.0207,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391530079244401
+nwismd.01.01601162|iron,24023,Garrett,MD,iron,0.197,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01601163|iron,24023,Garrett,MD,iron,0.0238,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01601164|iron,24023,Garrett,MD,iron,,mg/L,2016-09-28,Water Quality Portal (NWIS),yes,USGS-391715079223101
+nwismd.01.01601165|iron,24023,Garrett,MD,iron,0.084,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01601166|iron,24023,Garrett,MD,iron,0.0112,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391715079223103
+nwismd.01.01601167|iron,24023,Garrett,MD,iron,8.38,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01701616|iron,24023,Garrett,MD,iron,,mg/L,2017-09-28,Water Quality Portal (NWIS),yes,USGS-391559079245901
+nwismd.01.01701617|iron,24023,Garrett,MD,iron,,mg/L,2017-09-28,Water Quality Portal (NWIS),yes,USGS-391413079265501
+nwismd.01.01701618|iron,24023,Garrett,MD,iron,3.68,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01701619|iron,24023,Garrett,MD,iron,2.05,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01701650|iron,24023,Garrett,MD,iron,2.83,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01701656|iron,24023,Garrett,MD,iron,0.0447,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01701657|iron,24023,Garrett,MD,iron,0.017,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391715079223103
+nwismd.01.01701658|iron,24023,Garrett,MD,iron,0.0708,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01701659|iron,24023,Garrett,MD,iron,0.0395,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01701660|iron,24023,Garrett,MD,iron,,mg/L,2017-09-28,Water Quality Portal (NWIS),yes,USGS-391715079223101
+nwismd.01.01800047|iron,24023,Garrett,MD,iron,41.4,mg/L,2017-10-23,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.01800201|iron,24023,Garrett,MD,iron,0.0236,mg/L,2017-11-06,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01900080|iron,24023,Garrett,MD,iron,0.0491,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01900081|iron,24023,Garrett,MD,iron,0.0172,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.01900082|iron,24023,Garrett,MD,iron,0.0189,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01900083|iron,24023,Garrett,MD,iron,0.551,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01900084|iron,24023,Garrett,MD,iron,0.0127,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01900085|iron,24023,Garrett,MD,iron,,mg/L,2018-10-02,Water Quality Portal (NWIS),yes,USGS-391413079265501
+nwismd.01.01900086|iron,24023,Garrett,MD,iron,26.8,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01900087|iron,24023,Garrett,MD,iron,0.0571,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01900088|iron,24023,Garrett,MD,iron,1.91,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01900079|iron,24023,Garrett,MD,iron,64.4,mg/L,2018-10-22,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02000071|iron,24023,Garrett,MD,iron,0.0493,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02000072|iron,24023,Garrett,MD,iron,0.252,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02000073|iron,24023,Garrett,MD,iron,1.19,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02000074|iron,24023,Garrett,MD,iron,3.56,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02000075|iron,24023,Garrett,MD,iron,2.41,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02000076|iron,24023,Garrett,MD,iron,,mg/L,2019-10-01,Water Quality Portal (NWIS),yes,USGS-391413079265501
+nwismd.01.02000077|iron,24023,Garrett,MD,iron,,mg/L,2019-10-01,Water Quality Portal (NWIS),yes,USGS-391530079244403
+nwismd.01.02000078|iron,24023,Garrett,MD,iron,0.0307,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02000079|iron,24023,Garrett,MD,iron,,mg/L,2019-10-01,Water Quality Portal (NWIS),yes,USGS-391715079223101
+nwismd.01.02000070|iron,24023,Garrett,MD,iron,38.8,mg/L,2019-10-23,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02100059|iron,24023,Garrett,MD,iron,0.079,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02100060|iron,24023,Garrett,MD,iron,0.178,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02100061|iron,24023,Garrett,MD,iron,18.9,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02100062|iron,24023,Garrett,MD,iron,1.06,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02100063|iron,24023,Garrett,MD,iron,2.4,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02100064|iron,24023,Garrett,MD,iron,0.0095,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02100065|iron,24023,Garrett,MD,iron,2.16,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02100066|iron,24023,Garrett,MD,iron,0.0441,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391715079223104
+nwismd.01.02100067|iron,24023,Garrett,MD,iron,0.0338,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02100068|iron,24023,Garrett,MD,iron,2.71,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02100058|iron,24023,Garrett,MD,iron,53.7,mg/L,2020-10-28,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02200049|iron,24023,Garrett,MD,iron,39.0,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391855079215401
+nwismd.01.02200050|iron,24023,Garrett,MD,iron,0.0206,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391715079223104
+nwismd.01.02200051|iron,24023,Garrett,MD,iron,0.0386,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02200052|iron,24023,Garrett,MD,iron,0.009,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02200053|iron,24023,Garrett,MD,iron,0.0054,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02200054|iron,24023,Garrett,MD,iron,3.49,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02200055|iron,24023,Garrett,MD,iron,0.48,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02200056|iron,24023,Garrett,MD,iron,1.03,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02200058|iron,24023,Garrett,MD,iron,1.14,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02200059|iron,24023,Garrett,MD,iron,4.73,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02200060|iron,24023,Garrett,MD,iron,,mg/L,2021-10-04,Water Quality Portal (NWIS),yes,USGS-391413079265501
+nwismd.01.02200057|iron,24023,Garrett,MD,iron,25.3,mg/L,2021-10-27,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02300049|iron,24023,Garrett,MD,iron,0.0116,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02300051|iron,24023,Garrett,MD,iron,10.4,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02300052|iron,24023,Garrett,MD,iron,0.2,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02300053|iron,24023,Garrett,MD,iron,0.0054,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02300055|iron,24023,Garrett,MD,iron,0.0083,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02300056|iron,24023,Garrett,MD,iron,0.0515,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02300057|iron,24023,Garrett,MD,iron,6.66,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02300058|iron,24023,Garrett,MD,iron,0.0174,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02300059|iron,24023,Garrett,MD,iron,0.0105,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02300060|iron,24023,Garrett,MD,iron,0.0488,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391715079223104
+nwismd.01.02300148|iron,24023,Garrett,MD,iron,38.2,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391855079215401
+nwismd.01.02300054|iron,24023,Garrett,MD,iron,22.9,mg/L,2022-10-26,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.01500742|manganese,24023,Garrett,MD,manganese,0.0332,mg/L,2015-05-26,Water Quality Portal (NWIS),no,USGS-394242079263101
+nwismd.01.01500743|manganese,24023,Garrett,MD,manganese,0.0117,mg/L,2015-05-27,Water Quality Portal (NWIS),no,USGS-392703079182601
+nwismd.01.01500771|manganese,24023,Garrett,MD,manganese,,mg/L,2015-06-01,Water Quality Portal (NWIS),yes,USGS-393340079282001
+nwismd.01.01500772|manganese,24023,Garrett,MD,manganese,0.647,mg/L,2015-06-02,Water Quality Portal (NWIS),no,USGS-392358079174601
+nwismd.01.01500980|manganese,24023,Garrett,MD,manganese,0.0095,mg/L,2015-06-23,Water Quality Portal (NWIS),no,USGS-393041079122901
+nwismd.01.01500981|manganese,24023,Garrett,MD,manganese,0.0456,mg/L,2015-06-24,Water Quality Portal (NWIS),no,USGS-393327079225301
+nwismd.01.01501138|manganese,24023,Garrett,MD,manganese,0.008,mg/L,2015-07-07,Water Quality Portal (NWIS),no,USGS-393601079182801
+nwismd.01.01501137|manganese,24023,Garrett,MD,manganese,0.0006,mg/L,2015-07-08,Water Quality Portal (NWIS),no,USGS-392637079083001
+nwismd.01.01501136|manganese,24023,Garrett,MD,manganese,0.507,mg/L,2015-07-14,Water Quality Portal (NWIS),no,USGS-394320079040501
+nwismd.01.01501135|manganese,24023,Garrett,MD,manganese,0.0374,mg/L,2015-07-20,Water Quality Portal (NWIS),no,USGS-393825079111601
+nwismd.01.01501163|manganese,24023,Garrett,MD,manganese,1.16,mg/L,2015-07-21,Water Quality Portal (NWIS),no,USGS-393000079252001
+nwismd.01.01501164|manganese,24023,Garrett,MD,manganese,0.144,mg/L,2015-07-22,Water Quality Portal (NWIS),no,USGS-393419079234601
+nwismd.01.01501162|manganese,24023,Garrett,MD,manganese,0.0011,mg/L,2015-07-27,Water Quality Portal (NWIS),no,USGS-393937079041001
+nwismd.01.01501176|manganese,24023,Garrett,MD,manganese,0.0911,mg/L,2015-07-28,Water Quality Portal (NWIS),no,USGS-392729079243901
+nwismd.01.01501177|manganese,24023,Garrett,MD,manganese,0.0068,mg/L,2015-07-29,Water Quality Portal (NWIS),no,USGS-392333079115501
+nwismd.01.01501179|manganese,24023,Garrett,MD,manganese,0.0857,mg/L,2015-08-04,Water Quality Portal (NWIS),no,USGS-392044079271001
+nwismd.01.01501187|manganese,24023,Garrett,MD,manganese,0.0028,mg/L,2015-08-11,Water Quality Portal (NWIS),no,USGS-392027079195801
+nwismd.01.01501210|manganese,24023,Garrett,MD,manganese,0.0451,mg/L,2015-08-17,Water Quality Portal (NWIS),no,USGS-392301079251601
+nwismd.01.01501211|manganese,24023,Garrett,MD,manganese,0.0165,mg/L,2015-08-18,Water Quality Portal (NWIS),no,USGS-393902079282601
+nwismd.01.01501241|manganese,24023,Garrett,MD,manganese,,mg/L,2015-08-24,Water Quality Portal (NWIS),yes,USGS-392853079215801
+nwismd.01.01501312|manganese,24023,Garrett,MD,manganese,0.124,mg/L,2015-08-31,Water Quality Portal (NWIS),no,USGS-393108079230101
+nwismd.01.01501313|manganese,24023,Garrett,MD,manganese,0.477,mg/L,2015-09-01,Water Quality Portal (NWIS),no,USGS-393259079190201
+nwismd.01.01600065|manganese,24023,Garrett,MD,manganese,0.004,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391715079223103
+nwismd.01.01600066|manganese,24023,Garrett,MD,manganese,0.0198,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01600067|manganese,24023,Garrett,MD,manganese,0.0096,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.01600068|manganese,24023,Garrett,MD,manganese,0.0184,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01600069|manganese,24023,Garrett,MD,manganese,0.0953,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391530079244401
+nwismd.01.01600070|manganese,24023,Garrett,MD,manganese,0.0008,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.01600071|manganese,24023,Garrett,MD,manganese,0.322,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01600072|manganese,24023,Garrett,MD,manganese,0.304,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01600073|manganese,24023,Garrett,MD,manganese,1.1,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01600074|manganese,24023,Garrett,MD,manganese,0.0096,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01600075|manganese,24023,Garrett,MD,manganese,0.049,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01600057|manganese,24023,Garrett,MD,manganese,2.35,mg/L,2015-11-02,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.01600877|manganese,24023,Garrett,MD,manganese,0.0017,mg/L,2016-06-14,Water Quality Portal (NWIS),no,USGS-393934079042801
+nwismd.01.01601150|manganese,24023,Garrett,MD,manganese,0.0442,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01601158|manganese,24023,Garrett,MD,manganese,,mg/L,2016-09-28,Water Quality Portal (NWIS),yes,USGS-391448079254666
+nwismd.01.01601159|manganese,24023,Garrett,MD,manganese,0.483,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01601160|manganese,24023,Garrett,MD,manganese,0.101,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.01601161|manganese,24023,Garrett,MD,manganese,0.0805,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391530079244401
+nwismd.01.01601162|manganese,24023,Garrett,MD,manganese,0.025,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01601163|manganese,24023,Garrett,MD,manganese,0.0111,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01601164|manganese,24023,Garrett,MD,manganese,0.0097,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.01601165|manganese,24023,Garrett,MD,manganese,0.0238,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01601166|manganese,24023,Garrett,MD,manganese,0.005,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391715079223103
+nwismd.01.01601167|manganese,24023,Garrett,MD,manganese,0.59,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01701616|manganese,24023,Garrett,MD,manganese,0.05,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01701617|manganese,24023,Garrett,MD,manganese,0.0254,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.01701618|manganese,24023,Garrett,MD,manganese,0.54,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01701619|manganese,24023,Garrett,MD,manganese,0.0844,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01701650|manganese,24023,Garrett,MD,manganese,0.225,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01701656|manganese,24023,Garrett,MD,manganese,0.0388,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01701657|manganese,24023,Garrett,MD,manganese,0.0055,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391715079223103
+nwismd.01.01701658|manganese,24023,Garrett,MD,manganese,0.028,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01701659|manganese,24023,Garrett,MD,manganese,0.026,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01701660|manganese,24023,Garrett,MD,manganese,0.0074,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.01800047|manganese,24023,Garrett,MD,manganese,2.29,mg/L,2017-10-23,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.01800201|manganese,24023,Garrett,MD,manganese,0.036,mg/L,2017-11-06,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01900080|manganese,24023,Garrett,MD,manganese,0.0188,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01900081|manganese,24023,Garrett,MD,manganese,0.0516,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.01900082|manganese,24023,Garrett,MD,manganese,0.0535,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01900083|manganese,24023,Garrett,MD,manganese,0.0323,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01900084|manganese,24023,Garrett,MD,manganese,0.0902,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01900085|manganese,24023,Garrett,MD,manganese,0.128,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.01900086|manganese,24023,Garrett,MD,manganese,1.3,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01900087|manganese,24023,Garrett,MD,manganese,0.0984,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01900088|manganese,24023,Garrett,MD,manganese,0.141,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01900079|manganese,24023,Garrett,MD,manganese,3.72,mg/L,2018-10-22,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02000071|manganese,24023,Garrett,MD,manganese,0.0383,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02000072|manganese,24023,Garrett,MD,manganese,0.0405,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02000073|manganese,24023,Garrett,MD,manganese,0.133,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02000074|manganese,24023,Garrett,MD,manganese,0.45,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02000075|manganese,24023,Garrett,MD,manganese,0.533,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02000076|manganese,24023,Garrett,MD,manganese,0.0255,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02000077|manganese,24023,Garrett,MD,manganese,0.0466,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02000078|manganese,24023,Garrett,MD,manganese,0.0204,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02000079|manganese,24023,Garrett,MD,manganese,0.0093,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02000070|manganese,24023,Garrett,MD,manganese,2.77,mg/L,2019-10-23,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02100059|manganese,24023,Garrett,MD,manganese,0.316,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02100060|manganese,24023,Garrett,MD,manganese,0.0746,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02100061|manganese,24023,Garrett,MD,manganese,1.44,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02100062|manganese,24023,Garrett,MD,manganese,0.275,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02100063|manganese,24023,Garrett,MD,manganese,0.386,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02100064|manganese,24023,Garrett,MD,manganese,0.0207,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02100065|manganese,24023,Garrett,MD,manganese,0.154,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02100066|manganese,24023,Garrett,MD,manganese,0.0231,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391715079223104
+nwismd.01.02100067|manganese,24023,Garrett,MD,manganese,0.0214,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02100068|manganese,24023,Garrett,MD,manganese,0.643,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02100058|manganese,24023,Garrett,MD,manganese,2.6,mg/L,2020-10-28,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02200049|manganese,24023,Garrett,MD,manganese,2.67,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391855079215401
+nwismd.01.02200050|manganese,24023,Garrett,MD,manganese,0.0214,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391715079223104
+nwismd.01.02200051|manganese,24023,Garrett,MD,manganese,0.0195,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02200052|manganese,24023,Garrett,MD,manganese,0.0145,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02200053|manganese,24023,Garrett,MD,manganese,0.0955,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02200054|manganese,24023,Garrett,MD,manganese,0.264,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02200055|manganese,24023,Garrett,MD,manganese,0.0505,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02200056|manganese,24023,Garrett,MD,manganese,0.12,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02200058|manganese,24023,Garrett,MD,manganese,0.0503,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02200059|manganese,24023,Garrett,MD,manganese,0.425,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02200060|manganese,24023,Garrett,MD,manganese,0.0628,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02200057|manganese,24023,Garrett,MD,manganese,2.29,mg/L,2021-10-27,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02300049|manganese,24023,Garrett,MD,manganese,0.0229,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02300051|manganese,24023,Garrett,MD,manganese,0.509,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02300052|manganese,24023,Garrett,MD,manganese,0.086,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02300053|manganese,24023,Garrett,MD,manganese,0.022,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02300055|manganese,24023,Garrett,MD,manganese,0.065,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02300056|manganese,24023,Garrett,MD,manganese,0.0703,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02300057|manganese,24023,Garrett,MD,manganese,0.436,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02300058|manganese,24023,Garrett,MD,manganese,0.0188,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02300059|manganese,24023,Garrett,MD,manganese,0.0122,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02300060|manganese,24023,Garrett,MD,manganese,0.0214,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391715079223104
+nwismd.01.02300148|manganese,24023,Garrett,MD,manganese,3.1,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391855079215401
+nwismd.01.02300054|manganese,24023,Garrett,MD,manganese,2.44,mg/L,2022-10-26,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.01500742|ph,24023,Garrett,MD,ph,7.5,pH,2015-05-26,Water Quality Portal (NWIS),no,USGS-394242079263101
+nwismd.01.01500743|ph,24023,Garrett,MD,ph,8.3,pH,2015-05-27,Water Quality Portal (NWIS),no,USGS-392703079182601
+nwismd.01.01500771|ph,24023,Garrett,MD,ph,6.9,pH,2015-06-01,Water Quality Portal (NWIS),no,USGS-393340079282001
+nwismd.01.01500772|ph,24023,Garrett,MD,ph,5.8,pH,2015-06-02,Water Quality Portal (NWIS),no,USGS-392358079174601
+nwismd.01.01500980|ph,24023,Garrett,MD,ph,8.1,pH,2015-06-23,Water Quality Portal (NWIS),no,USGS-393041079122901
+nwismd.01.01500981|ph,24023,Garrett,MD,ph,8.4,pH,2015-06-24,Water Quality Portal (NWIS),no,USGS-393327079225301
+nwismd.01.01501138|ph,24023,Garrett,MD,ph,9.4,pH,2015-07-07,Water Quality Portal (NWIS),no,USGS-393601079182801
+nwismd.01.01501137|ph,24023,Garrett,MD,ph,6.9,pH,2015-07-08,Water Quality Portal (NWIS),no,USGS-392637079083001
+nwismd.01.01501136|ph,24023,Garrett,MD,ph,6.3,pH,2015-07-14,Water Quality Portal (NWIS),no,USGS-394320079040501
+nwismd.01.01501135|ph,24023,Garrett,MD,ph,7.6,pH,2015-07-20,Water Quality Portal (NWIS),no,USGS-393825079111601
+nwismd.01.01501163|ph,24023,Garrett,MD,ph,6.3,pH,2015-07-21,Water Quality Portal (NWIS),no,USGS-393000079252001
+nwismd.01.01501164|ph,24023,Garrett,MD,ph,7.6,pH,2015-07-22,Water Quality Portal (NWIS),no,USGS-393419079234601
+nwismd.01.01501162|ph,24023,Garrett,MD,ph,6.4,pH,2015-07-27,Water Quality Portal (NWIS),no,USGS-393937079041001
+nwismd.01.01501176|ph,24023,Garrett,MD,ph,6.7,pH,2015-07-28,Water Quality Portal (NWIS),no,USGS-392729079243901
+nwismd.01.01501177|ph,24023,Garrett,MD,ph,8.8,pH,2015-07-29,Water Quality Portal (NWIS),no,USGS-392333079115501
+nwismd.01.01501179|ph,24023,Garrett,MD,ph,7.8,pH,2015-08-04,Water Quality Portal (NWIS),no,USGS-392044079271001
+nwismd.01.01501187|ph,24023,Garrett,MD,ph,7.2,pH,2015-08-11,Water Quality Portal (NWIS),no,USGS-392027079195801
+nwismd.01.01501210|ph,24023,Garrett,MD,ph,7.1,pH,2015-08-17,Water Quality Portal (NWIS),no,USGS-392301079251601
+nwismd.01.01501211|ph,24023,Garrett,MD,ph,8.8,pH,2015-08-18,Water Quality Portal (NWIS),no,USGS-393902079282601
+nwismd.01.01501241|ph,24023,Garrett,MD,ph,8.1,pH,2015-08-24,Water Quality Portal (NWIS),no,USGS-392853079215801
+nwismd.01.01501312|ph,24023,Garrett,MD,ph,6.4,pH,2015-08-31,Water Quality Portal (NWIS),no,USGS-393108079230101
+nwismd.01.01501313|ph,24023,Garrett,MD,ph,5.1,pH,2015-09-01,Water Quality Portal (NWIS),no,USGS-393259079190201
+nwismd.01.01600065|ph,24023,Garrett,MD,ph,9.5,pH,2015-10-07,Water Quality Portal (NWIS),no,USGS-391715079223103
+nwismd.01.01600066|ph,24023,Garrett,MD,ph,8.8,pH,2015-10-07,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01600067|ph,24023,Garrett,MD,ph,10.0,pH,2015-10-07,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.01600068|ph,24023,Garrett,MD,ph,8.3,pH,2015-10-07,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01600069|ph,24023,Garrett,MD,ph,8.1,pH,2015-10-07,Water Quality Portal (NWIS),no,USGS-391530079244401
+nwismd.01.01600070|ph,24023,Garrett,MD,ph,7.8,pH,2015-10-07,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.01600071|ph,24023,Garrett,MD,ph,7.2,pH,2015-10-07,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01600072|ph,24023,Garrett,MD,ph,7.0,pH,2015-10-07,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01600073|ph,24023,Garrett,MD,ph,7.2,pH,2015-10-07,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01600074|ph,24023,Garrett,MD,ph,8.8,pH,2015-10-07,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01600075|ph,24023,Garrett,MD,ph,9.3,pH,2015-10-07,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01600057|ph,24023,Garrett,MD,ph,6.7,pH,2015-11-02,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.01600877|ph,24023,Garrett,MD,ph,6.6,pH,2016-06-14,Water Quality Portal (NWIS),no,USGS-393934079042801
+nwismd.01.01601150|ph,24023,Garrett,MD,ph,9.1,pH,2016-09-28,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01601158|ph,24023,Garrett,MD,ph,6.9,pH,2016-09-28,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01601159|ph,24023,Garrett,MD,ph,6.9,pH,2016-09-28,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01601160|ph,24023,Garrett,MD,ph,7.8,pH,2016-09-28,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.01601161|ph,24023,Garrett,MD,ph,8.0,pH,2016-09-28,Water Quality Portal (NWIS),no,USGS-391530079244401
+nwismd.01.01601162|ph,24023,Garrett,MD,ph,7.9,pH,2016-09-28,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01601163|ph,24023,Garrett,MD,ph,8.4,pH,2016-09-28,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01601164|ph,24023,Garrett,MD,ph,10.0,pH,2016-09-28,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.01601165|ph,24023,Garrett,MD,ph,8.8,pH,2016-09-28,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01601166|ph,24023,Garrett,MD,ph,9.4,pH,2016-09-28,Water Quality Portal (NWIS),no,USGS-391715079223103
+nwismd.01.01601167|ph,24023,Garrett,MD,ph,7.4,pH,2016-09-28,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01701616|ph,24023,Garrett,MD,ph,9.0,pH,2017-09-28,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01701617|ph,24023,Garrett,MD,ph,7.9,pH,2017-09-28,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.01701618|ph,24023,Garrett,MD,ph,7.4,pH,2017-09-28,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01701619|ph,24023,Garrett,MD,ph,7.0,pH,2017-09-28,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01701650|ph,24023,Garrett,MD,ph,7.6,pH,2017-09-28,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01701656|ph,24023,Garrett,MD,ph,8.4,pH,2017-09-28,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01701657|ph,24023,Garrett,MD,ph,9.3,pH,2017-09-28,Water Quality Portal (NWIS),no,USGS-391715079223103
+nwismd.01.01701658|ph,24023,Garrett,MD,ph,8.0,pH,2017-09-28,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01701659|ph,24023,Garrett,MD,ph,8.5,pH,2017-09-28,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01701660|ph,24023,Garrett,MD,ph,10.0,pH,2017-09-28,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.01800047|ph,24023,Garrett,MD,ph,6.8,pH,2017-10-23,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.01800201|ph,24023,Garrett,MD,ph,9.1,pH,2017-11-06,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01900080|ph,24023,Garrett,MD,ph,8.5,pH,2018-10-02,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01900081|ph,24023,Garrett,MD,ph,9.4,pH,2018-10-02,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.01900082|ph,24023,Garrett,MD,ph,7.8,pH,2018-10-02,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01900083|ph,24023,Garrett,MD,ph,7.1,pH,2018-10-02,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01900084|ph,24023,Garrett,MD,ph,8.8,pH,2018-10-02,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01900085|ph,24023,Garrett,MD,ph,7.7,pH,2018-10-02,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.01900086|ph,24023,Garrett,MD,ph,6.9,pH,2018-10-02,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01900087|ph,24023,Garrett,MD,ph,8.0,pH,2018-10-02,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01900088|ph,24023,Garrett,MD,ph,7.7,pH,2018-10-02,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01900079|ph,24023,Garrett,MD,ph,6.6,pH,2018-10-22,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02000071|ph,24023,Garrett,MD,ph,9.1,pH,2019-10-01,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02000072|ph,24023,Garrett,MD,ph,8.2,pH,2019-10-01,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02000073|ph,24023,Garrett,MD,ph,7.7,pH,2019-10-01,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02000074|ph,24023,Garrett,MD,ph,7.4,pH,2019-10-01,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02000075|ph,24023,Garrett,MD,ph,7.0,pH,2019-10-01,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02000076|ph,24023,Garrett,MD,ph,7.8,pH,2019-10-01,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02000077|ph,24023,Garrett,MD,ph,8.1,pH,2019-10-01,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02000078|ph,24023,Garrett,MD,ph,8.7,pH,2019-10-01,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02000079|ph,24023,Garrett,MD,ph,9.9,pH,2019-10-01,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02000070|ph,24023,Garrett,MD,ph,6.7,pH,2019-10-23,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02100059|ph,24023,Garrett,MD,ph,7.7,pH,2020-10-01,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02100060|ph,24023,Garrett,MD,ph,8.6,pH,2020-10-01,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02100061|ph,24023,Garrett,MD,ph,7.3,pH,2020-10-01,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02100062|ph,24023,Garrett,MD,ph,7.9,pH,2020-10-01,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02100063|ph,24023,Garrett,MD,ph,7.0,pH,2020-10-01,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02100064|ph,24023,Garrett,MD,ph,7.7,pH,2020-10-01,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02100065|ph,24023,Garrett,MD,ph,7.5,pH,2020-10-01,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02100066|ph,24023,Garrett,MD,ph,8.7,pH,2020-10-01,Water Quality Portal (NWIS),no,USGS-391715079223104
+nwismd.01.02100067|ph,24023,Garrett,MD,ph,8.5,pH,2020-10-01,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02100068|ph,24023,Garrett,MD,ph,7.6,pH,2020-10-01,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02100058|ph,24023,Garrett,MD,ph,6.9,pH,2020-10-28,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02200049|ph,24023,Garrett,MD,ph,7.3,pH,2021-10-04,Water Quality Portal (NWIS),no,USGS-391855079215401
+nwismd.01.02200050|ph,24023,Garrett,MD,ph,8.4,pH,2021-10-04,Water Quality Portal (NWIS),no,USGS-391715079223104
+nwismd.01.02200051|ph,24023,Garrett,MD,ph,8.5,pH,2021-10-04,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02200052|ph,24023,Garrett,MD,ph,9.7,pH,2021-10-04,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02200053|ph,24023,Garrett,MD,ph,9.2,pH,2021-10-04,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02200054|ph,24023,Garrett,MD,ph,7.5,pH,2021-10-04,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02200055|ph,24023,Garrett,MD,ph,8.4,pH,2021-10-04,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02200056|ph,24023,Garrett,MD,ph,7.9,pH,2021-10-04,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02200058|ph,24023,Garrett,MD,ph,7.2,pH,2021-10-04,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02200059|ph,24023,Garrett,MD,ph,7.6,pH,2021-10-04,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02200060|ph,24023,Garrett,MD,ph,7.8,pH,2021-10-04,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02200057|ph,24023,Garrett,MD,ph,7.1,pH,2021-10-27,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02300049|ph,24023,Garrett,MD,ph,7.7,pH,2022-10-03,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02300051|ph,24023,Garrett,MD,ph,7.4,pH,2022-10-03,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02300052|ph,24023,Garrett,MD,ph,7.0,pH,2022-10-03,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02300053|ph,24023,Garrett,MD,ph,9.7,pH,2022-10-03,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02300055|ph,24023,Garrett,MD,ph,8.0,pH,2022-10-03,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02300056|ph,24023,Garrett,MD,ph,8.2,pH,2022-10-03,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02300057|ph,24023,Garrett,MD,ph,7.5,pH,2022-10-03,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02300058|ph,24023,Garrett,MD,ph,9.4,pH,2022-10-03,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02300059|ph,24023,Garrett,MD,ph,8.7,pH,2022-10-03,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02300060|ph,24023,Garrett,MD,ph,8.4,pH,2022-10-03,Water Quality Portal (NWIS),no,USGS-391715079223104
+nwismd.01.02300148|ph,24023,Garrett,MD,ph,6.8,pH,2022-10-03,Water Quality Portal (NWIS),no,USGS-391855079215401
+nwismd.01.02300054|ph,24023,Garrett,MD,ph,7.0,pH,2022-10-26,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02400037|ph,24023,Garrett,MD,ph,7.7,pH,2023-10-02,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02400038|ph,24023,Garrett,MD,ph,8.7,pH,2023-10-02,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02400039|ph,24023,Garrett,MD,ph,7.2,pH,2023-10-02,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02400041|ph,24023,Garrett,MD,ph,7.9,pH,2023-10-02,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02400042|ph,24023,Garrett,MD,ph,7.7,pH,2023-10-02,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02400043|ph,24023,Garrett,MD,ph,7.4,pH,2023-10-02,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02400044|ph,24023,Garrett,MD,ph,9.4,pH,2023-10-02,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02400045|ph,24023,Garrett,MD,ph,10.0,pH,2023-10-02,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02400046|ph,24023,Garrett,MD,ph,8.7,pH,2023-10-02,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02400047|ph,24023,Garrett,MD,ph,8.1,pH,2023-10-02,Water Quality Portal (NWIS),no,USGS-391715079223104
+nwismd.01.02400048|ph,24023,Garrett,MD,ph,6.9,pH,2023-10-02,Water Quality Portal (NWIS),no,USGS-391855079215401
+nwismd.01.02400040|ph,24023,Garrett,MD,ph,6.8,pH,2023-10-24,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.01500742|tds,24023,Garrett,MD,tds,224.0,mg/L,2015-05-26,Water Quality Portal (NWIS),no,USGS-394242079263101
+nwismd.01.01500743|tds,24023,Garrett,MD,tds,113.0,mg/L,2015-05-27,Water Quality Portal (NWIS),no,USGS-392703079182601
+nwismd.01.01500771|tds,24023,Garrett,MD,tds,79.0,mg/L,2015-06-01,Water Quality Portal (NWIS),no,USGS-393340079282001
+nwismd.01.01500772|tds,24023,Garrett,MD,tds,32.0,mg/L,2015-06-02,Water Quality Portal (NWIS),no,USGS-392358079174601
+nwismd.01.01500980|tds,24023,Garrett,MD,tds,143.0,mg/L,2015-06-23,Water Quality Portal (NWIS),no,USGS-393041079122901
+nwismd.01.01500981|tds,24023,Garrett,MD,tds,113.0,mg/L,2015-06-24,Water Quality Portal (NWIS),no,USGS-393327079225301
+nwismd.01.01501138|tds,24023,Garrett,MD,tds,213.0,mg/L,2015-07-07,Water Quality Portal (NWIS),no,USGS-393601079182801
+nwismd.01.01501137|tds,24023,Garrett,MD,tds,148.0,mg/L,2015-07-08,Water Quality Portal (NWIS),no,USGS-392637079083001
+nwismd.01.01501136|tds,24023,Garrett,MD,tds,34.0,mg/L,2015-07-14,Water Quality Portal (NWIS),no,USGS-394320079040501
+nwismd.01.01501135|tds,24023,Garrett,MD,tds,170.0,mg/L,2015-07-20,Water Quality Portal (NWIS),no,USGS-393825079111601
+nwismd.01.01501163|tds,24023,Garrett,MD,tds,49.0,mg/L,2015-07-21,Water Quality Portal (NWIS),no,USGS-393000079252001
+nwismd.01.01501164|tds,24023,Garrett,MD,tds,129.0,mg/L,2015-07-22,Water Quality Portal (NWIS),no,USGS-393419079234601
+nwismd.01.01501162|tds,24023,Garrett,MD,tds,80.0,mg/L,2015-07-27,Water Quality Portal (NWIS),no,USGS-393937079041001
+nwismd.01.01501176|tds,24023,Garrett,MD,tds,69.0,mg/L,2015-07-28,Water Quality Portal (NWIS),no,USGS-392729079243901
+nwismd.01.01501177|tds,24023,Garrett,MD,tds,180.0,mg/L,2015-07-29,Water Quality Portal (NWIS),no,USGS-392333079115501
+nwismd.01.01501179|tds,24023,Garrett,MD,tds,112.0,mg/L,2015-08-04,Water Quality Portal (NWIS),no,USGS-392044079271001
+nwismd.01.01501187|tds,24023,Garrett,MD,tds,426.0,mg/L,2015-08-11,Water Quality Portal (NWIS),no,USGS-392027079195801
+nwismd.01.01501210|tds,24023,Garrett,MD,tds,110.0,mg/L,2015-08-17,Water Quality Portal (NWIS),no,USGS-392301079251601
+nwismd.01.01501211|tds,24023,Garrett,MD,tds,175.0,mg/L,2015-08-18,Water Quality Portal (NWIS),no,USGS-393902079282601
+nwismd.01.01501241|tds,24023,Garrett,MD,tds,106.0,mg/L,2015-08-24,Water Quality Portal (NWIS),no,USGS-392853079215801
+nwismd.01.01501312|tds,24023,Garrett,MD,tds,134.0,mg/L,2015-08-31,Water Quality Portal (NWIS),no,USGS-393108079230101
+nwismd.01.01501313|tds,24023,Garrett,MD,tds,25.0,mg/L,2015-09-01,Water Quality Portal (NWIS),no,USGS-393259079190201
+nwismd.01.01600065|tds,24023,Garrett,MD,tds,204.0,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391715079223103
+nwismd.01.01600066|tds,24023,Garrett,MD,tds,90.0,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01600067|tds,24023,Garrett,MD,tds,440.0,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.01600068|tds,24023,Garrett,MD,tds,157.0,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01600069|tds,24023,Garrett,MD,tds,312.0,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391530079244401
+nwismd.01.01600070|tds,24023,Garrett,MD,tds,137.0,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.01600071|tds,24023,Garrett,MD,tds,116.0,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01600072|tds,24023,Garrett,MD,tds,685.0,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01600073|tds,24023,Garrett,MD,tds,2100.0,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01600074|tds,24023,Garrett,MD,tds,93.0,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01600075|tds,24023,Garrett,MD,tds,176.0,mg/L,2015-10-07,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01600057|tds,24023,Garrett,MD,tds,1360.0,mg/L,2015-11-02,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.01600877|tds,24023,Garrett,MD,tds,84.0,mg/L,2016-06-14,Water Quality Portal (NWIS),no,USGS-393934079042801
+nwismd.01.01601150|tds,24023,Garrett,MD,tds,176.0,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01601158|tds,24023,Garrett,MD,tds,1220.0,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01601159|tds,24023,Garrett,MD,tds,80.0,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01601161|tds,24023,Garrett,MD,tds,327.0,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391530079244401
+nwismd.01.01601162|tds,24023,Garrett,MD,tds,151.0,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01601163|tds,24023,Garrett,MD,tds,96.0,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01601164|tds,24023,Garrett,MD,tds,418.0,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.01601165|tds,24023,Garrett,MD,tds,95.0,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01601166|tds,24023,Garrett,MD,tds,211.0,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391715079223103
+nwismd.01.01601167|tds,24023,Garrett,MD,tds,926.0,mg/L,2016-09-28,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01701616|tds,24023,Garrett,MD,tds,623.0,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01701617|tds,24023,Garrett,MD,tds,150.0,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.01701618|tds,24023,Garrett,MD,tds,1040.0,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01701619|tds,24023,Garrett,MD,tds,119.0,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01701650|tds,24023,Garrett,MD,tds,279.0,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01701656|tds,24023,Garrett,MD,tds,112.0,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01701658|tds,24023,Garrett,MD,tds,136.0,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01701659|tds,24023,Garrett,MD,tds,92.0,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01701660|tds,24023,Garrett,MD,tds,381.0,mg/L,2017-09-28,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.01800047|tds,24023,Garrett,MD,tds,1150.0,mg/L,2017-10-23,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.01900080|tds,24023,Garrett,MD,tds,93.0,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.01900081|tds,24023,Garrett,MD,tds,689.0,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.01900082|tds,24023,Garrett,MD,tds,79.0,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.01900083|tds,24023,Garrett,MD,tds,93.0,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.01900084|tds,24023,Garrett,MD,tds,583.0,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.01900085|tds,24023,Garrett,MD,tds,138.0,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.01900086|tds,24023,Garrett,MD,tds,1410.0,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.01900087|tds,24023,Garrett,MD,tds,102.0,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.01900088|tds,24023,Garrett,MD,tds,226.0,mg/L,2018-10-02,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.01900079|tds,24023,Garrett,MD,tds,1400.0,mg/L,2018-10-22,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02000071|tds,24023,Garrett,MD,tds,169.0,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02000072|tds,24023,Garrett,MD,tds,148.0,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02000073|tds,24023,Garrett,MD,tds,203.0,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02000074|tds,24023,Garrett,MD,tds,1100.0,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02000075|tds,24023,Garrett,MD,tds,116.0,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02000076|tds,24023,Garrett,MD,tds,153.0,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02000077|tds,24023,Garrett,MD,tds,51.0,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02000078|tds,24023,Garrett,MD,tds,90.0,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02000079|tds,24023,Garrett,MD,tds,343.0,mg/L,2019-10-01,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02000070|tds,24023,Garrett,MD,tds,1300.0,mg/L,2019-10-23,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02100059|tds,24023,Garrett,MD,tds,809.0,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02100060|tds,24023,Garrett,MD,tds,148.0,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02100061|tds,24023,Garrett,MD,tds,1510.0,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02100062|tds,24023,Garrett,MD,tds,390.0,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02100063|tds,24023,Garrett,MD,tds,109.0,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02100064|tds,24023,Garrett,MD,tds,153.0,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02100065|tds,24023,Garrett,MD,tds,83.0,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02100066|tds,24023,Garrett,MD,tds,117.0,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391715079223104
+nwismd.01.02100067|tds,24023,Garrett,MD,tds,99.0,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02100068|tds,24023,Garrett,MD,tds,788.0,mg/L,2020-10-01,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02100058|tds,24023,Garrett,MD,tds,1120.0,mg/L,2020-10-28,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02200049|tds,24023,Garrett,MD,tds,2230.0,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391855079215401
+nwismd.01.02200050|tds,24023,Garrett,MD,tds,117.0,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391715079223104
+nwismd.01.02200051|tds,24023,Garrett,MD,tds,109.0,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02200052|tds,24023,Garrett,MD,tds,404.0,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02200053|tds,24023,Garrett,MD,tds,629.0,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02200054|tds,24023,Garrett,MD,tds,430.0,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02200055|tds,24023,Garrett,MD,tds,144.0,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02200056|tds,24023,Garrett,MD,tds,94.0,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02200058|tds,24023,Garrett,MD,tds,107.0,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02200059|tds,24023,Garrett,MD,tds,541.0,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02200060|tds,24023,Garrett,MD,tds,154.0,mg/L,2021-10-04,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02200057|tds,24023,Garrett,MD,tds,1260.0,mg/L,2021-10-27,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.02300049|tds,24023,Garrett,MD,tds,152.0,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391413079265501
+nwismd.01.02300051|tds,24023,Garrett,MD,tds,841.0,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391448079254666
+nwismd.01.02300052|tds,24023,Garrett,MD,tds,95.0,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391505079264201
+nwismd.01.02300053|tds,24023,Garrett,MD,tds,752.0,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391559079245901
+nwismd.01.02300055|tds,24023,Garrett,MD,tds,103.0,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391530079244403
+nwismd.01.02300056|tds,24023,Garrett,MD,tds,144.0,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391539079254601
+nwismd.01.02300057|tds,24023,Garrett,MD,tds,578.0,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391539079254602
+nwismd.01.02300058|tds,24023,Garrett,MD,tds,451.0,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391715079223101
+nwismd.01.02300059|tds,24023,Garrett,MD,tds,97.0,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391715079223102
+nwismd.01.02300060|tds,24023,Garrett,MD,tds,118.0,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391715079223104
+nwismd.01.02300148|tds,24023,Garrett,MD,tds,2030.0,mg/L,2022-10-03,Water Quality Portal (NWIS),no,USGS-391855079215401
+nwismd.01.02300054|tds,24023,Garrett,MD,tds,1330.0,mg/L,2022-10-26,Water Quality Portal (NWIS),no,USGS-391523079253301
+nwismd.01.01900943|hardness,24025,Harford,MD,hardness,4.01,gpg,2019-01-09,Water Quality Portal (NWIS),no,USGS-393308076151101
+nwismd.01.01900881|hardness,24025,Harford,MD,hardness,3.3,gpg,2019-01-14,Water Quality Portal (NWIS),no,USGS-393627076221301
+nwismd.01.01900942|hardness,24025,Harford,MD,hardness,2.54,gpg,2019-01-14,Water Quality Portal (NWIS),no,USGS-394240076263501
+nwismd.01.01900934|hardness,24025,Harford,MD,hardness,3.05,gpg,2019-02-05,Water Quality Portal (NWIS),no,USGS-393158076302601
+nwismd.01.01900943|iron,24025,Harford,MD,iron,,mg/L,2019-01-09,Water Quality Portal (NWIS),yes,USGS-393308076151101
+nwismd.01.01900881|iron,24025,Harford,MD,iron,,mg/L,2019-01-14,Water Quality Portal (NWIS),yes,USGS-393627076221301
+nwismd.01.01900942|iron,24025,Harford,MD,iron,,mg/L,2019-01-14,Water Quality Portal (NWIS),yes,USGS-394240076263501
+nwismd.01.01900934|iron,24025,Harford,MD,iron,0.0292,mg/L,2019-02-05,Water Quality Portal (NWIS),no,USGS-393158076302601
+nwismd.01.01900943|manganese,24025,Harford,MD,manganese,0.0052,mg/L,2019-01-09,Water Quality Portal (NWIS),no,USGS-393308076151101
+nwismd.01.01900881|manganese,24025,Harford,MD,manganese,0.0004,mg/L,2019-01-14,Water Quality Portal (NWIS),no,USGS-393627076221301
+nwismd.01.01900942|manganese,24025,Harford,MD,manganese,0.0464,mg/L,2019-01-14,Water Quality Portal (NWIS),no,USGS-394240076263501
+nwismd.01.01900934|manganese,24025,Harford,MD,manganese,0.0047,mg/L,2019-02-05,Water Quality Portal (NWIS),no,USGS-393158076302601
+nwismd.01.01900943|ph,24025,Harford,MD,ph,5.8,pH,2019-01-09,Water Quality Portal (NWIS),no,USGS-393308076151101
+nwismd.01.01900881|ph,24025,Harford,MD,ph,6.8,pH,2019-01-14,Water Quality Portal (NWIS),no,USGS-393627076221301
+nwismd.01.01900942|ph,24025,Harford,MD,ph,6.2,pH,2019-01-14,Water Quality Portal (NWIS),no,USGS-394240076263501
+nwismd.01.01900934|ph,24025,Harford,MD,ph,4.8,pH,2019-02-05,Water Quality Portal (NWIS),no,USGS-393158076302601
+nwismd.01.02000704|ph,24025,Harford,MD,ph,5.2,pH,2020-01-29,Water Quality Portal (NWIS),no,USGS-393538076305501
+nwismd.01.02000701|ph,24025,Harford,MD,ph,5.8,pH,2020-02-24,Water Quality Portal (NWIS),no,USGS-393236076283201
+nwismd.01.02000714|ph,24025,Harford,MD,ph,5.7,pH,2020-02-24,Water Quality Portal (NWIS),no,USGS-393715076332201
+nwismd.01.02000696|ph,24025,Harford,MD,ph,5.4,pH,2020-03-04,Water Quality Portal (NWIS),no,USGS-393439076281101
+nwismd.01.01900934|tds,24025,Harford,MD,tds,110.0,mg/L,2019-02-05,Water Quality Portal (NWIS),no,USGS-393158076302601
+nwismd.01.01900932|hardness,24027,Howard,MD,hardness,4.52,gpg,2019-02-12,Water Quality Portal (NWIS),no,USGS-392056077055901
+nwismd.01.01900930|hardness,24027,Howard,MD,hardness,4.17,gpg,2019-02-13,Water Quality Portal (NWIS),no,USGS-390852076500701
+nwismd.01.01900931|hardness,24027,Howard,MD,hardness,4.51,gpg,2019-02-13,Water Quality Portal (NWIS),no,USGS-391111076585101
+nwismd.01.01900926|hardness,24027,Howard,MD,hardness,3.51,gpg,2019-03-26,Water Quality Portal (NWIS),no,USGS-392058076573701
+nwismd.01.01901602|hardness,24027,Howard,MD,hardness,4.48,gpg,2019-07-29,Water Quality Portal (NWIS),no,USGS-392056077055901
+nwismd.01.01900932|iron,24027,Howard,MD,iron,,mg/L,2019-02-12,Water Quality Portal (NWIS),yes,USGS-392056077055901
+nwismd.01.01900930|iron,24027,Howard,MD,iron,,mg/L,2019-02-13,Water Quality Portal (NWIS),yes,USGS-390852076500701
+nwismd.01.01900931|iron,24027,Howard,MD,iron,,mg/L,2019-02-13,Water Quality Portal (NWIS),yes,USGS-391111076585101
+nwismd.01.01900926|iron,24027,Howard,MD,iron,,mg/L,2019-03-26,Water Quality Portal (NWIS),yes,USGS-392058076573701
+nwismd.01.01901372|iron,24027,Howard,MD,iron,,mg/L,2019-04-30,Water Quality Portal (NWIS),yes,USGS-392056077055901
+nwismd.01.01901602|iron,24027,Howard,MD,iron,,mg/L,2019-07-29,Water Quality Portal (NWIS),yes,USGS-392056077055901
+nwismd.01.01900932|manganese,24027,Howard,MD,manganese,0.0128,mg/L,2019-02-12,Water Quality Portal (NWIS),no,USGS-392056077055901
+nwismd.01.01900930|manganese,24027,Howard,MD,manganese,,mg/L,2019-02-13,Water Quality Portal (NWIS),yes,USGS-390852076500701
+nwismd.01.01900931|manganese,24027,Howard,MD,manganese,0.0025,mg/L,2019-02-13,Water Quality Portal (NWIS),no,USGS-391111076585101
+nwismd.01.01900926|manganese,24027,Howard,MD,manganese,0.0189,mg/L,2019-03-26,Water Quality Portal (NWIS),no,USGS-392058076573701
+nwismd.01.01901372|manganese,24027,Howard,MD,manganese,0.0243,mg/L,2019-04-30,Water Quality Portal (NWIS),no,USGS-392056077055901
+nwismd.01.01901602|manganese,24027,Howard,MD,manganese,0.0201,mg/L,2019-07-29,Water Quality Portal (NWIS),no,USGS-392056077055901
+nwismd.01.01900932|ph,24027,Howard,MD,ph,6.7,pH,2019-02-12,Water Quality Portal (NWIS),no,USGS-392056077055901
+nwismd.01.01900930|ph,24027,Howard,MD,ph,5.5,pH,2019-02-13,Water Quality Portal (NWIS),no,USGS-390852076500701
+nwismd.01.01900931|ph,24027,Howard,MD,ph,4.9,pH,2019-02-13,Water Quality Portal (NWIS),no,USGS-391111076585101
+nwismd.01.01900926|ph,24027,Howard,MD,ph,7.4,pH,2019-03-26,Water Quality Portal (NWIS),no,USGS-392058076573701
+nwismd.01.01901372|ph,24027,Howard,MD,ph,6.1,pH,2019-04-30,Water Quality Portal (NWIS),no,USGS-392056077055901
+nwismd.01.01901602|ph,24027,Howard,MD,ph,6.1,pH,2019-07-29,Water Quality Portal (NWIS),no,USGS-392056077055901
+nwismd.01.02000182|ph,24027,Howard,MD,ph,5.2,pH,2019-11-06,Water Quality Portal (NWIS),no,USGS-392056077055901
+nwismd.01.02000707|ph,24027,Howard,MD,ph,5.5,pH,2020-01-27,Water Quality Portal (NWIS),no,USGS-391402076540301
+nwismd.01.02000703|ph,24027,Howard,MD,ph,5.2,pH,2020-02-10,Water Quality Portal (NWIS),no,USGS-392056077055901
+nwismd.01.02000697|ph,24027,Howard,MD,ph,5.6,pH,2020-03-03,Water Quality Portal (NWIS),no,USGS-392044077062501
+nwismd.01.02000695|ph,24027,Howard,MD,ph,6.2,pH,2020-03-04,Water Quality Portal (NWIS),no,USGS-391558076545101
+nwismd.01.01900932|tds,24027,Howard,MD,tds,175.0,mg/L,2019-02-12,Water Quality Portal (NWIS),no,USGS-392056077055901
+nwismd.01.01900930|tds,24027,Howard,MD,tds,132.0,mg/L,2019-02-13,Water Quality Portal (NWIS),no,USGS-390852076500701
+nwismd.01.01900931|tds,24027,Howard,MD,tds,195.0,mg/L,2019-02-13,Water Quality Portal (NWIS),no,USGS-391111076585101
+nwismd.01.01900926|tds,24027,Howard,MD,tds,108.0,mg/L,2019-03-26,Water Quality Portal (NWIS),no,USGS-392058076573701
+nwismd.01.01901372|tds,24027,Howard,MD,tds,181.0,mg/L,2019-04-30,Water Quality Portal (NWIS),no,USGS-392056077055901
+nwismd.01.01901602|tds,24027,Howard,MD,tds,207.0,mg/L,2019-07-29,Water Quality Portal (NWIS),no,USGS-392056077055901
+nwismd.01.02300510|hardness,24029,Kent,MD,hardness,6.84,gpg,2023-08-24,Water Quality Portal (NWIS),no,USGS-391927076000301
+nwismd.01.02300510|iron,24029,Kent,MD,iron,0.0146,mg/L,2023-08-24,Water Quality Portal (NWIS),no,USGS-391927076000301
+nwismd.01.02300510|manganese,24029,Kent,MD,manganese,0.03,mg/L,2023-08-24,Water Quality Portal (NWIS),no,USGS-391927076000301
+nwismd.01.02300510|ph,24029,Kent,MD,ph,5.9,pH,2023-08-24,Water Quality Portal (NWIS),no,USGS-391927076000301
+nwismd.01.02300510|tds,24029,Kent,MD,tds,189.0,mg/L,2023-08-24,Water Quality Portal (NWIS),no,USGS-391927076000301
+nwismd.01.01500987|hardness,24031,Montgomery,MD,hardness,28.01,gpg,2015-06-30,Water Quality Portal (NWIS),no,USGS-390948077145401
+nwismd.01.01500993|hardness,24031,Montgomery,MD,hardness,12.34,gpg,2015-07-01,Water Quality Portal (NWIS),no,USGS-390906077145601
+nwismd.01.01500994|hardness,24031,Montgomery,MD,hardness,11.4,gpg,2015-07-01,Water Quality Portal (NWIS),no,USGS-391114077114201
+nwismd.01.01501004|hardness,24031,Montgomery,MD,hardness,27.19,gpg,2015-07-08,Water Quality Portal (NWIS),no,USGS-390533077125201
+nwismd.01.01501005|hardness,24031,Montgomery,MD,hardness,13.92,gpg,2015-07-08,Water Quality Portal (NWIS),no,USGS-390951077162301
+nwismd.01.01501003|hardness,24031,Montgomery,MD,hardness,2.44,gpg,2015-07-09,Water Quality Portal (NWIS),no,USGS-391102077101901
+nwismd.01.01501190|hardness,24031,Montgomery,MD,hardness,59.06,gpg,2015-08-13,Water Quality Portal (NWIS),no,USGS-390606077022201
+nwismd.01.01501192|hardness,24031,Montgomery,MD,hardness,10.06,gpg,2015-08-18,Water Quality Portal (NWIS),no,USGS-391119077134601
+nwismd.01.01501193|hardness,24031,Montgomery,MD,hardness,2.27,gpg,2015-08-19,Water Quality Portal (NWIS),no,USGS-391004077132601
+nwismd.01.01501195|hardness,24031,Montgomery,MD,hardness,6.9,gpg,2015-08-19,Water Quality Portal (NWIS),no,USGS-391113077125101
+nwismd.01.01900935|hardness,24031,Montgomery,MD,hardness,17.19,gpg,2019-02-04,Water Quality Portal (NWIS),no,USGS-390606077022201
+nwismd.01.01900936|hardness,24031,Montgomery,MD,hardness,36.9,gpg,2019-02-04,Water Quality Portal (NWIS),no,USGS-390948077145401
+nwismd.01.01900928|hardness,24031,Montgomery,MD,hardness,6.32,gpg,2019-02-26,Water Quality Portal (NWIS),no,USGS-391057077243501
+nwismd.01.01500987|iron,24031,Montgomery,MD,iron,,mg/L,2015-06-30,Water Quality Portal (NWIS),yes,USGS-390948077145401
+nwismd.01.01500993|iron,24031,Montgomery,MD,iron,,mg/L,2015-07-01,Water Quality Portal (NWIS),yes,USGS-390906077145601
+nwismd.01.01500994|iron,24031,Montgomery,MD,iron,1.83,mg/L,2015-07-01,Water Quality Portal (NWIS),no,USGS-391114077114201
+nwismd.01.01501004|iron,24031,Montgomery,MD,iron,,mg/L,2015-07-08,Water Quality Portal (NWIS),yes,USGS-390533077125201
+nwismd.01.01501005|iron,24031,Montgomery,MD,iron,0.0178,mg/L,2015-07-08,Water Quality Portal (NWIS),no,USGS-390951077162301
+nwismd.01.01501003|iron,24031,Montgomery,MD,iron,0.072,mg/L,2015-07-09,Water Quality Portal (NWIS),no,USGS-391102077101901
+nwismd.01.01501190|iron,24031,Montgomery,MD,iron,5.42,mg/L,2015-08-13,Water Quality Portal (NWIS),no,USGS-390606077022201
+nwismd.01.01501192|iron,24031,Montgomery,MD,iron,0.0452,mg/L,2015-08-18,Water Quality Portal (NWIS),no,USGS-391119077134601
+nwismd.01.01501193|iron,24031,Montgomery,MD,iron,0.0165,mg/L,2015-08-19,Water Quality Portal (NWIS),no,USGS-391004077132601
+nwismd.01.01501195|iron,24031,Montgomery,MD,iron,0.947,mg/L,2015-08-19,Water Quality Portal (NWIS),no,USGS-391113077125101
+nwismd.01.01900935|iron,24031,Montgomery,MD,iron,0.921,mg/L,2019-02-04,Water Quality Portal (NWIS),no,USGS-390606077022201
+nwismd.01.01900936|iron,24031,Montgomery,MD,iron,0.0721,mg/L,2019-02-04,Water Quality Portal (NWIS),no,USGS-390948077145401
+nwismd.01.01900928|iron,24031,Montgomery,MD,iron,0.0666,mg/L,2019-02-26,Water Quality Portal (NWIS),no,USGS-391057077243501
+nwismd.01.01500987|manganese,24031,Montgomery,MD,manganese,0.0011,mg/L,2015-06-30,Water Quality Portal (NWIS),no,USGS-390948077145401
+nwismd.01.01500993|manganese,24031,Montgomery,MD,manganese,0.0024,mg/L,2015-07-01,Water Quality Portal (NWIS),no,USGS-390906077145601
+nwismd.01.01500994|manganese,24031,Montgomery,MD,manganese,0.194,mg/L,2015-07-01,Water Quality Portal (NWIS),no,USGS-391114077114201
+nwismd.01.01501004|manganese,24031,Montgomery,MD,manganese,0.0028,mg/L,2015-07-08,Water Quality Portal (NWIS),no,USGS-390533077125201
+nwismd.01.01501005|manganese,24031,Montgomery,MD,manganese,0.0058,mg/L,2015-07-08,Water Quality Portal (NWIS),no,USGS-390951077162301
+nwismd.01.01501003|manganese,24031,Montgomery,MD,manganese,0.0054,mg/L,2015-07-09,Water Quality Portal (NWIS),no,USGS-391102077101901
+nwismd.01.01501190|manganese,24031,Montgomery,MD,manganese,0.7,mg/L,2015-08-13,Water Quality Portal (NWIS),no,USGS-390606077022201
+nwismd.01.01501192|manganese,24031,Montgomery,MD,manganese,0.0081,mg/L,2015-08-18,Water Quality Portal (NWIS),no,USGS-391119077134601
+nwismd.01.01501193|manganese,24031,Montgomery,MD,manganese,0.0027,mg/L,2015-08-19,Water Quality Portal (NWIS),no,USGS-391004077132601
+nwismd.01.01501195|manganese,24031,Montgomery,MD,manganese,0.0685,mg/L,2015-08-19,Water Quality Portal (NWIS),no,USGS-391113077125101
+nwismd.01.01900935|manganese,24031,Montgomery,MD,manganese,0.394,mg/L,2019-02-04,Water Quality Portal (NWIS),no,USGS-390606077022201
+nwismd.01.01900936|manganese,24031,Montgomery,MD,manganese,0.0059,mg/L,2019-02-04,Water Quality Portal (NWIS),no,USGS-390948077145401
+nwismd.01.01900928|manganese,24031,Montgomery,MD,manganese,0.535,mg/L,2019-02-26,Water Quality Portal (NWIS),no,USGS-391057077243501
+nwismd.01.01500987|ph,24031,Montgomery,MD,ph,5.9,pH,2015-06-30,Water Quality Portal (NWIS),no,USGS-390948077145401
+nwismd.01.01500993|ph,24031,Montgomery,MD,ph,5.5,pH,2015-07-01,Water Quality Portal (NWIS),no,USGS-390906077145601
+nwismd.01.01500994|ph,24031,Montgomery,MD,ph,5.4,pH,2015-07-01,Water Quality Portal (NWIS),no,USGS-391114077114201
+nwismd.01.01501004|ph,24031,Montgomery,MD,ph,7.2,pH,2015-07-08,Water Quality Portal (NWIS),no,USGS-390533077125201
+nwismd.01.01501005|ph,24031,Montgomery,MD,ph,5.9,pH,2015-07-08,Water Quality Portal (NWIS),no,USGS-390951077162301
+nwismd.01.01501003|ph,24031,Montgomery,MD,ph,6.5,pH,2015-07-09,Water Quality Portal (NWIS),no,USGS-391102077101901
+nwismd.01.01501190|ph,24031,Montgomery,MD,ph,5.9,pH,2015-08-13,Water Quality Portal (NWIS),no,USGS-390606077022201
+nwismd.01.01501192|ph,24031,Montgomery,MD,ph,6.1,pH,2015-08-18,Water Quality Portal (NWIS),no,USGS-391119077134601
+nwismd.01.01501193|ph,24031,Montgomery,MD,ph,5.8,pH,2015-08-19,Water Quality Portal (NWIS),no,USGS-391004077132601
+nwismd.01.01501195|ph,24031,Montgomery,MD,ph,5.6,pH,2015-08-19,Water Quality Portal (NWIS),no,USGS-391113077125101
+nwismd.01.01900935|ph,24031,Montgomery,MD,ph,6.6,pH,2019-02-04,Water Quality Portal (NWIS),no,USGS-390606077022201
+nwismd.01.01900936|ph,24031,Montgomery,MD,ph,4.7,pH,2019-02-04,Water Quality Portal (NWIS),no,USGS-390948077145401
+nwismd.01.01900928|ph,24031,Montgomery,MD,ph,5.4,pH,2019-02-26,Water Quality Portal (NWIS),no,USGS-391057077243501
+nwismd.01.02000698|ph,24031,Montgomery,MD,ph,6.4,pH,2020-02-26,Water Quality Portal (NWIS),no,USGS-390532077160301
+nwismd.01.02000699|ph,24031,Montgomery,MD,ph,5.4,pH,2020-02-26,Water Quality Portal (NWIS),no,USGS-390906077145601
+nwismd.01.01500987|tds,24031,Montgomery,MD,tds,959.0,mg/L,2015-06-30,Water Quality Portal (NWIS),no,USGS-390948077145401
+nwismd.01.01500993|tds,24031,Montgomery,MD,tds,400.0,mg/L,2015-07-01,Water Quality Portal (NWIS),no,USGS-390906077145601
+nwismd.01.01500994|tds,24031,Montgomery,MD,tds,357.0,mg/L,2015-07-01,Water Quality Portal (NWIS),no,USGS-391114077114201
+nwismd.01.01501004|tds,24031,Montgomery,MD,tds,548.0,mg/L,2015-07-08,Water Quality Portal (NWIS),no,USGS-390533077125201
+nwismd.01.01501005|tds,24031,Montgomery,MD,tds,681.0,mg/L,2015-07-08,Water Quality Portal (NWIS),no,USGS-390951077162301
+nwismd.01.01501003|tds,24031,Montgomery,MD,tds,99.0,mg/L,2015-07-09,Water Quality Portal (NWIS),no,USGS-391102077101901
+nwismd.01.01501190|tds,24031,Montgomery,MD,tds,1680.0,mg/L,2015-08-13,Water Quality Portal (NWIS),no,USGS-390606077022201
+nwismd.01.01501192|tds,24031,Montgomery,MD,tds,247.0,mg/L,2015-08-18,Water Quality Portal (NWIS),no,USGS-391119077134601
+nwismd.01.01501193|tds,24031,Montgomery,MD,tds,90.0,mg/L,2015-08-19,Water Quality Portal (NWIS),no,USGS-391004077132601
+nwismd.01.01501195|tds,24031,Montgomery,MD,tds,252.0,mg/L,2015-08-19,Water Quality Portal (NWIS),no,USGS-391113077125101
+nwismd.01.01900935|tds,24031,Montgomery,MD,tds,527.0,mg/L,2019-02-04,Water Quality Portal (NWIS),no,USGS-390606077022201
+nwismd.01.01900936|tds,24031,Montgomery,MD,tds,789.0,mg/L,2019-02-04,Water Quality Portal (NWIS),no,USGS-390948077145401
+nwismd.01.01900928|tds,24031,Montgomery,MD,tds,486.0,mg/L,2019-02-26,Water Quality Portal (NWIS),no,USGS-391057077243501
+nwismd.01.01601027|hardness,24033,Prince George's,MD,hardness,0.22,gpg,2016-08-22,Water Quality Portal (NWIS),no,USGS-390100076464002
+nwismd.01.01601019|hardness,24033,Prince George's,MD,hardness,0.28,gpg,2016-08-23,Water Quality Portal (NWIS),no,USGS-385941076511301
+nwismd.01.01700045|hardness,24033,Prince George's,MD,hardness,7.43,gpg,2016-10-26,Water Quality Portal (NWIS),no,USGS-383849076494901
+nwismd.01.01700088|hardness,24033,Prince George's,MD,hardness,7.66,gpg,2016-11-17,Water Quality Portal (NWIS),no,USGS-384716076522001
+nwismd.01.01700089|hardness,24033,Prince George's,MD,hardness,0.04,gpg,2016-11-21,Water Quality Portal (NWIS),no,USGS-384138077035601
+nwismd.01.01700171|hardness,24033,Prince George's,MD,hardness,6.78,gpg,2016-12-20,Water Quality Portal (NWIS),no,USGS-385130076465501
+nwismd.01.01601027|iron,24033,Prince George's,MD,iron,1.97,mg/L,2016-08-22,Water Quality Portal (NWIS),no,USGS-390100076464002
+nwismd.01.01601019|iron,24033,Prince George's,MD,iron,0.0195,mg/L,2016-08-23,Water Quality Portal (NWIS),no,USGS-385941076511301
+nwismd.01.01700045|iron,24033,Prince George's,MD,iron,0.288,mg/L,2016-10-26,Water Quality Portal (NWIS),no,USGS-383849076494901
+nwismd.01.01700088|iron,24033,Prince George's,MD,iron,0.687,mg/L,2016-11-17,Water Quality Portal (NWIS),no,USGS-384716076522001
+nwismd.01.01700089|iron,24033,Prince George's,MD,iron,,mg/L,2016-11-21,Water Quality Portal (NWIS),yes,USGS-384138077035601
+nwismd.01.01700171|iron,24033,Prince George's,MD,iron,8.75,mg/L,2016-12-20,Water Quality Portal (NWIS),no,USGS-385130076465501
+nwismd.01.01601027|manganese,24033,Prince George's,MD,manganese,0.0221,mg/L,2016-08-22,Water Quality Portal (NWIS),no,USGS-390100076464002
+nwismd.01.01601019|manganese,24033,Prince George's,MD,manganese,0.0469,mg/L,2016-08-23,Water Quality Portal (NWIS),no,USGS-385941076511301
+nwismd.01.01700045|manganese,24033,Prince George's,MD,manganese,0.0199,mg/L,2016-10-26,Water Quality Portal (NWIS),no,USGS-383849076494901
+nwismd.01.01700088|manganese,24033,Prince George's,MD,manganese,0.0156,mg/L,2016-11-17,Water Quality Portal (NWIS),no,USGS-384716076522001
+nwismd.01.01700089|manganese,24033,Prince George's,MD,manganese,0.0037,mg/L,2016-11-21,Water Quality Portal (NWIS),no,USGS-384138077035601
+nwismd.01.01700171|manganese,24033,Prince George's,MD,manganese,0.208,mg/L,2016-12-20,Water Quality Portal (NWIS),no,USGS-385130076465501
+nwismd.01.01601027|ph,24033,Prince George's,MD,ph,4.5,pH,2016-08-22,Water Quality Portal (NWIS),no,USGS-390100076464002
+nwismd.01.01601019|ph,24033,Prince George's,MD,ph,4.7,pH,2016-08-23,Water Quality Portal (NWIS),no,USGS-385941076511301
+nwismd.01.01700045|ph,24033,Prince George's,MD,ph,7.6,pH,2016-10-26,Water Quality Portal (NWIS),no,USGS-383849076494901
+nwismd.01.01700088|ph,24033,Prince George's,MD,ph,7.5,pH,2016-11-17,Water Quality Portal (NWIS),no,USGS-384716076522001
+nwismd.01.01700089|ph,24033,Prince George's,MD,ph,8.1,pH,2016-11-21,Water Quality Portal (NWIS),no,USGS-384138077035601
+nwismd.01.01700171|ph,24033,Prince George's,MD,ph,6.8,pH,2016-12-20,Water Quality Portal (NWIS),no,USGS-385130076465501
+nwismd.01.01601027|tds,24033,Prince George's,MD,tds,34.0,mg/L,2016-08-22,Water Quality Portal (NWIS),no,USGS-390100076464002
+nwismd.01.01601019|tds,24033,Prince George's,MD,tds,,mg/L,2016-08-23,Water Quality Portal (NWIS),yes,USGS-385941076511301
+nwismd.01.01700045|tds,24033,Prince George's,MD,tds,161.0,mg/L,2016-10-26,Water Quality Portal (NWIS),no,USGS-383849076494901
+nwismd.01.01700088|tds,24033,Prince George's,MD,tds,144.0,mg/L,2016-11-17,Water Quality Portal (NWIS),no,USGS-384716076522001
+nwismd.01.01700089|tds,24033,Prince George's,MD,tds,179.0,mg/L,2016-11-21,Water Quality Portal (NWIS),no,USGS-384138077035601
+nwismd.01.01700171|tds,24033,Prince George's,MD,tds,175.0,mg/L,2016-12-20,Water Quality Portal (NWIS),no,USGS-385130076465501
+nwismd.01.01500589|hardness,24035,Queen Anne's,MD,hardness,3.95,gpg,2015-03-31,Water Quality Portal (NWIS),no,USGS-391300075461001
+nwismd.01.01500590|hardness,24035,Queen Anne's,MD,hardness,2.34,gpg,2015-03-31,Water Quality Portal (NWIS),no,USGS-391303075460802
+nwismd.01.01500591|hardness,24035,Queen Anne's,MD,hardness,4.25,gpg,2015-03-31,Water Quality Portal (NWIS),no,USGS-391304075460801
+nwismd.01.01500592|hardness,24035,Queen Anne's,MD,hardness,2.37,gpg,2015-03-31,Water Quality Portal (NWIS),no,USGS-391304075460802
+nwismd.01.01500593|hardness,24035,Queen Anne's,MD,hardness,5.91,gpg,2015-03-31,Water Quality Portal (NWIS),no,USGS-391311075463901
+nwismd.01.01500594|hardness,24035,Queen Anne's,MD,hardness,3.65,gpg,2015-03-31,Water Quality Portal (NWIS),no,USGS-391311075463902
+nwismd.01.01500702|hardness,24035,Queen Anne's,MD,hardness,3.68,gpg,2015-03-31,Water Quality Portal (NWIS),no,USGS-391303075460801
+nwismd.01.01500581|hardness,24035,Queen Anne's,MD,hardness,4.1,gpg,2015-04-01,Water Quality Portal (NWIS),no,USGS-391255075461401
+nwismd.01.01500582|hardness,24035,Queen Anne's,MD,hardness,4.65,gpg,2015-04-01,Water Quality Portal (NWIS),no,USGS-391258075461301
+nwismd.01.01500583|hardness,24035,Queen Anne's,MD,hardness,2.37,gpg,2015-04-01,Water Quality Portal (NWIS),no,USGS-391258075461302
+nwismd.01.01500584|hardness,24035,Queen Anne's,MD,hardness,4.84,gpg,2015-04-01,Water Quality Portal (NWIS),no,USGS-391256075461601
+nwismd.01.01500585|hardness,24035,Queen Anne's,MD,hardness,4.89,gpg,2015-04-01,Water Quality Portal (NWIS),no,USGS-391253075461701
+nwismd.01.01500586|hardness,24035,Queen Anne's,MD,hardness,3.63,gpg,2015-04-01,Water Quality Portal (NWIS),no,USGS-391253075461702
+nwismd.01.01500587|hardness,24035,Queen Anne's,MD,hardness,3.61,gpg,2015-04-01,Water Quality Portal (NWIS),no,USGS-391301075461202
+nwismd.01.01500675|hardness,24035,Queen Anne's,MD,hardness,3.73,gpg,2015-04-15,Water Quality Portal (NWIS),no,USGS-391316075463602
+nwismd.01.01500676|hardness,24035,Queen Anne's,MD,hardness,4.65,gpg,2015-04-15,Water Quality Portal (NWIS),no,USGS-391317075463301
+nwismd.01.01500677|hardness,24035,Queen Anne's,MD,hardness,3.88,gpg,2015-04-15,Water Quality Portal (NWIS),no,USGS-391320075463201
+nwismd.01.01500678|hardness,24035,Queen Anne's,MD,hardness,3.96,gpg,2015-04-15,Water Quality Portal (NWIS),no,USGS-391318075463501
+nwismd.01.01500680|hardness,24035,Queen Anne's,MD,hardness,3.65,gpg,2015-04-15,Water Quality Portal (NWIS),no,USGS-391321075463101
+nwismd.01.01500688|hardness,24035,Queen Anne's,MD,hardness,3.86,gpg,2015-04-15,Water Quality Portal (NWIS),no,USGS-391321075463102
+nwismd.01.01500672|hardness,24035,Queen Anne's,MD,hardness,5.29,gpg,2015-04-16,Water Quality Portal (NWIS),no,USGS-391313075463601
+nwismd.01.01500673|hardness,24035,Queen Anne's,MD,hardness,4.45,gpg,2015-04-16,Water Quality Portal (NWIS),no,USGS-391314075463801
+nwismd.01.01500674|hardness,24035,Queen Anne's,MD,hardness,3.67,gpg,2015-04-16,Water Quality Portal (NWIS),no,USGS-391316075463601
+nwismd.01.01600253|hardness,24035,Queen Anne's,MD,hardness,5.77,gpg,2015-12-09,Water Quality Portal (NWIS),no,USGS-391313075463601
+nwismd.01.01600254|hardness,24035,Queen Anne's,MD,hardness,3.95,gpg,2015-12-09,Water Quality Portal (NWIS),no,USGS-391316075463602
+nwismd.01.01600255|hardness,24035,Queen Anne's,MD,hardness,4.08,gpg,2015-12-09,Water Quality Portal (NWIS),no,USGS-391316075463601
+nwismd.01.01600256|hardness,24035,Queen Anne's,MD,hardness,3.7,gpg,2015-12-09,Water Quality Portal (NWIS),no,USGS-391311075463902
+nwismd.01.01600257|hardness,24035,Queen Anne's,MD,hardness,8.3,gpg,2015-12-09,Water Quality Portal (NWIS),no,USGS-391311075463901
+nwismd.01.01600250|hardness,24035,Queen Anne's,MD,hardness,3.91,gpg,2015-12-10,Water Quality Portal (NWIS),no,USGS-391320075463201
+nwismd.01.01600251|hardness,24035,Queen Anne's,MD,hardness,3.64,gpg,2015-12-10,Water Quality Portal (NWIS),no,USGS-391321075463101
+nwismd.01.01600252|hardness,24035,Queen Anne's,MD,hardness,4.61,gpg,2015-12-10,Water Quality Portal (NWIS),no,USGS-391314075463801
+nwismd.01.01600279|hardness,24035,Queen Anne's,MD,hardness,3.83,gpg,2015-12-10,Water Quality Portal (NWIS),no,USGS-391255075461401
+nwismd.01.01600280|hardness,24035,Queen Anne's,MD,hardness,4.2,gpg,2015-12-10,Water Quality Portal (NWIS),no,USGS-391256075461601
+nwismd.01.01600281|hardness,24035,Queen Anne's,MD,hardness,3.73,gpg,2015-12-10,Water Quality Portal (NWIS),no,USGS-391301075461202
+nwismd.01.01600282|hardness,24035,Queen Anne's,MD,hardness,4.03,gpg,2015-12-10,Water Quality Portal (NWIS),no,USGS-391300075461001
+nwismd.01.01600283|hardness,24035,Queen Anne's,MD,hardness,4.26,gpg,2015-12-10,Water Quality Portal (NWIS),no,USGS-391317075463301
+nwismd.01.01600284|hardness,24035,Queen Anne's,MD,hardness,3.95,gpg,2015-12-10,Water Quality Portal (NWIS),no,USGS-391318075463501
+nwismd.01.01600355|hardness,24035,Queen Anne's,MD,hardness,3.58,gpg,2016-01-06,Water Quality Portal (NWIS),no,USGS-391304075460801
+nwismd.01.01600356|hardness,24035,Queen Anne's,MD,hardness,2.43,gpg,2016-01-06,Water Quality Portal (NWIS),no,USGS-391304075460802
+nwismd.01.01600357|hardness,24035,Queen Anne's,MD,hardness,3.69,gpg,2016-01-06,Water Quality Portal (NWIS),no,USGS-391321075463102
+nwismd.01.01600349|hardness,24035,Queen Anne's,MD,hardness,3.57,gpg,2016-01-07,Water Quality Portal (NWIS),no,USGS-391253075461702
+nwismd.01.01600350|hardness,24035,Queen Anne's,MD,hardness,4.8,gpg,2016-01-07,Water Quality Portal (NWIS),no,USGS-391253075461701
+nwismd.01.01600351|hardness,24035,Queen Anne's,MD,hardness,4.29,gpg,2016-01-07,Water Quality Portal (NWIS),no,USGS-391258075461301
+nwismd.01.01600352|hardness,24035,Queen Anne's,MD,hardness,2.29,gpg,2016-01-07,Water Quality Portal (NWIS),no,USGS-391258075461302
+nwismd.01.01600353|hardness,24035,Queen Anne's,MD,hardness,3.54,gpg,2016-01-07,Water Quality Portal (NWIS),no,USGS-391303075460801
+nwismd.01.01600354|hardness,24035,Queen Anne's,MD,hardness,2.46,gpg,2016-01-07,Water Quality Portal (NWIS),no,USGS-391303075460802
+nwismd.01.01700063|hardness,24035,Queen Anne's,MD,hardness,4.62,gpg,2016-11-07,Water Quality Portal (NWIS),no,USGS-391253075461701
+nwismd.01.01700069|hardness,24035,Queen Anne's,MD,hardness,6.78,gpg,2016-11-07,Water Quality Portal (NWIS),no,USGS-391311075463901
+nwismd.01.01700065|hardness,24035,Queen Anne's,MD,hardness,3.88,gpg,2016-11-08,Water Quality Portal (NWIS),no,USGS-391318075463501
+nwismd.01.01700066|hardness,24035,Queen Anne's,MD,hardness,3.88,gpg,2016-11-08,Water Quality Portal (NWIS),no,USGS-391316075463601
+nwismd.01.01700067|hardness,24035,Queen Anne's,MD,hardness,5.04,gpg,2016-11-08,Water Quality Portal (NWIS),no,USGS-391313075463601
+nwismd.01.01700068|hardness,24035,Queen Anne's,MD,hardness,4.12,gpg,2016-11-08,Water Quality Portal (NWIS),no,USGS-391314075463801
+nwismd.01.01700072|hardness,24035,Queen Anne's,MD,hardness,3.44,gpg,2016-11-14,Water Quality Portal (NWIS),no,USGS-391303075460801
+nwismd.01.01700073|hardness,24035,Queen Anne's,MD,hardness,3.84,gpg,2016-11-14,Water Quality Portal (NWIS),no,USGS-391321075463101
+nwismd.01.01700074|hardness,24035,Queen Anne's,MD,hardness,3.96,gpg,2016-11-14,Water Quality Portal (NWIS),no,USGS-391320075463201
+nwismd.01.01700075|hardness,24035,Queen Anne's,MD,hardness,4.66,gpg,2016-11-14,Water Quality Portal (NWIS),no,USGS-391317075463301
+nwismd.01.01700082|hardness,24035,Queen Anne's,MD,hardness,3.75,gpg,2016-11-16,Water Quality Portal (NWIS),no,USGS-391255075461401
+nwismd.01.01700083|hardness,24035,Queen Anne's,MD,hardness,3.42,gpg,2016-11-16,Water Quality Portal (NWIS),no,USGS-391304075460801
+nwismd.01.01700084|hardness,24035,Queen Anne's,MD,hardness,3.8,gpg,2016-11-16,Water Quality Portal (NWIS),no,USGS-391300075461001
+nwismd.01.01700085|hardness,24035,Queen Anne's,MD,hardness,3.47,gpg,2016-11-16,Water Quality Portal (NWIS),no,USGS-391301075461202
+nwismd.01.01700086|hardness,24035,Queen Anne's,MD,hardness,3.56,gpg,2016-11-16,Water Quality Portal (NWIS),no,USGS-391258075461301
+nwismd.01.01700087|hardness,24035,Queen Anne's,MD,hardness,4.35,gpg,2016-11-16,Water Quality Portal (NWIS),no,USGS-391256075461601
+nwismd.01.02300493|hardness,24035,Queen Anne's,MD,hardness,2.2,gpg,2023-08-08,Water Quality Portal (NWIS),no,USGS-390126075575402
+nwismd.01.01500589|iron,24035,Queen Anne's,MD,iron,0.0061,mg/L,2015-03-31,Water Quality Portal (NWIS),no,USGS-391300075461001
+nwismd.01.01500590|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-03-31,Water Quality Portal (NWIS),yes,USGS-391303075460802
+nwismd.01.01500591|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-03-31,Water Quality Portal (NWIS),yes,USGS-391304075460801
+nwismd.01.01500592|iron,24035,Queen Anne's,MD,iron,0.0173,mg/L,2015-03-31,Water Quality Portal (NWIS),no,USGS-391304075460802
+nwismd.01.01500593|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-03-31,Water Quality Portal (NWIS),yes,USGS-391311075463901
+nwismd.01.01500594|iron,24035,Queen Anne's,MD,iron,0.0047,mg/L,2015-03-31,Water Quality Portal (NWIS),no,USGS-391311075463902
+nwismd.01.01500702|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-03-31,Water Quality Portal (NWIS),yes,USGS-391303075460801
+nwismd.01.01500581|iron,24035,Queen Anne's,MD,iron,0.0044,mg/L,2015-04-01,Water Quality Portal (NWIS),no,USGS-391255075461401
+nwismd.01.01500582|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-04-01,Water Quality Portal (NWIS),yes,USGS-391258075461301
+nwismd.01.01500583|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-04-01,Water Quality Portal (NWIS),yes,USGS-391258075461302
+nwismd.01.01500584|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-04-01,Water Quality Portal (NWIS),yes,USGS-391256075461601
+nwismd.01.01500585|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-04-01,Water Quality Portal (NWIS),yes,USGS-391253075461701
+nwismd.01.01500586|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-04-01,Water Quality Portal (NWIS),yes,USGS-391253075461702
+nwismd.01.01500587|iron,24035,Queen Anne's,MD,iron,0.0064,mg/L,2015-04-01,Water Quality Portal (NWIS),no,USGS-391301075461202
+nwismd.01.01500675|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-04-15,Water Quality Portal (NWIS),yes,USGS-391316075463602
+nwismd.01.01500676|iron,24035,Queen Anne's,MD,iron,0.0061,mg/L,2015-04-15,Water Quality Portal (NWIS),no,USGS-391317075463301
+nwismd.01.01500677|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-04-15,Water Quality Portal (NWIS),yes,USGS-391320075463201
+nwismd.01.01500678|iron,24035,Queen Anne's,MD,iron,0.0082,mg/L,2015-04-15,Water Quality Portal (NWIS),no,USGS-391318075463501
+nwismd.01.01500680|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-04-15,Water Quality Portal (NWIS),yes,USGS-391321075463101
+nwismd.01.01500688|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-04-15,Water Quality Portal (NWIS),yes,USGS-391321075463102
+nwismd.01.01500672|iron,24035,Queen Anne's,MD,iron,0.0135,mg/L,2015-04-16,Water Quality Portal (NWIS),no,USGS-391313075463601
+nwismd.01.01500673|iron,24035,Queen Anne's,MD,iron,0.064,mg/L,2015-04-16,Water Quality Portal (NWIS),no,USGS-391314075463801
+nwismd.01.01500674|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-04-16,Water Quality Portal (NWIS),yes,USGS-391316075463601
+nwismd.01.01600253|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-12-09,Water Quality Portal (NWIS),yes,USGS-391313075463601
+nwismd.01.01600254|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-12-09,Water Quality Portal (NWIS),yes,USGS-391316075463602
+nwismd.01.01600255|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-12-09,Water Quality Portal (NWIS),yes,USGS-391316075463601
+nwismd.01.01600256|iron,24035,Queen Anne's,MD,iron,0.004,mg/L,2015-12-09,Water Quality Portal (NWIS),no,USGS-391311075463902
+nwismd.01.01600257|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-12-09,Water Quality Portal (NWIS),yes,USGS-391311075463901
+nwismd.01.01600250|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-12-10,Water Quality Portal (NWIS),yes,USGS-391320075463201
+nwismd.01.01600251|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-12-10,Water Quality Portal (NWIS),yes,USGS-391321075463101
+nwismd.01.01600252|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-12-10,Water Quality Portal (NWIS),yes,USGS-391314075463801
+nwismd.01.01600279|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-12-10,Water Quality Portal (NWIS),yes,USGS-391255075461401
+nwismd.01.01600280|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-12-10,Water Quality Portal (NWIS),yes,USGS-391256075461601
+nwismd.01.01600281|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-12-10,Water Quality Portal (NWIS),yes,USGS-391301075461202
+nwismd.01.01600282|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-12-10,Water Quality Portal (NWIS),yes,USGS-391300075461001
+nwismd.01.01600283|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-12-10,Water Quality Portal (NWIS),yes,USGS-391317075463301
+nwismd.01.01600284|iron,24035,Queen Anne's,MD,iron,,mg/L,2015-12-10,Water Quality Portal (NWIS),yes,USGS-391318075463501
+nwismd.01.01600355|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-01-06,Water Quality Portal (NWIS),yes,USGS-391304075460801
+nwismd.01.01600356|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-01-06,Water Quality Portal (NWIS),yes,USGS-391304075460802
+nwismd.01.01600357|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-01-06,Water Quality Portal (NWIS),yes,USGS-391321075463102
+nwismd.01.01600349|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-01-07,Water Quality Portal (NWIS),yes,USGS-391253075461702
+nwismd.01.01600350|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-01-07,Water Quality Portal (NWIS),yes,USGS-391253075461701
+nwismd.01.01600351|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-01-07,Water Quality Portal (NWIS),yes,USGS-391258075461301
+nwismd.01.01600352|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-01-07,Water Quality Portal (NWIS),yes,USGS-391258075461302
+nwismd.01.01600353|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-01-07,Water Quality Portal (NWIS),yes,USGS-391303075460801
+nwismd.01.01600354|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-01-07,Water Quality Portal (NWIS),yes,USGS-391303075460802
+nwismd.01.01700063|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-11-07,Water Quality Portal (NWIS),yes,USGS-391253075461701
+nwismd.01.01700069|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-11-07,Water Quality Portal (NWIS),yes,USGS-391311075463901
+nwismd.01.01700065|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-11-08,Water Quality Portal (NWIS),yes,USGS-391318075463501
+nwismd.01.01700066|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-11-08,Water Quality Portal (NWIS),yes,USGS-391316075463601
+nwismd.01.01700067|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-11-08,Water Quality Portal (NWIS),yes,USGS-391313075463601
+nwismd.01.01700068|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-11-08,Water Quality Portal (NWIS),yes,USGS-391314075463801
+nwismd.01.01700072|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-11-14,Water Quality Portal (NWIS),yes,USGS-391303075460801
+nwismd.01.01700073|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-11-14,Water Quality Portal (NWIS),yes,USGS-391321075463101
+nwismd.01.01700074|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-11-14,Water Quality Portal (NWIS),yes,USGS-391320075463201
+nwismd.01.01700075|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-11-14,Water Quality Portal (NWIS),yes,USGS-391317075463301
+nwismd.01.01700082|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-11-16,Water Quality Portal (NWIS),yes,USGS-391255075461401
+nwismd.01.01700083|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-11-16,Water Quality Portal (NWIS),yes,USGS-391304075460801
+nwismd.01.01700084|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-11-16,Water Quality Portal (NWIS),yes,USGS-391300075461001
+nwismd.01.01700085|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-11-16,Water Quality Portal (NWIS),yes,USGS-391301075461202
+nwismd.01.01700086|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-11-16,Water Quality Portal (NWIS),yes,USGS-391258075461301
+nwismd.01.01700087|iron,24035,Queen Anne's,MD,iron,,mg/L,2016-11-16,Water Quality Portal (NWIS),yes,USGS-391256075461601
+nwismd.01.02300493|iron,24035,Queen Anne's,MD,iron,,mg/L,2023-08-08,Water Quality Portal (NWIS),yes,USGS-390126075575402
+nwismd.01.01500589|manganese,24035,Queen Anne's,MD,manganese,0.0461,mg/L,2015-03-31,Water Quality Portal (NWIS),no,USGS-391300075461001
+nwismd.01.01500590|manganese,24035,Queen Anne's,MD,manganese,0.0109,mg/L,2015-03-31,Water Quality Portal (NWIS),no,USGS-391303075460802
+nwismd.01.01500591|manganese,24035,Queen Anne's,MD,manganese,0.0386,mg/L,2015-03-31,Water Quality Portal (NWIS),no,USGS-391304075460801
+nwismd.01.01500592|manganese,24035,Queen Anne's,MD,manganese,0.011,mg/L,2015-03-31,Water Quality Portal (NWIS),no,USGS-391304075460802
+nwismd.01.01500593|manganese,24035,Queen Anne's,MD,manganese,0.0022,mg/L,2015-03-31,Water Quality Portal (NWIS),no,USGS-391311075463901
+nwismd.01.01500594|manganese,24035,Queen Anne's,MD,manganese,0.0721,mg/L,2015-03-31,Water Quality Portal (NWIS),no,USGS-391311075463902
+nwismd.01.01500702|manganese,24035,Queen Anne's,MD,manganese,0.0341,mg/L,2015-03-31,Water Quality Portal (NWIS),no,USGS-391303075460801
+nwismd.01.01500581|manganese,24035,Queen Anne's,MD,manganese,0.0712,mg/L,2015-04-01,Water Quality Portal (NWIS),no,USGS-391255075461401
+nwismd.01.01500582|manganese,24035,Queen Anne's,MD,manganese,0.0549,mg/L,2015-04-01,Water Quality Portal (NWIS),no,USGS-391258075461301
+nwismd.01.01500583|manganese,24035,Queen Anne's,MD,manganese,0.024,mg/L,2015-04-01,Water Quality Portal (NWIS),no,USGS-391258075461302
+nwismd.01.01500584|manganese,24035,Queen Anne's,MD,manganese,0.0926,mg/L,2015-04-01,Water Quality Portal (NWIS),no,USGS-391256075461601
+nwismd.01.01500585|manganese,24035,Queen Anne's,MD,manganese,0.155,mg/L,2015-04-01,Water Quality Portal (NWIS),no,USGS-391253075461701
+nwismd.01.01500586|manganese,24035,Queen Anne's,MD,manganese,0.0072,mg/L,2015-04-01,Water Quality Portal (NWIS),no,USGS-391253075461702
+nwismd.01.01500587|manganese,24035,Queen Anne's,MD,manganese,0.0736,mg/L,2015-04-01,Water Quality Portal (NWIS),no,USGS-391301075461202
+nwismd.01.01500675|manganese,24035,Queen Anne's,MD,manganese,0.0907,mg/L,2015-04-15,Water Quality Portal (NWIS),no,USGS-391316075463602
+nwismd.01.01500676|manganese,24035,Queen Anne's,MD,manganese,0.0948,mg/L,2015-04-15,Water Quality Portal (NWIS),no,USGS-391317075463301
+nwismd.01.01500677|manganese,24035,Queen Anne's,MD,manganese,0.0664,mg/L,2015-04-15,Water Quality Portal (NWIS),no,USGS-391320075463201
+nwismd.01.01500678|manganese,24035,Queen Anne's,MD,manganese,0.108,mg/L,2015-04-15,Water Quality Portal (NWIS),no,USGS-391318075463501
+nwismd.01.01500680|manganese,24035,Queen Anne's,MD,manganese,0.0811,mg/L,2015-04-15,Water Quality Portal (NWIS),no,USGS-391321075463101
+nwismd.01.01500688|manganese,24035,Queen Anne's,MD,manganese,0.0325,mg/L,2015-04-15,Water Quality Portal (NWIS),no,USGS-391321075463102
+nwismd.01.01500672|manganese,24035,Queen Anne's,MD,manganese,0.0255,mg/L,2015-04-16,Water Quality Portal (NWIS),no,USGS-391313075463601
+nwismd.01.01500673|manganese,24035,Queen Anne's,MD,manganese,0.026,mg/L,2015-04-16,Water Quality Portal (NWIS),no,USGS-391314075463801
+nwismd.01.01500674|manganese,24035,Queen Anne's,MD,manganese,0.0518,mg/L,2015-04-16,Water Quality Portal (NWIS),no,USGS-391316075463601
+nwismd.01.01600253|manganese,24035,Queen Anne's,MD,manganese,0.0192,mg/L,2015-12-09,Water Quality Portal (NWIS),no,USGS-391313075463601
+nwismd.01.01600254|manganese,24035,Queen Anne's,MD,manganese,0.095,mg/L,2015-12-09,Water Quality Portal (NWIS),no,USGS-391316075463602
+nwismd.01.01600255|manganese,24035,Queen Anne's,MD,manganese,0.0552,mg/L,2015-12-09,Water Quality Portal (NWIS),no,USGS-391316075463601
+nwismd.01.01600256|manganese,24035,Queen Anne's,MD,manganese,0.0701,mg/L,2015-12-09,Water Quality Portal (NWIS),no,USGS-391311075463902
+nwismd.01.01600257|manganese,24035,Queen Anne's,MD,manganese,0.0052,mg/L,2015-12-09,Water Quality Portal (NWIS),no,USGS-391311075463901
+nwismd.01.01600250|manganese,24035,Queen Anne's,MD,manganese,0.0665,mg/L,2015-12-10,Water Quality Portal (NWIS),no,USGS-391320075463201
+nwismd.01.01600251|manganese,24035,Queen Anne's,MD,manganese,0.0932,mg/L,2015-12-10,Water Quality Portal (NWIS),no,USGS-391321075463101
+nwismd.01.01600252|manganese,24035,Queen Anne's,MD,manganese,0.0274,mg/L,2015-12-10,Water Quality Portal (NWIS),no,USGS-391314075463801
+nwismd.01.01600279|manganese,24035,Queen Anne's,MD,manganese,0.0616,mg/L,2015-12-10,Water Quality Portal (NWIS),no,USGS-391255075461401
+nwismd.01.01600280|manganese,24035,Queen Anne's,MD,manganese,0.0878,mg/L,2015-12-10,Water Quality Portal (NWIS),no,USGS-391256075461601
+nwismd.01.01600281|manganese,24035,Queen Anne's,MD,manganese,0.0262,mg/L,2015-12-10,Water Quality Portal (NWIS),no,USGS-391301075461202
+nwismd.01.01600282|manganese,24035,Queen Anne's,MD,manganese,0.041,mg/L,2015-12-10,Water Quality Portal (NWIS),no,USGS-391300075461001
+nwismd.01.01600283|manganese,24035,Queen Anne's,MD,manganese,0.0689,mg/L,2015-12-10,Water Quality Portal (NWIS),no,USGS-391317075463301
+nwismd.01.01600284|manganese,24035,Queen Anne's,MD,manganese,0.106,mg/L,2015-12-10,Water Quality Portal (NWIS),no,USGS-391318075463501
+nwismd.01.01600355|manganese,24035,Queen Anne's,MD,manganese,0.0378,mg/L,2016-01-06,Water Quality Portal (NWIS),no,USGS-391304075460801
+nwismd.01.01600356|manganese,24035,Queen Anne's,MD,manganese,0.0112,mg/L,2016-01-06,Water Quality Portal (NWIS),no,USGS-391304075460802
+nwismd.01.01600357|manganese,24035,Queen Anne's,MD,manganese,0.0273,mg/L,2016-01-06,Water Quality Portal (NWIS),no,USGS-391321075463102
+nwismd.01.01600349|manganese,24035,Queen Anne's,MD,manganese,0.0068,mg/L,2016-01-07,Water Quality Portal (NWIS),no,USGS-391253075461702
+nwismd.01.01600350|manganese,24035,Queen Anne's,MD,manganese,0.108,mg/L,2016-01-07,Water Quality Portal (NWIS),no,USGS-391253075461701
+nwismd.01.01600351|manganese,24035,Queen Anne's,MD,manganese,0.0212,mg/L,2016-01-07,Water Quality Portal (NWIS),no,USGS-391258075461301
+nwismd.01.01600352|manganese,24035,Queen Anne's,MD,manganese,0.0211,mg/L,2016-01-07,Water Quality Portal (NWIS),no,USGS-391258075461302
+nwismd.01.01600353|manganese,24035,Queen Anne's,MD,manganese,0.0351,mg/L,2016-01-07,Water Quality Portal (NWIS),no,USGS-391303075460801
+nwismd.01.01600354|manganese,24035,Queen Anne's,MD,manganese,0.011,mg/L,2016-01-07,Water Quality Portal (NWIS),no,USGS-391303075460802
+nwismd.01.01700063|manganese,24035,Queen Anne's,MD,manganese,0.0842,mg/L,2016-11-07,Water Quality Portal (NWIS),no,USGS-391253075461701
+nwismd.01.01700069|manganese,24035,Queen Anne's,MD,manganese,0.0019,mg/L,2016-11-07,Water Quality Portal (NWIS),no,USGS-391311075463901
+nwismd.01.01700065|manganese,24035,Queen Anne's,MD,manganese,0.0986,mg/L,2016-11-08,Water Quality Portal (NWIS),no,USGS-391318075463501
+nwismd.01.01700066|manganese,24035,Queen Anne's,MD,manganese,0.0504,mg/L,2016-11-08,Water Quality Portal (NWIS),no,USGS-391316075463601
+nwismd.01.01700067|manganese,24035,Queen Anne's,MD,manganese,0.0156,mg/L,2016-11-08,Water Quality Portal (NWIS),no,USGS-391313075463601
+nwismd.01.01700068|manganese,24035,Queen Anne's,MD,manganese,0.0195,mg/L,2016-11-08,Water Quality Portal (NWIS),no,USGS-391314075463801
+nwismd.01.01700072|manganese,24035,Queen Anne's,MD,manganese,0.0312,mg/L,2016-11-14,Water Quality Portal (NWIS),no,USGS-391303075460801
+nwismd.01.01700073|manganese,24035,Queen Anne's,MD,manganese,0.0933,mg/L,2016-11-14,Water Quality Portal (NWIS),no,USGS-391321075463101
+nwismd.01.01700074|manganese,24035,Queen Anne's,MD,manganese,0.0739,mg/L,2016-11-14,Water Quality Portal (NWIS),no,USGS-391320075463201
+nwismd.01.01700075|manganese,24035,Queen Anne's,MD,manganese,0.0669,mg/L,2016-11-14,Water Quality Portal (NWIS),no,USGS-391317075463301
+nwismd.01.01700082|manganese,24035,Queen Anne's,MD,manganese,0.0622,mg/L,2016-11-16,Water Quality Portal (NWIS),no,USGS-391255075461401
+nwismd.01.01700083|manganese,24035,Queen Anne's,MD,manganese,0.0383,mg/L,2016-11-16,Water Quality Portal (NWIS),no,USGS-391304075460801
+nwismd.01.01700084|manganese,24035,Queen Anne's,MD,manganese,0.0379,mg/L,2016-11-16,Water Quality Portal (NWIS),no,USGS-391300075461001
+nwismd.01.01700085|manganese,24035,Queen Anne's,MD,manganese,0.0191,mg/L,2016-11-16,Water Quality Portal (NWIS),no,USGS-391301075461202
+nwismd.01.01700086|manganese,24035,Queen Anne's,MD,manganese,0.0334,mg/L,2016-11-16,Water Quality Portal (NWIS),no,USGS-391258075461301
+nwismd.01.01700087|manganese,24035,Queen Anne's,MD,manganese,0.0959,mg/L,2016-11-16,Water Quality Portal (NWIS),no,USGS-391256075461601
+nwismd.01.02300493|manganese,24035,Queen Anne's,MD,manganese,0.0217,mg/L,2023-08-08,Water Quality Portal (NWIS),no,USGS-390126075575402
+nwismd.01.01500589|ph,24035,Queen Anne's,MD,ph,5.0,pH,2015-03-31,Water Quality Portal (NWIS),no,USGS-391300075461001
+nwismd.01.01500590|ph,24035,Queen Anne's,MD,ph,4.8,pH,2015-03-31,Water Quality Portal (NWIS),no,USGS-391303075460802
+nwismd.01.01500591|ph,24035,Queen Anne's,MD,ph,4.6,pH,2015-03-31,Water Quality Portal (NWIS),no,USGS-391304075460801
+nwismd.01.01500592|ph,24035,Queen Anne's,MD,ph,4.8,pH,2015-03-31,Water Quality Portal (NWIS),no,USGS-391304075460802
+nwismd.01.01500593|ph,24035,Queen Anne's,MD,ph,6.1,pH,2015-03-31,Water Quality Portal (NWIS),no,USGS-391311075463901
+nwismd.01.01500594|ph,24035,Queen Anne's,MD,ph,4.9,pH,2015-03-31,Water Quality Portal (NWIS),no,USGS-391311075463902
+nwismd.01.01500702|ph,24035,Queen Anne's,MD,ph,4.7,pH,2015-03-31,Water Quality Portal (NWIS),no,USGS-391303075460801
+nwismd.01.01500581|ph,24035,Queen Anne's,MD,ph,4.8,pH,2015-04-01,Water Quality Portal (NWIS),no,USGS-391255075461401
+nwismd.01.01500582|ph,24035,Queen Anne's,MD,ph,5.0,pH,2015-04-01,Water Quality Portal (NWIS),no,USGS-391258075461301
+nwismd.01.01500583|ph,24035,Queen Anne's,MD,ph,4.9,pH,2015-04-01,Water Quality Portal (NWIS),no,USGS-391258075461302
+nwismd.01.01500584|ph,24035,Queen Anne's,MD,ph,4.7,pH,2015-04-01,Water Quality Portal (NWIS),no,USGS-391256075461601
+nwismd.01.01500585|ph,24035,Queen Anne's,MD,ph,4.9,pH,2015-04-01,Water Quality Portal (NWIS),no,USGS-391253075461701
+nwismd.01.01500586|ph,24035,Queen Anne's,MD,ph,5.2,pH,2015-04-01,Water Quality Portal (NWIS),no,USGS-391253075461702
+nwismd.01.01500587|ph,24035,Queen Anne's,MD,ph,5.1,pH,2015-04-01,Water Quality Portal (NWIS),no,USGS-391301075461202
+nwismd.01.01500675|ph,24035,Queen Anne's,MD,ph,4.8,pH,2015-04-15,Water Quality Portal (NWIS),no,USGS-391316075463602
+nwismd.01.01500676|ph,24035,Queen Anne's,MD,ph,4.9,pH,2015-04-15,Water Quality Portal (NWIS),no,USGS-391317075463301
+nwismd.01.01500677|ph,24035,Queen Anne's,MD,ph,4.9,pH,2015-04-15,Water Quality Portal (NWIS),no,USGS-391320075463201
+nwismd.01.01500678|ph,24035,Queen Anne's,MD,ph,4.6,pH,2015-04-15,Water Quality Portal (NWIS),no,USGS-391318075463501
+nwismd.01.01500680|ph,24035,Queen Anne's,MD,ph,4.7,pH,2015-04-15,Water Quality Portal (NWIS),no,USGS-391321075463101
+nwismd.01.01500688|ph,24035,Queen Anne's,MD,ph,4.9,pH,2015-04-15,Water Quality Portal (NWIS),no,USGS-391321075463102
+nwismd.01.01500672|ph,24035,Queen Anne's,MD,ph,5.7,pH,2015-04-16,Water Quality Portal (NWIS),no,USGS-391313075463601
+nwismd.01.01500673|ph,24035,Queen Anne's,MD,ph,4.5,pH,2015-04-16,Water Quality Portal (NWIS),no,USGS-391314075463801
+nwismd.01.01500674|ph,24035,Queen Anne's,MD,ph,4.6,pH,2015-04-16,Water Quality Portal (NWIS),no,USGS-391316075463601
+nwismd.01.01600253|ph,24035,Queen Anne's,MD,ph,5.8,pH,2015-12-09,Water Quality Portal (NWIS),no,USGS-391313075463601
+nwismd.01.01600254|ph,24035,Queen Anne's,MD,ph,5.0,pH,2015-12-09,Water Quality Portal (NWIS),no,USGS-391316075463602
+nwismd.01.01600255|ph,24035,Queen Anne's,MD,ph,4.6,pH,2015-12-09,Water Quality Portal (NWIS),no,USGS-391316075463601
+nwismd.01.01600256|ph,24035,Queen Anne's,MD,ph,5.1,pH,2015-12-09,Water Quality Portal (NWIS),no,USGS-391311075463902
+nwismd.01.01600257|ph,24035,Queen Anne's,MD,ph,6.1,pH,2015-12-09,Water Quality Portal (NWIS),no,USGS-391311075463901
+nwismd.01.01600250|ph,24035,Queen Anne's,MD,ph,4.9,pH,2015-12-10,Water Quality Portal (NWIS),no,USGS-391320075463201
+nwismd.01.01600251|ph,24035,Queen Anne's,MD,ph,4.7,pH,2015-12-10,Water Quality Portal (NWIS),no,USGS-391321075463101
+nwismd.01.01600252|ph,24035,Queen Anne's,MD,ph,4.5,pH,2015-12-10,Water Quality Portal (NWIS),no,USGS-391314075463801
+nwismd.01.01600279|ph,24035,Queen Anne's,MD,ph,4.7,pH,2015-12-10,Water Quality Portal (NWIS),no,USGS-391255075461401
+nwismd.01.01600280|ph,24035,Queen Anne's,MD,ph,4.8,pH,2015-12-10,Water Quality Portal (NWIS),no,USGS-391256075461601
+nwismd.01.01600281|ph,24035,Queen Anne's,MD,ph,5.0,pH,2015-12-10,Water Quality Portal (NWIS),no,USGS-391301075461202
+nwismd.01.01600282|ph,24035,Queen Anne's,MD,ph,4.9,pH,2015-12-10,Water Quality Portal (NWIS),no,USGS-391300075461001
+nwismd.01.01600283|ph,24035,Queen Anne's,MD,ph,4.7,pH,2015-12-10,Water Quality Portal (NWIS),no,USGS-391317075463301
+nwismd.01.01600284|ph,24035,Queen Anne's,MD,ph,4.4,pH,2015-12-10,Water Quality Portal (NWIS),no,USGS-391318075463501
+nwismd.01.01600355|ph,24035,Queen Anne's,MD,ph,4.6,pH,2016-01-06,Water Quality Portal (NWIS),no,USGS-391304075460801
+nwismd.01.01600356|ph,24035,Queen Anne's,MD,ph,4.9,pH,2016-01-06,Water Quality Portal (NWIS),no,USGS-391304075460802
+nwismd.01.01600357|ph,24035,Queen Anne's,MD,ph,5.1,pH,2016-01-06,Water Quality Portal (NWIS),no,USGS-391321075463102
+nwismd.01.01600349|ph,24035,Queen Anne's,MD,ph,5.3,pH,2016-01-07,Water Quality Portal (NWIS),no,USGS-391253075461702
+nwismd.01.01600350|ph,24035,Queen Anne's,MD,ph,4.8,pH,2016-01-07,Water Quality Portal (NWIS),no,USGS-391253075461701
+nwismd.01.01600351|ph,24035,Queen Anne's,MD,ph,5.0,pH,2016-01-07,Water Quality Portal (NWIS),no,USGS-391258075461301
+nwismd.01.01600352|ph,24035,Queen Anne's,MD,ph,4.9,pH,2016-01-07,Water Quality Portal (NWIS),no,USGS-391258075461302
+nwismd.01.01600353|ph,24035,Queen Anne's,MD,ph,4.8,pH,2016-01-07,Water Quality Portal (NWIS),no,USGS-391303075460801
+nwismd.01.01600354|ph,24035,Queen Anne's,MD,ph,4.8,pH,2016-01-07,Water Quality Portal (NWIS),no,USGS-391303075460802
+nwismd.01.01600619|ph,24035,Queen Anne's,MD,ph,4.7,pH,2016-03-22,Water Quality Portal (NWIS),no,USGS-391303075460801
+nwismd.01.01600620|ph,24035,Queen Anne's,MD,ph,4.8,pH,2016-03-22,Water Quality Portal (NWIS),no,USGS-391303075460802
+nwismd.01.01600621|ph,24035,Queen Anne's,MD,ph,4.6,pH,2016-03-22,Water Quality Portal (NWIS),no,USGS-391255075461401
+nwismd.01.01600622|ph,24035,Queen Anne's,MD,ph,4.6,pH,2016-03-22,Water Quality Portal (NWIS),no,USGS-391300075461001
+nwismd.01.01600623|ph,24035,Queen Anne's,MD,ph,5.0,pH,2016-03-22,Water Quality Portal (NWIS),no,USGS-391258075461301
+nwismd.01.01600624|ph,24035,Queen Anne's,MD,ph,4.9,pH,2016-03-22,Water Quality Portal (NWIS),no,USGS-391258075461302
+nwismd.01.01600625|ph,24035,Queen Anne's,MD,ph,4.9,pH,2016-03-22,Water Quality Portal (NWIS),no,USGS-391301075461202
+nwismd.01.01600626|ph,24035,Queen Anne's,MD,ph,4.8,pH,2016-03-22,Water Quality Portal (NWIS),no,USGS-391253075461701
+nwismd.01.01600627|ph,24035,Queen Anne's,MD,ph,5.2,pH,2016-03-22,Water Quality Portal (NWIS),no,USGS-391253075461702
+nwismd.01.01600628|ph,24035,Queen Anne's,MD,ph,5.1,pH,2016-03-22,Water Quality Portal (NWIS),no,USGS-391256075461601
+nwismd.01.01600611|ph,24035,Queen Anne's,MD,ph,4.2,pH,2016-03-23,Water Quality Portal (NWIS),no,USGS-391314075463801
+nwismd.01.01600612|ph,24035,Queen Anne's,MD,ph,5.7,pH,2016-03-23,Water Quality Portal (NWIS),no,USGS-391313075463601
+nwismd.01.01600613|ph,24035,Queen Anne's,MD,ph,4.7,pH,2016-03-23,Water Quality Portal (NWIS),no,USGS-391316075463601
+nwismd.01.01600614|ph,24035,Queen Anne's,MD,ph,4.9,pH,2016-03-23,Water Quality Portal (NWIS),no,USGS-391316075463602
+nwismd.01.01600616|ph,24035,Queen Anne's,MD,ph,6.2,pH,2016-03-23,Water Quality Portal (NWIS),no,USGS-391311075463901
+nwismd.01.01600617|ph,24035,Queen Anne's,MD,ph,5.2,pH,2016-03-23,Water Quality Portal (NWIS),no,USGS-391311075463902
+nwismd.01.01600618|ph,24035,Queen Anne's,MD,ph,4.3,pH,2016-03-23,Water Quality Portal (NWIS),no,USGS-391318075463501
+nwismd.01.01600654|ph,24035,Queen Anne's,MD,ph,4.4,pH,2016-03-23,Water Quality Portal (NWIS),no,USGS-391317075463301
+nwismd.01.01600648|ph,24035,Queen Anne's,MD,ph,4.7,pH,2016-03-29,Water Quality Portal (NWIS),no,USGS-391304075460801
+nwismd.01.01600649|ph,24035,Queen Anne's,MD,ph,4.8,pH,2016-03-29,Water Quality Portal (NWIS),no,USGS-391304075460802
+nwismd.01.01600650|ph,24035,Queen Anne's,MD,ph,4.7,pH,2016-03-29,Water Quality Portal (NWIS),no,USGS-391320075463201
+nwismd.01.01600653|ph,24035,Queen Anne's,MD,ph,4.9,pH,2016-03-29,Water Quality Portal (NWIS),no,USGS-391321075463102
+nwismd.01.01700063|ph,24035,Queen Anne's,MD,ph,4.5,pH,2016-11-07,Water Quality Portal (NWIS),no,USGS-391253075461701
+nwismd.01.01700069|ph,24035,Queen Anne's,MD,ph,6.1,pH,2016-11-07,Water Quality Portal (NWIS),no,USGS-391311075463901
+nwismd.01.01700569|ph,24035,Queen Anne's,MD,ph,4.8,pH,2016-11-07,Water Quality Portal (NWIS),no,USGS-391303075460801
+nwismd.01.01700065|ph,24035,Queen Anne's,MD,ph,4.4,pH,2016-11-08,Water Quality Portal (NWIS),no,USGS-391318075463501
+nwismd.01.01700066|ph,24035,Queen Anne's,MD,ph,4.6,pH,2016-11-08,Water Quality Portal (NWIS),no,USGS-391316075463601
+nwismd.01.01700067|ph,24035,Queen Anne's,MD,ph,5.7,pH,2016-11-08,Water Quality Portal (NWIS),no,USGS-391313075463601
+nwismd.01.01700068|ph,24035,Queen Anne's,MD,ph,4.4,pH,2016-11-08,Water Quality Portal (NWIS),no,USGS-391314075463801
+nwismd.01.01700072|ph,24035,Queen Anne's,MD,ph,4.8,pH,2016-11-14,Water Quality Portal (NWIS),no,USGS-391303075460801
+nwismd.01.01700073|ph,24035,Queen Anne's,MD,ph,4.8,pH,2016-11-14,Water Quality Portal (NWIS),no,USGS-391321075463101
+nwismd.01.01700074|ph,24035,Queen Anne's,MD,ph,4.9,pH,2016-11-14,Water Quality Portal (NWIS),no,USGS-391320075463201
+nwismd.01.01700075|ph,24035,Queen Anne's,MD,ph,5.0,pH,2016-11-14,Water Quality Portal (NWIS),no,USGS-391317075463301
+nwismd.01.01700082|ph,24035,Queen Anne's,MD,ph,4.6,pH,2016-11-16,Water Quality Portal (NWIS),no,USGS-391255075461401
+nwismd.01.01700083|ph,24035,Queen Anne's,MD,ph,4.7,pH,2016-11-16,Water Quality Portal (NWIS),no,USGS-391304075460801
+nwismd.01.01700084|ph,24035,Queen Anne's,MD,ph,4.8,pH,2016-11-16,Water Quality Portal (NWIS),no,USGS-391300075461001
+nwismd.01.01700085|ph,24035,Queen Anne's,MD,ph,5.0,pH,2016-11-16,Water Quality Portal (NWIS),no,USGS-391301075461202
+nwismd.01.01700086|ph,24035,Queen Anne's,MD,ph,5.0,pH,2016-11-16,Water Quality Portal (NWIS),no,USGS-391258075461301
+nwismd.01.01700087|ph,24035,Queen Anne's,MD,ph,4.8,pH,2016-11-16,Water Quality Portal (NWIS),no,USGS-391256075461601
+nwismd.01.02300493|ph,24035,Queen Anne's,MD,ph,5.1,pH,2023-08-08,Water Quality Portal (NWIS),no,USGS-390126075575402
+nwismd.01.01500589|tds,24035,Queen Anne's,MD,tds,126.0,mg/L,2015-03-31,Water Quality Portal (NWIS),no,USGS-391300075461001
+nwismd.01.01500590|tds,24035,Queen Anne's,MD,tds,99.0,mg/L,2015-03-31,Water Quality Portal (NWIS),no,USGS-391303075460802
+nwismd.01.01500591|tds,24035,Queen Anne's,MD,tds,119.0,mg/L,2015-03-31,Water Quality Portal (NWIS),no,USGS-391304075460801
+nwismd.01.01500592|tds,24035,Queen Anne's,MD,tds,87.0,mg/L,2015-03-31,Water Quality Portal (NWIS),no,USGS-391304075460802
+nwismd.01.01500593|tds,24035,Queen Anne's,MD,tds,149.0,mg/L,2015-03-31,Water Quality Portal (NWIS),no,USGS-391311075463901
+nwismd.01.01500594|tds,24035,Queen Anne's,MD,tds,102.0,mg/L,2015-03-31,Water Quality Portal (NWIS),no,USGS-391311075463902
+nwismd.01.01500702|tds,24035,Queen Anne's,MD,tds,106.0,mg/L,2015-03-31,Water Quality Portal (NWIS),no,USGS-391303075460801
+nwismd.01.01500581|tds,24035,Queen Anne's,MD,tds,124.0,mg/L,2015-04-01,Water Quality Portal (NWIS),no,USGS-391255075461401
+nwismd.01.01500582|tds,24035,Queen Anne's,MD,tds,128.0,mg/L,2015-04-01,Water Quality Portal (NWIS),no,USGS-391258075461301
+nwismd.01.01500583|tds,24035,Queen Anne's,MD,tds,97.0,mg/L,2015-04-01,Water Quality Portal (NWIS),no,USGS-391258075461302
+nwismd.01.01500584|tds,24035,Queen Anne's,MD,tds,146.0,mg/L,2015-04-01,Water Quality Portal (NWIS),no,USGS-391256075461601
+nwismd.01.01500585|tds,24035,Queen Anne's,MD,tds,137.0,mg/L,2015-04-01,Water Quality Portal (NWIS),no,USGS-391253075461701
+nwismd.01.01500586|tds,24035,Queen Anne's,MD,tds,129.0,mg/L,2015-04-01,Water Quality Portal (NWIS),no,USGS-391253075461702
+nwismd.01.01500587|tds,24035,Queen Anne's,MD,tds,100.0,mg/L,2015-04-01,Water Quality Portal (NWIS),no,USGS-391301075461202
+nwismd.01.01500675|tds,24035,Queen Anne's,MD,tds,129.0,mg/L,2015-04-15,Water Quality Portal (NWIS),no,USGS-391316075463602
+nwismd.01.01500676|tds,24035,Queen Anne's,MD,tds,115.0,mg/L,2015-04-15,Water Quality Portal (NWIS),no,USGS-391317075463301
+nwismd.01.01500677|tds,24035,Queen Anne's,MD,tds,109.0,mg/L,2015-04-15,Water Quality Portal (NWIS),no,USGS-391320075463201
+nwismd.01.01500678|tds,24035,Queen Anne's,MD,tds,103.0,mg/L,2015-04-15,Water Quality Portal (NWIS),no,USGS-391318075463501
+nwismd.01.01500680|tds,24035,Queen Anne's,MD,tds,104.0,mg/L,2015-04-15,Water Quality Portal (NWIS),no,USGS-391321075463101
+nwismd.01.01500688|tds,24035,Queen Anne's,MD,tds,103.0,mg/L,2015-04-15,Water Quality Portal (NWIS),no,USGS-391321075463102
+nwismd.01.01500672|tds,24035,Queen Anne's,MD,tds,127.0,mg/L,2015-04-16,Water Quality Portal (NWIS),no,USGS-391313075463601
+nwismd.01.01500673|tds,24035,Queen Anne's,MD,tds,100.0,mg/L,2015-04-16,Water Quality Portal (NWIS),no,USGS-391314075463801
+nwismd.01.01500674|tds,24035,Queen Anne's,MD,tds,80.0,mg/L,2015-04-16,Water Quality Portal (NWIS),no,USGS-391316075463601
+nwismd.01.01600253|tds,24035,Queen Anne's,MD,tds,144.0,mg/L,2015-12-09,Water Quality Portal (NWIS),no,USGS-391313075463601
+nwismd.01.01600254|tds,24035,Queen Anne's,MD,tds,104.0,mg/L,2015-12-09,Water Quality Portal (NWIS),no,USGS-391316075463602
+nwismd.01.01600255|tds,24035,Queen Anne's,MD,tds,109.0,mg/L,2015-12-09,Water Quality Portal (NWIS),no,USGS-391316075463601
+nwismd.01.01600256|tds,24035,Queen Anne's,MD,tds,94.0,mg/L,2015-12-09,Water Quality Portal (NWIS),no,USGS-391311075463902
+nwismd.01.01600257|tds,24035,Queen Anne's,MD,tds,196.0,mg/L,2015-12-09,Water Quality Portal (NWIS),no,USGS-391311075463901
+nwismd.01.01600250|tds,24035,Queen Anne's,MD,tds,105.0,mg/L,2015-12-10,Water Quality Portal (NWIS),no,USGS-391320075463201
+nwismd.01.01600251|tds,24035,Queen Anne's,MD,tds,103.0,mg/L,2015-12-10,Water Quality Portal (NWIS),no,USGS-391321075463101
+nwismd.01.01600252|tds,24035,Queen Anne's,MD,tds,114.0,mg/L,2015-12-10,Water Quality Portal (NWIS),no,USGS-391314075463801
+nwismd.01.01600279|tds,24035,Queen Anne's,MD,tds,104.0,mg/L,2015-12-10,Water Quality Portal (NWIS),no,USGS-391255075461401
+nwismd.01.01600280|tds,24035,Queen Anne's,MD,tds,110.0,mg/L,2015-12-10,Water Quality Portal (NWIS),no,USGS-391256075461601
+nwismd.01.01600281|tds,24035,Queen Anne's,MD,tds,114.0,mg/L,2015-12-10,Water Quality Portal (NWIS),no,USGS-391301075461202
+nwismd.01.01600282|tds,24035,Queen Anne's,MD,tds,104.0,mg/L,2015-12-10,Water Quality Portal (NWIS),no,USGS-391300075461001
+nwismd.01.01600283|tds,24035,Queen Anne's,MD,tds,107.0,mg/L,2015-12-10,Water Quality Portal (NWIS),no,USGS-391317075463301
+nwismd.01.01600284|tds,24035,Queen Anne's,MD,tds,108.0,mg/L,2015-12-10,Water Quality Portal (NWIS),no,USGS-391318075463501
+nwismd.01.01600355|tds,24035,Queen Anne's,MD,tds,97.0,mg/L,2016-01-06,Water Quality Portal (NWIS),no,USGS-391304075460801
+nwismd.01.01600356|tds,24035,Queen Anne's,MD,tds,87.0,mg/L,2016-01-06,Water Quality Portal (NWIS),no,USGS-391304075460802
+nwismd.01.01600357|tds,24035,Queen Anne's,MD,tds,97.0,mg/L,2016-01-06,Water Quality Portal (NWIS),no,USGS-391321075463102
+nwismd.01.01600349|tds,24035,Queen Anne's,MD,tds,134.0,mg/L,2016-01-07,Water Quality Portal (NWIS),no,USGS-391253075461702
+nwismd.01.01600350|tds,24035,Queen Anne's,MD,tds,132.0,mg/L,2016-01-07,Water Quality Portal (NWIS),no,USGS-391253075461701
+nwismd.01.01600351|tds,24035,Queen Anne's,MD,tds,121.0,mg/L,2016-01-07,Water Quality Portal (NWIS),no,USGS-391258075461301
+nwismd.01.01600352|tds,24035,Queen Anne's,MD,tds,93.0,mg/L,2016-01-07,Water Quality Portal (NWIS),no,USGS-391258075461302
+nwismd.01.01600353|tds,24035,Queen Anne's,MD,tds,109.0,mg/L,2016-01-07,Water Quality Portal (NWIS),no,USGS-391303075460801
+nwismd.01.01600354|tds,24035,Queen Anne's,MD,tds,79.0,mg/L,2016-01-07,Water Quality Portal (NWIS),no,USGS-391303075460802
+nwismd.01.01700063|tds,24035,Queen Anne's,MD,tds,126.0,mg/L,2016-11-07,Water Quality Portal (NWIS),no,USGS-391253075461701
+nwismd.01.01700069|tds,24035,Queen Anne's,MD,tds,173.0,mg/L,2016-11-07,Water Quality Portal (NWIS),no,USGS-391311075463901
+nwismd.01.01700065|tds,24035,Queen Anne's,MD,tds,101.0,mg/L,2016-11-08,Water Quality Portal (NWIS),no,USGS-391318075463501
+nwismd.01.01700066|tds,24035,Queen Anne's,MD,tds,98.0,mg/L,2016-11-08,Water Quality Portal (NWIS),no,USGS-391316075463601
+nwismd.01.01700067|tds,24035,Queen Anne's,MD,tds,117.0,mg/L,2016-11-08,Water Quality Portal (NWIS),no,USGS-391313075463601
+nwismd.01.01700068|tds,24035,Queen Anne's,MD,tds,111.0,mg/L,2016-11-08,Water Quality Portal (NWIS),no,USGS-391314075463801
+nwismd.01.01700072|tds,24035,Queen Anne's,MD,tds,103.0,mg/L,2016-11-14,Water Quality Portal (NWIS),no,USGS-391303075460801
+nwismd.01.01700073|tds,24035,Queen Anne's,MD,tds,98.0,mg/L,2016-11-14,Water Quality Portal (NWIS),no,USGS-391321075463101
+nwismd.01.01700074|tds,24035,Queen Anne's,MD,tds,108.0,mg/L,2016-11-14,Water Quality Portal (NWIS),no,USGS-391320075463201
+nwismd.01.01700075|tds,24035,Queen Anne's,MD,tds,115.0,mg/L,2016-11-14,Water Quality Portal (NWIS),no,USGS-391317075463301
+nwismd.01.01700082|tds,24035,Queen Anne's,MD,tds,100.0,mg/L,2016-11-16,Water Quality Portal (NWIS),no,USGS-391255075461401
+nwismd.01.01700083|tds,24035,Queen Anne's,MD,tds,101.0,mg/L,2016-11-16,Water Quality Portal (NWIS),no,USGS-391304075460801
+nwismd.01.01700084|tds,24035,Queen Anne's,MD,tds,111.0,mg/L,2016-11-16,Water Quality Portal (NWIS),no,USGS-391300075461001
+nwismd.01.01700085|tds,24035,Queen Anne's,MD,tds,94.0,mg/L,2016-11-16,Water Quality Portal (NWIS),no,USGS-391301075461202
+nwismd.01.01700086|tds,24035,Queen Anne's,MD,tds,103.0,mg/L,2016-11-16,Water Quality Portal (NWIS),no,USGS-391258075461301
+nwismd.01.01700087|tds,24035,Queen Anne's,MD,tds,124.0,mg/L,2016-11-16,Water Quality Portal (NWIS),no,USGS-391256075461601
+nwismd.01.02300493|tds,24035,Queen Anne's,MD,tds,118.0,mg/L,2023-08-08,Water Quality Portal (NWIS),no,USGS-390126075575402
+nwismd.01.02300448|hardness,24039,Somerset,MD,hardness,3.38,gpg,2023-07-17,Water Quality Portal (NWIS),no,USGS-381245075404002
+nwismd.01.02300448|iron,24039,Somerset,MD,iron,0.0267,mg/L,2023-07-17,Water Quality Portal (NWIS),no,USGS-381245075404002
+nwismd.01.02300448|manganese,24039,Somerset,MD,manganese,0.0635,mg/L,2023-07-17,Water Quality Portal (NWIS),no,USGS-381245075404002
+nwismd.01.02300448|ph,24039,Somerset,MD,ph,5.0,pH,2023-07-17,Water Quality Portal (NWIS),no,USGS-381245075404002
+nwismd.01.02300448|tds,24039,Somerset,MD,tds,157.0,mg/L,2023-07-17,Water Quality Portal (NWIS),no,USGS-381245075404002
+nwismd.01.02200668|hardness,24037,St. Mary's,MD,hardness,6.37,gpg,2022-09-08,Water Quality Portal (NWIS),no,USGS-381451076292901
+nwismd.01.02200668|iron,24037,St. Mary's,MD,iron,0.0228,mg/L,2022-09-08,Water Quality Portal (NWIS),no,USGS-381451076292901
+nwismd.01.02200668|manganese,24037,St. Mary's,MD,manganese,,mg/L,2022-09-08,Water Quality Portal (NWIS),yes,USGS-381451076292901
+nwismd.01.02200668|ph,24037,St. Mary's,MD,ph,8.0,pH,2022-09-08,Water Quality Portal (NWIS),no,USGS-381451076292901
+nwismd.01.02200668|tds,24037,St. Mary's,MD,tds,191.0,mg/L,2022-09-08,Water Quality Portal (NWIS),no,USGS-381451076292901
+nwismd.01.02200593|hardness,24041,Talbot,MD,hardness,1.2,gpg,2022-08-31,Water Quality Portal (NWIS),no,USGS-384645076044401
+nwismd.01.02300525|hardness,24041,Talbot,MD,hardness,1.54,gpg,2023-08-23,Water Quality Portal (NWIS),no,USGS-384946076002201
+nwismd.01.02200593|iron,24041,Talbot,MD,iron,0.148,mg/L,2022-08-31,Water Quality Portal (NWIS),no,USGS-384645076044401
+nwismd.01.02300525|iron,24041,Talbot,MD,iron,0.0078,mg/L,2023-08-23,Water Quality Portal (NWIS),no,USGS-384946076002201
+nwismd.01.02200593|manganese,24041,Talbot,MD,manganese,0.0134,mg/L,2022-08-31,Water Quality Portal (NWIS),no,USGS-384645076044401
+nwismd.01.02300525|manganese,24041,Talbot,MD,manganese,0.0024,mg/L,2023-08-23,Water Quality Portal (NWIS),no,USGS-384946076002201
+nwismd.01.02200593|ph,24041,Talbot,MD,ph,7.9,pH,2022-08-31,Water Quality Portal (NWIS),no,USGS-384645076044401
+nwismd.01.02300525|ph,24041,Talbot,MD,ph,5.6,pH,2023-08-23,Water Quality Portal (NWIS),no,USGS-384946076002201
+nwismd.01.02200593|tds,24041,Talbot,MD,tds,177.0,mg/L,2022-08-31,Water Quality Portal (NWIS),no,USGS-384645076044401
+nwismd.01.02300525|tds,24041,Talbot,MD,tds,84.0,mg/L,2023-08-23,Water Quality Portal (NWIS),no,USGS-384946076002201
+nwismd.01.02200578|hardness,24043,Washington,MD,hardness,21.87,gpg,2022-08-23,Water Quality Portal (NWIS),no,USGS-393241077434201
+nwismd.01.02200578|iron,24043,Washington,MD,iron,0.0056,mg/L,2022-08-23,Water Quality Portal (NWIS),no,USGS-393241077434201
+nwismd.01.02200578|manganese,24043,Washington,MD,manganese,0.0012,mg/L,2022-08-23,Water Quality Portal (NWIS),no,USGS-393241077434201
+nwismd.01.02200578|ph,24043,Washington,MD,ph,7.5,pH,2022-08-23,Water Quality Portal (NWIS),no,USGS-393241077434201
+nwismd.01.02200578|tds,24043,Washington,MD,tds,457.0,mg/L,2022-08-23,Water Quality Portal (NWIS),no,USGS-393241077434201
+nwismd.01.02300445|hardness,24045,Wicomico,MD,hardness,0.27,gpg,2023-07-18,Water Quality Portal (NWIS),no,USGS-382403075233202
+nwismd.01.02300445|iron,24045,Wicomico,MD,iron,,mg/L,2023-07-18,Water Quality Portal (NWIS),yes,USGS-382403075233202
+nwismd.01.02300445|manganese,24045,Wicomico,MD,manganese,0.0094,mg/L,2023-07-18,Water Quality Portal (NWIS),no,USGS-382403075233202
+nwismd.01.02300445|ph,24045,Wicomico,MD,ph,5.6,pH,2023-07-18,Water Quality Portal (NWIS),no,USGS-382403075233202
+nwismd.01.02300445|tds,24045,Wicomico,MD,tds,86.0,mg/L,2023-07-18,Water Quality Portal (NWIS),no,USGS-382403075233202
+nwismd.01.02300588|hardness,24047,Worcester,MD,hardness,0.71,gpg,2023-08-07,Water Quality Portal (NWIS),no,USGS-381543075273802
+nwismd.01.02300516|hardness,24047,Worcester,MD,hardness,1.5,gpg,2023-08-09,Water Quality Portal (NWIS),no,USGS-381754075083603
+nwismd.01.02300517|hardness,24047,Worcester,MD,hardness,1.51,gpg,2023-08-30,Water Quality Portal (NWIS),no,USGS-380358075292901
+nwismd.01.02300588|iron,24047,Worcester,MD,iron,0.224,mg/L,2023-08-07,Water Quality Portal (NWIS),no,USGS-381543075273802
+nwismd.01.02300516|iron,24047,Worcester,MD,iron,2.4,mg/L,2023-08-09,Water Quality Portal (NWIS),no,USGS-381754075083603
+nwismd.01.02300517|iron,24047,Worcester,MD,iron,1.45,mg/L,2023-08-30,Water Quality Portal (NWIS),no,USGS-380358075292901
+nwismd.01.02300588|manganese,24047,Worcester,MD,manganese,0.194,mg/L,2023-08-07,Water Quality Portal (NWIS),no,USGS-381543075273802
+nwismd.01.02300516|manganese,24047,Worcester,MD,manganese,0.0524,mg/L,2023-08-09,Water Quality Portal (NWIS),no,USGS-381754075083603
+nwismd.01.02300517|manganese,24047,Worcester,MD,manganese,0.0462,mg/L,2023-08-30,Water Quality Portal (NWIS),no,USGS-380358075292901
+nwismd.01.01501262|ph,24047,Worcester,MD,ph,6.8,pH,2015-09-08,Water Quality Portal (NWIS),no,USGS-382215075041902
+nwismd.01.01501263|ph,24047,Worcester,MD,ph,6.9,pH,2015-09-08,Water Quality Portal (NWIS),no,USGS-382215075041901
+nwismd.01.01501265|ph,24047,Worcester,MD,ph,6.7,pH,2015-09-08,Water Quality Portal (NWIS),no,USGS-382443075033501
+nwismd.01.01501266|ph,24047,Worcester,MD,ph,6.5,pH,2015-09-08,Water Quality Portal (NWIS),no,USGS-382635075030602
+nwismd.01.01501267|ph,24047,Worcester,MD,ph,6.7,pH,2015-09-09,Water Quality Portal (NWIS),no,USGS-382649075033701
+nwismd.01.01501268|ph,24047,Worcester,MD,ph,6.7,pH,2015-09-09,Water Quality Portal (NWIS),no,USGS-382638075033001
+nwismd.01.01501269|ph,24047,Worcester,MD,ph,6.6,pH,2015-09-09,Water Quality Portal (NWIS),no,USGS-382532075032301
+nwismd.01.01501270|ph,24047,Worcester,MD,ph,7.4,pH,2015-09-09,Water Quality Portal (NWIS),no,USGS-381938075052001
+nwismd.01.01501271|ph,24047,Worcester,MD,ph,7.2,pH,2015-09-09,Water Quality Portal (NWIS),no,USGS-381953075051401
+nwismd.01.01501272|ph,24047,Worcester,MD,ph,7.0,pH,2015-09-09,Water Quality Portal (NWIS),no,USGS-382156075042001
+nwismd.01.01501273|ph,24047,Worcester,MD,ph,7.5,pH,2015-09-09,Water Quality Portal (NWIS),no,USGS-382127075043804
+nwismd.01.02300588|ph,24047,Worcester,MD,ph,4.9,pH,2023-08-07,Water Quality Portal (NWIS),no,USGS-381543075273802
+nwismd.01.02300516|ph,24047,Worcester,MD,ph,5.5,pH,2023-08-09,Water Quality Portal (NWIS),no,USGS-381754075083603
+nwismd.01.02300517|ph,24047,Worcester,MD,ph,4.7,pH,2023-08-30,Water Quality Portal (NWIS),no,USGS-380358075292901
+nwismd.01.02300588|tds,24047,Worcester,MD,tds,51.0,mg/L,2023-08-07,Water Quality Portal (NWIS),no,USGS-381543075273802
+nwismd.01.02300516|tds,24047,Worcester,MD,tds,90.0,mg/L,2023-08-09,Water Quality Portal (NWIS),no,USGS-381754075083603
+nwismd.01.02300517|tds,24047,Worcester,MD,tds,92.0,mg/L,2023-08-30,Water Quality Portal (NWIS),no,USGS-380358075292901
