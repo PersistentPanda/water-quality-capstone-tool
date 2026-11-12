@@ -31,6 +31,12 @@ Rules applied (design document, Section 2.4):
     - A result reported as not detected has a blank value and below_detection = yes.
       It is never turned into zero.
     - Exact duplicate rows are dropped. Rows with an unknown site or county are dropped.
+    - Only routine groundwater samples are kept (no quality-control replicates, no surface water).
+    - One value per sample and measurement. USGS often reports the same measurement more
+      than one way for a single sample. The script keeps, in this order of preference:
+      pH measured in the field over pH measured later in the lab; total dissolved solids
+      measured by drying over the value calculated from other results; dissolved iron and
+      manganese over total recoverable. The other value is dropped and counted.
 """
 import argparse
 import csv
@@ -59,6 +65,15 @@ CHARACTERISTICS = {
     "Total dissolved solids": "tds",
 }
 TOOL_UNIT = {"hardness": "gpg", "iron": "mg/L", "manganese": "mg/L", "ph": "pH", "tds": "mg/L"}
+# USGS parameter codes in order of preference when one sample has several results for a measurement.
+# Lower number wins. Codes not listed rank after the listed ones.
+PCODE_RANK = {
+    "00400": 0, "00403": 1,      # pH: field, then lab
+    "70300": 0, "70301": 1,      # TDS: residue on evaporation, then sum of constituents
+    "01046": 0, "01045": 1,      # iron: dissolved, then total recoverable
+    "01056": 0, "01055": 1,      # manganese: dissolved, then total recoverable
+    "00900": 0,                  # hardness as CaCO3
+}
 GPG_PER_MGL = 1 / 17.1
 
 RESULT_COLUMNS = ["ActivityIdentifier", "ActivityStartDate", "MonitoringLocationIdentifier",
@@ -163,11 +178,19 @@ def build(result_rows, station_rows, state_fips):
                                                          s.get("CountyCode", "").strip().zfill(3))
     counts = defaultdict(int)
     seen = set()
-    out = []
-    for r in result_rows:
+    best = {}          # (activity, parameter) -> (rank, order, output row)
+    for order, r in enumerate(result_rows):
         parameter_id = CHARACTERISTICS.get(r["CharacteristicName"].strip())
         if parameter_id is None:
             counts["other characteristic"] += 1
+            continue
+        activity_type = (r.get("ActivityTypeCode") or "").strip()
+        if activity_type and activity_type != "Sample-Routine":
+            counts["quality-control sample"] += 1
+            continue
+        subdivision = (r.get("ActivityMediaSubdivisionName") or "").strip()
+        if subdivision and subdivision != "Groundwater":
+            counts["not groundwater"] += 1
             continue
         site = r["MonitoringLocationIdentifier"].strip()
         state, county = county_of.get(site, ("", ""))
@@ -188,14 +211,16 @@ def build(result_rows, station_rows, state_fips):
                 counts["unit not usable"] += 1
                 continue
             value, unit, below = converted[0], converted[1], "no"
-        key = (site, parameter_id, r["ActivityStartDate"], value, r["ActivityIdentifier"])
-        if key in seen:
+        activity = r["ActivityIdentifier"].strip()
+        pcode = (r.get("USGSPCode") or "").strip()
+        exact = (activity, parameter_id, pcode, value)
+        if exact in seen:
             counts["duplicate"] += 1
             continue
-        seen.add(key)
+        seen.add(exact)
         area_name = MARYLAND_COUNTIES.get(county, county) if state_fips == "24" else county
-        out.append({
-            "sample_id": f"{r['ActivityIdentifier'].strip()}|{parameter_id}",
+        row = {
+            "sample_id": f"{activity}|{parameter_id}",
             "area_id": f"{state}{county}",
             "area_name": area_name,
             "state": STATE_ABBR.get(state, state),
@@ -206,8 +231,18 @@ def build(result_rows, station_rows, state_fips):
             "data_source": f"Water Quality Portal ({(r.get('ProviderName') or '').strip() or 'provider not given'})",
             "below_detection": below,
             "site_id": site,
-        })
-        counts["kept"] += 1
+        }
+        # A measured value beats a not-detected flag only by preference rank, then by file order.
+        rank = (PCODE_RANK.get(pcode, 9), order)
+        key = (activity, parameter_id)
+        if key in best:
+            counts["second result for the same sample"] += 1
+            if rank < best[key][0]:
+                best[key] = (rank, row)
+        else:
+            best[key] = (rank, row)
+    out = [row for _, row in best.values()]
+    counts["kept"] = len(out)
     out.sort(key=lambda x: (x["area_name"], x["parameter_id"], x["sample_date"], x["sample_id"]))
     return out, counts
 
@@ -219,7 +254,8 @@ def summarize(rows):
             groups[(r["area_name"], r["parameter_id"])].append(float(r["value"]))
     print(f"\n{'Area':<18}{'Measurement':<12}{'Samples':>8}{'Median':>10}  Unit")
     for (area, pid), values in sorted(groups.items()):
-        print(f"{area:<18}{pid:<12}{len(values):>8}{statistics.median(values):>10.2f}  {TOOL_UNIT[pid]}")
+        note = "  (few samples)" if len(values) < 5 else ""
+        print(f"{area:<18}{pid:<12}{len(values):>8}{statistics.median(values):>10.2f}  {TOOL_UNIT[pid]}{note}")
 
 
 def main():
@@ -275,7 +311,8 @@ def main():
         writer.writerows(rows)
 
     print(f"\nRead {len(result_rows)} result rows. Wrote {counts['kept']} rows to {out_path}")
-    for reason in ("duplicate", "unit not usable", "unknown site or county", "no value", "other characteristic"):
+    for reason in ("second result for the same sample", "duplicate", "unit not usable", "quality-control sample",
+                   "not groundwater", "unknown site or county", "no value", "other characteristic"):
         if counts[reason]:
             print(f"  dropped, {reason}: {counts[reason]}")
     summarize(rows)

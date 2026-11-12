@@ -14,10 +14,12 @@ STATIONS = [
 ]
 
 
-def row(site, name, value, unit, act="A1", date="2022-05-01", detect="", provider="NWIS"):
-    return {"ActivityIdentifier": act, "ActivityStartDate": date, "MonitoringLocationIdentifier": site,
+def row(site, name, value, unit, act="A1", date="2022-05-01", detect="", provider="NWIS", **extra):
+    base = {"ActivityIdentifier": act, "ActivityStartDate": date, "MonitoringLocationIdentifier": site,
             "CharacteristicName": name, "ResultMeasureValue": value, "ResultMeasure/MeasureUnitCode": unit,
             "ResultDetectionConditionText": detect, "ProviderName": provider}
+    base.update(extra)
+    return base
 
 
 def build(rows):
@@ -76,3 +78,30 @@ def test_missing_column_stops_with_a_clear_message():
     with pytest.raises(SystemExit) as stop:
         bpd.read_csv_text("A,B\n1,2\n", bpd.RESULT_COLUMNS, "Result")
     assert "missing expected columns" in str(stop.value)
+
+
+def test_one_value_per_sample_field_ph_beats_lab_ph():
+    rows = [row("USGS-0001", "pH", "6.6", "std units", USGSPCode="00403"),
+            row("USGS-0001", "pH", "5.9", "std units", USGSPCode="00400")]
+    out, counts = build(rows)
+    assert len(out) == 1 and out[0]["value"] == 5.9
+    assert counts["second result for the same sample"] == 1
+
+
+def test_dissolved_iron_beats_recoverable_and_measured_tds_beats_calculated():
+    rows = [row("USGS-0001", "Iron", "900", "ug/l", USGSPCode="01045"),
+            row("USGS-0001", "Iron", "310", "ug/l", USGSPCode="01046"),
+            row("USGS-0001", "Total dissolved solids", "305", "mg/l", USGSPCode="70301"),
+            row("USGS-0001", "Total dissolved solids", "298", "mg/l", USGSPCode="70300")]
+    out, _ = build(rows)
+    values = {r["parameter_id"]: r["value"] for r in out}
+    assert values == {"iron": 0.31, "tds": 298.0}
+    assert len({r["sample_id"] for r in out}) == len(out)
+
+
+def test_replicates_and_surface_water_are_dropped():
+    rows = [row("USGS-0001", "pH", "7.0", "std units"),
+            row("USGS-0001", "pH", "7.1", "std units", act="A2", ActivityTypeCode="Quality Control Sample-Field Replicate"),
+            row("USGS-0001", "pH", "7.2", "std units", act="A3", ActivityMediaSubdivisionName="Surface Water")]
+    out, counts = build(rows)
+    assert len(out) == 1 and counts["quality-control sample"] == 1 and counts["not groundwater"] == 1
