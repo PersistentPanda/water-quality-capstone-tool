@@ -1,7 +1,7 @@
 # Water Quality Capstone Tool
 
 APTC 495 Applied Technology Capstone, UMGC, Fall 2026.
-Team: Daniel Nease, Cecilia Jeong, Hector Djiechieu, James Stallings.
+Team: Daniel Nease, Cecilia Jeong, Hector Djiechieu.
 
 A small Streamlit web app that reads a home water test (hardness, iron, pH, TDS, optional manganese),
 compares each value to the EPA secondary drinking water standards (USGS categories for hardness),
