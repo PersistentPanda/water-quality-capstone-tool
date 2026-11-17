@@ -17,7 +17,7 @@ describes water as safe. Every result carries the lab-testing warning (FR-8).
 app.py                      Streamlit page: input form and validation so far (FR-1, FR-2); results and print to come
 wqtool/validation.py        Validator (FR-1). Rule loader, Classifier, and Recommender to come (FR-3 to FR-6)
 data/parameters.csv         One row per measurement: reference values, color boundaries, explanation text (Daniel)
-data/recommendations.csv    Twelve treatment rules; conditions reference parameters.csv columns (see docs/recommendation_rules_v1.md)
+data/recommendations.csv    Fourteen treatment rules; conditions reference parameters.csv columns (see docs/recommendation_rules_v1.md)
 data/public_water_data.csv  Cleaned EPA/USGS data for the Power BI dashboard (created by tools/build_public_data.py)
 tools/build_public_data.py  Downloads and cleans Water Quality Portal data into the file above
 tests/                      Test cases written against the requirements document (James)
@@ -73,11 +73,13 @@ Edit the CSV, restart the app, and the change takes effect (NFR-6).
 | reference_source | EPA secondary standard or USGS hardness classification |
 | reference_low, reference_high | the published limit used for comparison text; blank where none applies |
 | green_max, yellow_max | upper color boundaries (display rules, not standards) |
+| very_high_above | description boundary, hardness only: above this the water is described as "very hard" (colors do not change) |
 | low_yellow_below, low_red_below | lower color boundaries, used for pH only |
 | what_it_measures, within_text, above_text, below_text | plain-language explanation pieces |
 
 Boundaries are inclusive on the upper side: a value equal to green_max is green, equal to yellow_max is yellow.
 
 Hardness is entered in grains per gallon (gpg), the unit on most residential test reports.
-Its color bands follow the USGS classification (soft to 3.5, moderately hard to 7, hard above 7). The explanation text
+Its color bands follow the USGS classification (soft to 3.5, moderately hard to 7, hard above 7), and water above
+10.5 gpg is described as very hard. The explanation text
 notes that treatment providers often discuss softening from about 2 gpg, but the tool's colors and rules use USGS.
