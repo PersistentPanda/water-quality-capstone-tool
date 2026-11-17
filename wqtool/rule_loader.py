@@ -19,18 +19,18 @@ LOAD_ERROR_MESSAGE = (
 MEASUREMENT_IDS = frozenset({"hardness", "iron", "ph", "tds", "manganese"})
 NUMERIC_COLUMNS = (
     "reference_low", "reference_high", "green_max", "yellow_max",
-    "low_yellow_below", "low_red_below",
+    "low_yellow_below", "low_red_below", "very_high_above",
 )
 TEXT_COLUMNS = ("what_it_measures", "within_text", "above_text", "below_text")
 PARAMETER_COLUMNS = (
     "parameter_id", "display_name", "unit", "required", "reference_source",
-    *NUMERIC_COLUMNS, *TEXT_COLUMNS,
+    *(name for name in NUMERIC_COLUMNS if name != "very_high_above"), *TEXT_COLUMNS,
 )
 RULE_COLUMNS = (
     "rule_id", "parameter_id", "condition", "suggestion_text", "reason_text",
 )
 _COMPARISON = re.compile(
-    r"value\s*(<=|>|<)\s*(" + "|".join(NUMERIC_COLUMNS) + r")"
+    r"value\s*(>=|<=|>|<)\s*(" + "|".join(NUMERIC_COLUMNS) + r")"
 )
 
 
@@ -55,6 +55,7 @@ class Threshold:
     yellow_max: float
     low_yellow_below: float | None
     low_red_below: float | None
+    very_high_above: float | None = None
 
 
 @dataclass(frozen=True)
@@ -144,6 +145,8 @@ def _check_threshold(threshold: Threshold) -> None:
     if (t.reference_low is not None and t.reference_high is not None
             and t.reference_low > t.reference_high):
         raise RuleLoadError(f"{t.parameter_id}: reference range is reversed")
+    if t.very_high_above is not None and t.very_high_above < t.yellow_max:
+        raise RuleLoadError(f"{t.parameter_id}: very_high_above is below yellow_max")
     low_values = (t.low_red_below, t.low_yellow_below)
     if (low_values[0] is None) != (low_values[1] is None):
         raise RuleLoadError(f"{t.parameter_id}: low-side boundaries must be supplied together")
@@ -203,7 +206,7 @@ def load_rules(
             if row["required"] not in {"true", "false"}:
                 raise RuleLoadError(f"{parameter_id}: required must be true or false")
             numbers = {
-                name: _number(row[name], f"{parameter_id}.{name}",
+                name: _number(row.get(name, ""), f"{parameter_id}.{name}",
                               required=name in {"green_max", "yellow_max"})
                 for name in NUMERIC_COLUMNS
             }

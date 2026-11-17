@@ -95,7 +95,7 @@ def test_unusable_numeric_boundary(files, value):
 
 
 @pytest.mark.parametrize('condition', [
-    'value >= yellow_max', 'value == yellow_max', 'value > 7',
+    'value != yellow_max', 'value == yellow_max', 'value > 7',
     'value > nonexistent', 'value > yellow_max OR value < green_max',
     'value > yellow_max AND', 'value > yellow_max trailing',
     '__import__("os").system("echo unexpected")',
@@ -210,3 +210,68 @@ def test_bom_blank_lines_and_extra_columns(files):
         edit(path, add)
         path.write_text('\ufeff' + path.read_text() + '\n\n', encoding='utf-8')
     assert len(load_rules(*files).rules) == 12
+
+
+def add_very_high(path, value):
+    def change(header, rows):
+        header.append('very_high_above')
+        for row in rows:
+            row['very_high_above'] = value if row['parameter_id'] == 'hardness' else ''
+    edit(path, change)
+
+
+def test_greater_equal_condition(files):
+    edit(files[1], lambda header, rows: rows.append(dict(
+        rule_id='R13', parameter_id='ph',
+        condition='value >= reference_low AND value < low_yellow_below',
+        suggestion_text='Monitor pH.', reason_text='Low yellow pH.')))
+    rule = load_rules(*files).rules[-1]
+    assert rule.condition_kind == 'numeric'
+    assert [(c.operator, c.boundary) for c in rule.comparisons] == [
+        ('>=', 'reference_low'), ('<', 'low_yellow_below')]
+
+
+@pytest.mark.parametrize('value', ['', '7', '10.5'])
+def test_optional_very_high_column(files, value):
+    add_very_high(files[0], value)
+    thresholds = load_rules(*files).thresholds
+    assert thresholds['hardness'].very_high_above == (float(value) if value else None)
+    assert thresholds['ph'].very_high_above is None
+
+
+def test_very_high_column_can_be_absent(files):
+    assert load_rules(*files).thresholds['hardness'].very_high_above is None
+
+
+@pytest.mark.parametrize('value', ['6.9', '-1', 'abc', 'NaN', 'Infinity', '-Infinity', '1e9999', '1e-9999'])
+def test_invalid_very_high_value(files, value):
+    add_very_high(files[0], value)
+    fails(files)
+
+
+def test_rule_can_reference_very_high(files):
+    add_very_high(files[0], '10.5')
+    edit(files[1], lambda header, rows: rows[0].update(condition='value > very_high_above'))
+    ruleset = load_rules(*files)
+    assert ruleset.rules[0].comparisons[0].boundary == 'very_high_above'
+    assert ruleset.thresholds['hardness'].very_high_above == 10.5
+
+
+@pytest.mark.parametrize('include_column', [True, False])
+def test_reference_to_missing_very_high_fails(files, include_column):
+    if include_column:
+        add_very_high(files[0], '')
+    edit(files[1], lambda header, rows: rows[0].update(condition='value >= very_high_above'))
+    fails(files)
+
+
+def test_ge_and_very_high_together_with_special_rules(files):
+    add_very_high(files[0], '10.5')
+    edit(files[1], lambda header, rows: rows.append(dict(
+        rule_id='R13', parameter_id='ph', condition='value >= reference_low AND value < low_yellow_below',
+        suggestion_text='Monitor pH.', reason_text='Low yellow pH.')))
+    result = load_rules(*files)
+    assert result.thresholds['hardness'].very_high_above == 10.5
+    assert result.rules[10].condition_kind == 'water_source'
+    assert result.rules[11].condition_kind == 'all_green'
+    assert result.rules[12].comparisons[0].operator == '>='
