@@ -48,7 +48,7 @@ def test_t12_t13_tds_comparison_text(ruleset):
         "Above the EPA secondary drinking water guideline of 500 mg/L."
 
 
-@pytest.mark.parametrize("value,category", [(2.9, "Soft"), (5, "Moderately hard"), (8.8, "Hard")])
+@pytest.mark.parametrize("value,category", [(2.9, "Soft"), (5, "Moderately hard"), (8.8, "Hard"), (12, "Very hard")])
 def test_t14_hardness_category_names_source(ruleset, value, category):
     result = status(ruleset, "hardness", hardness=value)
     assert result.comparison_text == f"{category} by the USGS hardness classification."
@@ -61,15 +61,21 @@ def test_ph_comparison_text(ruleset):
     assert status(ruleset, "ph", ph=9.0).comparison_text.startswith("Above ")
 
 
-def test_very_hard_used_only_when_boundary_is_supplied(ruleset):
+def test_t58_very_hard_boundary_from_rule_file(ruleset):
     t = ruleset.thresholds["hardness"]
+    assert t.very_high_above == 10.5
+    assert hardness_category(10.5, t) == "hard"
+    assert hardness_category(10.6, t) == "very hard"
+    for value in (10.5, 10.6, 12):
+        assert status(ruleset, "hardness", hardness=value).status == "red"
+    assert status(ruleset, "hardness", hardness=12).comparison_text == \
+        "Very hard by the USGS hardness classification."
+
+
+def test_very_hard_is_not_used_when_boundary_is_absent(ruleset):
+    t = replace(ruleset.thresholds["hardness"], very_high_above=None)
     assert hardness_category(12, t) == "hard"
-
-    class WithVeryHard:
-        green_max, yellow_max, very_high_above = t.green_max, t.yellow_max, 10.5
-
-    assert hardness_category(12, WithVeryHard) == "very hard"
-    assert hardness_category(10.5, WithVeryHard) == "hard"
+    assert hardness_category(10.6, t) == "hard"
 
 
 # FR-4
@@ -145,6 +151,8 @@ def test_t23_same_input_same_output(ruleset):
     ("R08", "tds", [401, 500], [400, 501]),            # T-37
     ("R09", "manganese", [0.051], [0.05]),             # T-38
     ("R10", "manganese", [0.041, 0.05], [0.04, 0.051]),  # T-39
+    ("R13", "ph", [6.5, 6.9], [6.4, 7.0]),             # T-56
+    ("R14", "ph", [8.1, 8.5], [8.0, 8.6]),             # T-57
 ])
 def test_rule_boundaries(ruleset, rule_id, field, triggers, does_not):
     for value in triggers:
@@ -176,6 +184,18 @@ def test_t42b_all_green_never_with_yellow_or_red_ph(ruleset, ph):
 def test_t42c_private_well_and_all_green_together(ruleset):
     assert rule_ids(ruleset, all_green(water_source="Private well")) == ["R11", "R12"]
     assert rule_ids(ruleset, all_green(water_source="Public supply")) == ["R12"]
+
+
+def test_yellow_ph_rules_replace_neighbors_at_the_edges(ruleset):
+    """T-56, T-57: below 6.5 is R05, not R13. Above 8.5 is R06, not R14."""
+    assert rule_ids(ruleset, all_green(ph=6.4)) == ["R05"]
+    assert rule_ids(ruleset, all_green(ph=6.5)) == ["R13"]
+    assert rule_ids(ruleset, all_green(ph=8.5)) == ["R14"]
+    assert rule_ids(ruleset, all_green(ph=8.6)) == ["R06"]
+
+
+def test_production_rule_file_has_fourteen_rules(ruleset):
+    assert [r.rule_id for r in ruleset.rules] == [f"R{n:02d}" for n in range(1, 15)]
 
 
 def test_suggestions_follow_file_order(ruleset):
