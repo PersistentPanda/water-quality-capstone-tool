@@ -40,14 +40,14 @@ Conventions:
 | T-17 | FR-4 | TDS 300, 450, 600 | Green, yellow, red. | A | Done (`test_colors`) |
 | T-18 | FR-4 | Manganese 0.02, 0.045, 0.06, blank | Green, yellow, red, "Not provided" with no color. | A | Done (`test_colors`, `test_t18_blank_manganese_has_no_color`) |
 | T-19 | FR-4 | Hardness 2.9, 5, 8.8 | Green, yellow, red. | A | Done (`test_colors`) |
-| T-20 | FR-4 | Any results screen | The screen states that colors do not establish drinking-water safety. | M | Open |
+| T-20 | FR-4 | Any results screen | The screen states that colors do not establish drinking-water safety. | M | Done (`test_results_screen_shows_statuses_suggestions_and_warning`) |
 | T-21 | FR-5 | Hardness 8.8, iron 0.1, pH 7.2, TDS 200, household 4 | Suggestion shown: "Consider water softening for hardness and scale concerns." The reason names hardness. | A | Done (`test_t21_t22_softening_suggestion`) |
 | T-22 | FR-5 | Same as T-21 with hardness 2.9 | The softening suggestion does not appear. | A | Done (`test_t21_t22_softening_suggestion`) |
 | T-23 | FR-5 | Standard entry, run twice | Same suggestions both times, in the same order. | A | Done (`test_t23_same_input_same_output`) |
 | T-24 | FR-6 | All five measurements entered | Five explanations appear, one per measurement, each one or two sentences. | A | Done (`test_t24_five_explanations`) |
 | T-25 | FR-6 | Iron 0.4 | Explanation says the result is above the EPA secondary guideline and mentions staining or metallic taste. | A | Done (`test_t25_iron_above_explanation`) |
-| T-26 | FR-7 | Standard entry, then select "Print summary" once | Print preview is one page. Values, statuses, explanations, suggestions, sources, and the warning match the results screen. | M | Open |
-| T-27 | FR-8 | An all-green entry and an entry with at least one red | Both results screens and both printed summaries show the full laboratory warning, word for word. | A and M | Open |
+| T-26 | FR-7 | Standard entry, then select "Print summary" once | Print preview is one page. Values, statuses, explanations, suggestions, sources, and the warning match the results screen. | M | Partly (`test_t26_summary_matches_the_results` checks the content; the one-page print preview is a manual check) |
+| T-27 | FR-8 | An all-green entry and an entry with at least one red | Both results screens and both printed summaries show the full laboratory warning, word for word. | A and M | Partly (`test_t27_summary_always_carries_the_warning` and the results screen test; the printed page is a manual check) |
 | T-28 | FR-9 | Dashboard, select area A, then area B | Only the selected area's records appear. Source, units, and sample dates are shown. Hardness is in gpg. | M | Open |
 | T-28b | FR-9 | Dashboard, select Garrett County | Medians match the values computed from `data/public_water_data.csv`: hardness 4.1 gpg (113 samples), iron 0.16 mg/L (97), pH 7.8 (125), TDS 152.5 mg/L (110). Blank (not detected) values are left out of the median. The sample count is shown beside each median. | M | Open |
 | T-29 | FR-9 | An area with one measurement missing | Dashboard shows "No data" for it, not zero. | M | Open |
