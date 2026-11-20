@@ -45,3 +45,39 @@ def test_multiple_errors_and_no_mutation():
 def test_public_supply_and_zero_manganese():
     result = validate({**BASE, "water_source": "Public supply", "manganese": "0"})
     assert result.is_valid and result.entry.manganese == 0
+
+
+# Exact message text. IDs refer to docs/test_cases_v1.md.
+
+def only_message(changes):
+    result = validate({**BASE, **changes})
+    assert not result.is_valid and result.entry is None
+    assert len(result.messages) == 1
+    return result.messages[0]
+
+
+def test_t01_ph_out_of_range_message():
+    assert only_message({"ph": "15"}) == "Enter pH between 0 and 14."
+
+
+def test_t03_blank_iron_message():
+    assert only_message({"iron": ""}) == "Please enter the iron result before continuing."
+
+
+def test_t04_negative_iron_message():
+    assert only_message({"iron": "-0.01"}) == "Enter an iron value of zero or greater."
+
+
+def test_t05_text_in_tds_message():
+    assert only_message({"tds": "abc"}) == "Enter a number for TDS, such as 300."
+
+
+@pytest.mark.parametrize("value", ["0", "-1", "2.5", "people"])
+def test_t06_t06b_household_message(value):
+    assert only_message({"household_size": value}) == \
+        "Enter the number of people as a whole number of at least 1."
+
+
+def test_t08_missing_water_source_message():
+    assert only_message({"water_source": "Select a water source"}) == \
+        "Select either Private well or Public supply."

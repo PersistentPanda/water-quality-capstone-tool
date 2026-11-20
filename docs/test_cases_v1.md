@@ -22,13 +22,13 @@ Conventions:
 |---|---|---|---|---|---|
 | T-01 | FR-1 | Standard entry with pH 15 | Blocked. Message: "Enter pH between 0 and 14." Other fields keep their values. | A | Done (`test_ph_boundaries`, `test_form_preserves_errors_and_resets_session`) |
 | T-02 | FR-1 | Standard entry with pH 0, then pH 14 | Both accepted. | A | Done (`test_ph_boundaries`) |
-| T-03 | FR-1 | Standard entry with iron left blank | Blocked. Message: "Please enter the iron result before continuing." | A | Partly (`test_required` checks it is blocked; the message text is not asserted yet) |
-| T-04 | FR-1 | Standard entry with iron -0.01 | Blocked. Message: "Enter an iron value of zero or greater." | A | Partly (`test_negative_concentrations` checks it is blocked; message text not asserted) |
-| T-05 | FR-1 | Standard entry with TDS "abc" | Blocked. Message: "Enter a number for TDS, such as 300." | A | Partly (`test_unusable_numeric` checks non-numeric iron is blocked; message text not asserted) |
-| T-06 | FR-1 | Household size 0, -1, 2.5 | Each blocked. Message: "Enter the number of people as a whole number of at least 1." | A | Partly (`test_bad_household` checks each is blocked; message text not asserted) |
-| T-06b | FR-1 | Household size "people" (not a number) | Blocked. Message: "Enter the number of people as a whole number of at least 1." Checked separately from the numeric cases. | A | Partly (`test_bad_household` checks it is blocked; message text not asserted) |
+| T-03 | FR-1 | Standard entry with iron left blank | Blocked. Message: "Please enter the iron result before continuing." | A | Done (`test_t03_blank_iron_message`) |
+| T-04 | FR-1 | Standard entry with iron -0.01 | Blocked. Message: "Enter an iron value of zero or greater." | A | Done (`test_t04_negative_iron_message`) |
+| T-05 | FR-1 | Standard entry with TDS "abc" | Blocked. Message: "Enter a number for TDS, such as 300." | A | Done (`test_t05_text_in_tds_message`) |
+| T-06 | FR-1 | Household size 0, -1, 2.5 | Each blocked. Message: "Enter the number of people as a whole number of at least 1." | A | Done (`test_t06_t06b_household_message`) |
+| T-06b | FR-1 | Household size "people" (not a number) | Blocked. Message: "Enter the number of people as a whole number of at least 1." Checked separately from the numeric cases. | A | Done (`test_t06_t06b_household_message`) |
 | T-07 | FR-1 | Standard entry with manganese blank | Accepted. Manganese shows "Not provided", never 0. | A | Done (`test_optional_blank`) |
-| T-08 | FR-1 | No water source selected | Blocked. Message: "Select either Private well or Public supply." | A | Partly (`test_multiple_errors_and_no_mutation` counts the message; text not asserted) |
+| T-08 | FR-1 | No water source selected | Blocked. Message: "Select either Private well or Public supply." | A | Done (`test_t08_missing_water_source_message`) |
 | T-09 | FR-1 | Iron blank, pH 15, no water source | Three messages shown together. Nothing is assessed. | A | Done (`test_multiple_errors_and_no_mutation`) |
 | T-10 | FR-2 | Standard entry | All seven entries appear correctly in the submitted values, with units shown on the form. | A | Done (`test_fr2_sample_round_trip`) |
 | T-11 | FR-2 | Open the form | Hardness label shows gpg. Iron, TDS, manganese show mg/L. Required fields are marked. | M | Open |
