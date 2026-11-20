@@ -1,10 +1,19 @@
-"""Week 4 input/validation prototype: FR-1 and FR-2 integration point."""
+"""Water Quality Decision Support Tool: form, results screen, and print summary."""
+from pathlib import Path
+
 import streamlit as st
+import streamlit.components.v1 as components
+
+from wqtool.classifier import COLOR_NOTICE
+from wqtool.recommender import assess
+from wqtool.report import (
+    LAB_WARNING as WARNING, household_text, print_component_html, results_table_html,
+    sources_text, suggestions_html,
+)
+from wqtool.rule_loader import RuleLoadError, load_rules
 from wqtool.validation import SOURCES, validate
 
-WARNING = ("This tool does not test for lead, arsenic, nitrates, bacteria, or PFAS "
-           "and cannot confirm that water is safe to drink. Use a certified laboratory "
-           "to test for these contaminants.")
+DATA = Path(__file__).resolve().parent / "data"
 FIELDS = {
     "hardness": "Hardness (gpg, grains per gallon) *",
     "iron": "Iron (mg/L) *",
@@ -13,6 +22,12 @@ FIELDS = {
     "manganese": "Manganese (mg/L, optional)",
     "household_size": "Number of people in the household *",
 }
+
+@st.cache_resource
+def get_ruleset():
+    """Load the rule files once at startup. Restart the app to pick up file changes."""
+    return load_rules(DATA / "parameters.csv", DATA / "recommendations.csv")
+
 
 def reset():
     for key in FIELDS:
@@ -25,8 +40,11 @@ st.title("Water Quality Decision Support Tool")
 st.write("Enter the values from your water test report. Fields marked * are required.")
 st.caption("Hardness is in grains per gallon (gpg). Iron, TDS, and manganese are in milligrams per liter (mg/L). "
            "pH has no unit.")
-st.info("This prototype checks your entries. Water classifications, treatment suggestions, "
-        "and the print report will be connected in the next build stage.")
+try:
+    ruleset = get_ruleset()
+except RuleLoadError as error:
+    st.error(str(error))
+    st.stop()
 with st.form("water_test", clear_on_submit=False):
     raw = {}
     for key, label in FIELDS.items():
@@ -54,6 +72,16 @@ if "validated_entry" in st.session_state:
     rows.append({"Field": "Water source", "Entered value": entry.water_source})
     st.table(rows)
     st.caption("These are the last submitted values. After changing the form, select Assess again to update them.")
+
+    assessment = assess(entry, ruleset)
+    st.subheader("Your results")
+    st.write(household_text(entry))
+    st.markdown(results_table_html(assessment.results), unsafe_allow_html=True)
+    st.caption(COLOR_NOTICE)
+    st.subheader("Suggestions to discuss with a professional")
+    st.markdown(suggestions_html(assessment), unsafe_allow_html=True)
+    st.caption(sources_text(assessment.results))
+    components.html(print_component_html(entry, assessment), height=48)
 
 st.button("Start over", on_click=reset)
 st.warning(WARNING)
